@@ -1,0 +1,3001 @@
+Patient_ID,Age,Gender,Admission_Type,Primary_Diagnosis,Length_of_Stay,Previous_Admissions,Comorbidities,Discharge_Disposition,Readmitted
+10001,71,Male,Urgent,Pneumonia,4,5,3-4,Transferred,No
+10002,34,Male,Emergency,Diabetes,21,8,None,Home,No
+10003,80,Female,Urgent,Pneumonia,21,1,1-2,Transferred,No
+10004,40,Female,Emergency,Pneumonia,8,2,1-2,Home,No
+10005,43,Male,Elective,Stroke,25,8,5+,Transferred,No
+10006,22,Male,Emergency,Stroke,7,8,5+,Expired,No
+10007,41,Female,Elective,Pneumonia,15,5,1-2,Home,Yes
+10008,72,Female,Elective,Cancer,21,2,1-2,Transferred,No
+10009,21,Female,Emergency,Stroke,3,4,1-2,Expired,Yes
+10010,49,Female,Elective,Pneumonia,17,1,None,Expired,Yes
+10011,57,Male,Emergency,Diabetes,11,6,None,Home,No
+10012,21,Female,Emergency,Cancer,9,9,None,Transferred,No
+10013,83,Female,Elective,Heart Failure,5,7,None,Home,No
+10014,79,Female,Elective,Pneumonia,25,5,None,Expired,No
+10015,40,Male,Urgent,Pneumonia,10,7,None,Home,No
+10016,52,Male,Elective,Cancer,15,1,5+,Transferred,No
+10017,77,Male,Urgent,Stroke,28,2,3-4,Expired,No
+10018,41,Male,Elective,Stroke,29,6,5+,Home,No
+10019,68,Female,Emergency,Stroke,14,9,3-4,Home,No
+10020,78,Male,Elective,Heart Failure,4,0,5+,Home,No
+10021,61,Female,Emergency,Cancer,21,6,5+,Home,No
+10022,79,Female,Emergency,Cancer,20,5,None,Home,No
+10023,34,Female,Emergency,Stroke,2,7,None,Expired,No
+10024,81,Female,Urgent,Stroke,12,6,3-4,Expired,No
+10025,81,Male,Elective,Diabetes,1,3,3-4,Transferred,Yes
+10026,66,Male,Emergency,Diabetes,24,2,None,Home,No
+10027,81,Male,Emergency,Pneumonia,20,2,5+,Transferred,No
+10028,70,Female,Urgent,Pneumonia,5,3,3-4,Expired,No
+10029,74,Female,Elective,Cancer,6,8,1-2,Home,No
+10030,83,Female,Elective,Cancer,24,8,1-2,Transferred,No
+10031,22,Female,Urgent,Heart Failure,11,1,1-2,Home,No
+10032,70,Female,Urgent,Heart Failure,8,4,3-4,Home,No
+10033,26,Male,Elective,Diabetes,7,0,None,Transferred,No
+10034,40,Female,Urgent,Pneumonia,4,3,None,Expired,Yes
+10035,58,Male,Elective,Diabetes,6,1,None,Transferred,Yes
+10036,37,Female,Elective,Diabetes,16,7,3-4,Transferred,No
+10037,23,Female,Emergency,Pneumonia,20,3,3-4,Transferred,No
+10038,79,Male,Emergency,Heart Failure,15,4,1-2,Home,No
+10039,33,Male,Elective,Pneumonia,14,3,3-4,Expired,Yes
+10040,28,Female,Elective,Stroke,23,4,1-2,Expired,No
+10041,72,Female,Elective,Stroke,12,4,1-2,Home,No
+10042,21,Female,Elective,Stroke,29,4,None,Expired,No
+10043,79,Female,Elective,Cancer,12,2,3-4,Transferred,No
+10044,63,Male,Elective,Heart Failure,16,6,None,Expired,No
+10045,27,Female,Urgent,Heart Failure,15,2,None,Home,No
+10046,66,Male,Elective,Cancer,29,1,3-4,Expired,No
+10047,54,Female,Urgent,Diabetes,13,2,3-4,Home,No
+10048,55,Male,Urgent,Stroke,11,2,5+,Transferred,No
+10049,69,Male,Elective,Stroke,17,7,1-2,Home,No
+10050,23,Female,Elective,Diabetes,21,3,5+,Expired,No
+10051,21,Male,Urgent,Pneumonia,15,2,1-2,Transferred,Yes
+10052,25,Female,Urgent,Pneumonia,14,9,1-2,Expired,No
+10053,73,Male,Elective,Heart Failure,10,4,1-2,Home,No
+10054,23,Female,Elective,Cancer,12,3,None,Transferred,No
+10055,73,Male,Urgent,Heart Failure,16,8,None,Home,Yes
+10056,82,Female,Urgent,Pneumonia,15,7,3-4,Expired,No
+10057,37,Female,Urgent,Diabetes,10,6,1-2,Home,Yes
+10058,63,Male,Emergency,Heart Failure,4,7,1-2,Expired,No
+10059,53,Male,Urgent,Stroke,27,4,1-2,Expired,No
+10060,81,Male,Emergency,Stroke,23,3,None,Transferred,No
+10061,33,Male,Elective,Diabetes,29,6,3-4,Transferred,No
+10062,67,Female,Elective,Pneumonia,9,0,None,Home,No
+10063,34,Male,Urgent,Stroke,21,5,5+,Expired,No
+10064,81,Female,Elective,Stroke,20,7,5+,Expired,No
+10065,59,Male,Elective,Cancer,9,6,5+,Transferred,Yes
+10066,72,Female,Elective,Heart Failure,21,1,3-4,Transferred,No
+10067,43,Female,Elective,Pneumonia,25,6,5+,Transferred,No
+10068,45,Female,Emergency,Heart Failure,24,5,3-4,Transferred,No
+10069,79,Female,Emergency,Pneumonia,20,4,None,Home,No
+10070,60,Male,Urgent,Stroke,11,3,None,Home,No
+10071,48,Male,Urgent,Cancer,11,0,3-4,Home,No
+10072,34,Female,Urgent,Heart Failure,7,1,None,Home,No
+10073,64,Male,Elective,Stroke,21,6,None,Transferred,No
+10074,84,Male,Elective,Pneumonia,10,9,3-4,Home,No
+10075,28,Female,Emergency,Heart Failure,4,2,5+,Home,Yes
+10076,20,Male,Emergency,Heart Failure,5,4,3-4,Home,No
+10077,27,Male,Urgent,Stroke,5,7,1-2,Transferred,No
+10078,82,Male,Emergency,Heart Failure,11,7,None,Expired,No
+10079,30,Female,Emergency,Cancer,9,5,3-4,Transferred,No
+10080,27,Male,Emergency,Cancer,28,4,None,Expired,No
+10081,54,Female,Emergency,Stroke,16,1,5+,Expired,No
+10082,54,Male,Emergency,Pneumonia,9,8,None,Home,No
+10083,52,Male,Urgent,Stroke,22,0,3-4,Home,Yes
+10084,24,Male,Urgent,Cancer,4,1,5+,Home,No
+10085,60,Female,Emergency,Diabetes,2,0,5+,Transferred,No
+10086,47,Female,Urgent,Diabetes,14,3,5+,Transferred,No
+10087,26,Male,Elective,Heart Failure,3,3,1-2,Home,No
+10088,31,Female,Emergency,Heart Failure,18,4,3-4,Transferred,Yes
+10089,53,Male,Elective,Diabetes,21,4,3-4,Transferred,No
+10090,52,Female,Urgent,Cancer,6,7,5+,Expired,No
+10091,67,Female,Urgent,Heart Failure,11,2,None,Transferred,Yes
+10092,42,Male,Elective,Stroke,21,5,5+,Expired,No
+10093,81,Male,Urgent,Stroke,18,2,1-2,Home,No
+10094,56,Male,Emergency,Cancer,12,1,5+,Transferred,No
+10095,63,Male,Elective,Heart Failure,5,7,3-4,Expired,No
+10096,54,Female,Emergency,Stroke,9,0,5+,Transferred,No
+10097,84,Female,Elective,Heart Failure,20,8,None,Expired,Yes
+10098,66,Female,Urgent,Heart Failure,28,6,3-4,Expired,Yes
+10099,22,Male,Elective,Stroke,26,9,None,Transferred,No
+10100,20,Male,Elective,Diabetes,18,3,5+,Home,No
+10101,24,Female,Emergency,Stroke,19,2,3-4,Expired,Yes
+10102,33,Male,Urgent,Cancer,3,5,1-2,Home,No
+10103,46,Female,Emergency,Pneumonia,9,8,3-4,Transferred,No
+10104,28,Female,Urgent,Stroke,4,8,None,Transferred,Yes
+10105,34,Female,Emergency,Heart Failure,17,3,3-4,Home,Yes
+10106,61,Female,Elective,Heart Failure,17,9,1-2,Transferred,No
+10107,70,Female,Emergency,Stroke,23,4,1-2,Expired,No
+10108,82,Male,Urgent,Pneumonia,23,8,1-2,Home,Yes
+10109,71,Male,Urgent,Stroke,2,1,1-2,Transferred,No
+10110,23,Male,Elective,Pneumonia,9,1,None,Transferred,Yes
+10111,42,Female,Urgent,Pneumonia,9,4,3-4,Home,No
+10112,34,Female,Emergency,Cancer,5,0,5+,Expired,No
+10113,62,Female,Elective,Heart Failure,15,7,1-2,Home,No
+10114,48,Female,Urgent,Heart Failure,15,4,5+,Transferred,No
+10115,55,Male,Urgent,Pneumonia,3,9,5+,Transferred,No
+10116,32,Male,Emergency,Heart Failure,19,1,3-4,Home,Yes
+10117,51,Female,Emergency,Diabetes,28,8,5+,Expired,Yes
+10118,78,Female,Elective,Pneumonia,3,1,5+,Expired,No
+10119,47,Female,Urgent,Heart Failure,6,6,None,Expired,No
+10120,85,Male,Emergency,Diabetes,4,7,5+,Home,No
+10121,61,Male,Elective,Cancer,24,5,3-4,Expired,No
+10122,64,Male,Urgent,Heart Failure,13,6,5+,Expired,No
+10123,81,Female,Urgent,Diabetes,27,0,3-4,Expired,No
+10124,76,Female,Elective,Stroke,13,3,1-2,Expired,No
+10125,25,Male,Elective,Stroke,27,6,5+,Transferred,No
+10126,47,Female,Emergency,Diabetes,11,0,5+,Home,No
+10127,47,Male,Urgent,Pneumonia,5,0,5+,Home,No
+10128,63,Female,Urgent,Pneumonia,1,5,1-2,Expired,No
+10129,49,Male,Urgent,Heart Failure,9,3,None,Home,No
+10130,81,Female,Elective,Stroke,17,2,5+,Home,No
+10131,81,Male,Emergency,Pneumonia,22,4,3-4,Transferred,No
+10132,20,Male,Urgent,Pneumonia,1,8,None,Home,No
+10133,46,Male,Elective,Stroke,3,9,None,Transferred,Yes
+10134,81,Male,Urgent,Cancer,15,9,None,Home,No
+10135,22,Male,Emergency,Pneumonia,26,9,5+,Transferred,Yes
+10136,89,Male,Urgent,Diabetes,21,2,1-2,Transferred,No
+10137,46,Female,Emergency,Heart Failure,26,4,1-2,Home,No
+10138,28,Female,Emergency,Pneumonia,23,9,5+,Transferred,No
+10139,81,Female,Urgent,Pneumonia,10,4,3-4,Transferred,No
+10140,56,Male,Urgent,Cancer,8,8,3-4,Home,Yes
+10141,70,Male,Emergency,Diabetes,12,9,3-4,Transferred,No
+10142,63,Female,Elective,Heart Failure,25,3,5+,Transferred,No
+10143,43,Male,Emergency,Pneumonia,22,0,1-2,Transferred,No
+10144,78,Male,Urgent,Heart Failure,15,9,5+,Transferred,Yes
+10145,51,Male,Urgent,Stroke,27,4,1-2,Transferred,No
+10146,71,Male,Elective,Pneumonia,9,0,None,Expired,No
+10147,81,Male,Emergency,Pneumonia,24,5,5+,Transferred,No
+10148,77,Female,Emergency,Stroke,25,9,1-2,Transferred,No
+10149,71,Female,Emergency,Cancer,10,9,None,Transferred,No
+10150,31,Female,Urgent,Pneumonia,20,6,None,Transferred,No
+10151,58,Female,Emergency,Heart Failure,9,0,5+,Home,Yes
+10152,21,Female,Elective,Diabetes,15,9,1-2,Expired,No
+10153,22,Male,Urgent,Heart Failure,23,3,None,Home,No
+10154,75,Male,Urgent,Cancer,21,8,5+,Expired,No
+10155,78,Male,Emergency,Diabetes,21,0,None,Transferred,No
+10156,21,Male,Elective,Heart Failure,1,8,3-4,Transferred,Yes
+10157,21,Female,Urgent,Heart Failure,2,7,5+,Expired,No
+10158,73,Female,Urgent,Stroke,26,4,None,Expired,Yes
+10159,20,Female,Emergency,Cancer,19,5,5+,Home,No
+10160,38,Male,Emergency,Stroke,14,6,5+,Expired,No
+10161,21,Female,Elective,Diabetes,8,3,1-2,Transferred,No
+10162,72,Male,Emergency,Stroke,6,5,1-2,Home,No
+10163,63,Female,Elective,Cancer,12,6,None,Expired,No
+10164,51,Female,Urgent,Pneumonia,26,5,5+,Expired,No
+10165,89,Male,Elective,Pneumonia,27,5,5+,Home,No
+10166,51,Male,Elective,Diabetes,29,1,3-4,Expired,No
+10167,87,Female,Elective,Pneumonia,15,4,5+,Transferred,Yes
+10168,74,Female,Urgent,Stroke,14,2,1-2,Home,Yes
+10169,75,Male,Emergency,Diabetes,21,6,5+,Expired,No
+10170,36,Female,Urgent,Cancer,29,3,1-2,Transferred,Yes
+10171,57,Female,Emergency,Diabetes,1,0,3-4,Expired,No
+10172,43,Male,Elective,Diabetes,28,5,None,Home,No
+10173,88,Female,Elective,Heart Failure,11,5,1-2,Expired,No
+10174,89,Male,Elective,Heart Failure,28,6,None,Expired,No
+10175,30,Female,Elective,Diabetes,25,7,None,Expired,No
+10176,35,Male,Elective,Pneumonia,3,2,None,Transferred,Yes
+10177,78,Female,Emergency,Heart Failure,19,5,None,Transferred,No
+10178,89,Male,Emergency,Cancer,18,9,1-2,Expired,No
+10179,22,Female,Elective,Stroke,20,1,3-4,Expired,No
+10180,39,Male,Urgent,Heart Failure,28,8,5+,Home,No
+10181,78,Female,Urgent,Diabetes,2,1,1-2,Expired,No
+10182,55,Female,Elective,Pneumonia,29,2,3-4,Home,No
+10183,38,Female,Emergency,Stroke,25,9,5+,Transferred,No
+10184,86,Female,Urgent,Heart Failure,28,1,None,Expired,No
+10185,38,Female,Urgent,Pneumonia,26,8,5+,Home,No
+10186,39,Female,Urgent,Pneumonia,7,0,5+,Transferred,No
+10187,71,Female,Elective,Pneumonia,8,4,3-4,Home,No
+10188,52,Female,Urgent,Diabetes,19,0,5+,Transferred,No
+10189,59,Female,Urgent,Cancer,22,4,None,Expired,Yes
+10190,58,Male,Urgent,Pneumonia,15,7,1-2,Home,No
+10191,20,Male,Urgent,Stroke,10,7,1-2,Expired,No
+10192,30,Female,Emergency,Heart Failure,22,7,3-4,Home,No
+10193,76,Male,Elective,Stroke,29,1,None,Transferred,No
+10194,69,Female,Elective,Diabetes,1,7,None,Home,No
+10195,42,Female,Emergency,Diabetes,6,4,5+,Home,Yes
+10196,50,Male,Emergency,Stroke,13,0,3-4,Expired,No
+10197,61,Female,Elective,Cancer,14,6,None,Expired,No
+10198,26,Female,Urgent,Diabetes,3,5,None,Expired,No
+10199,35,Male,Urgent,Diabetes,11,4,None,Transferred,No
+10200,79,Male,Elective,Stroke,3,0,1-2,Expired,Yes
+10201,21,Female,Urgent,Diabetes,19,0,1-2,Home,No
+10202,20,Male,Emergency,Cancer,10,5,1-2,Transferred,No
+10203,67,Male,Urgent,Cancer,27,9,5+,Expired,No
+10204,31,Female,Urgent,Cancer,15,6,5+,Home,No
+10205,88,Male,Urgent,Heart Failure,11,9,5+,Home,No
+10206,56,Male,Elective,Cancer,15,9,None,Transferred,No
+10207,51,Female,Emergency,Cancer,26,0,1-2,Home,No
+10208,28,Male,Urgent,Heart Failure,27,8,None,Expired,No
+10209,38,Male,Elective,Pneumonia,24,3,None,Home,Yes
+10210,67,Female,Urgent,Diabetes,13,4,3-4,Expired,No
+10211,22,Female,Emergency,Cancer,5,1,None,Expired,No
+10212,39,Female,Urgent,Diabetes,4,9,5+,Transferred,No
+10213,43,Male,Emergency,Stroke,13,7,1-2,Home,No
+10214,73,Female,Urgent,Diabetes,9,1,1-2,Transferred,No
+10215,52,Female,Emergency,Heart Failure,25,2,None,Transferred,No
+10216,43,Male,Urgent,Diabetes,17,8,5+,Transferred,No
+10217,55,Female,Emergency,Diabetes,2,1,5+,Expired,No
+10218,57,Female,Urgent,Diabetes,24,5,5+,Expired,No
+10219,44,Female,Urgent,Pneumonia,5,3,1-2,Expired,No
+10220,37,Female,Elective,Pneumonia,16,6,5+,Expired,No
+10221,85,Male,Elective,Stroke,7,5,5+,Home,Yes
+10222,73,Female,Emergency,Heart Failure,1,9,None,Home,No
+10223,54,Female,Urgent,Diabetes,28,8,3-4,Expired,No
+10224,80,Male,Emergency,Diabetes,26,8,5+,Expired,No
+10225,60,Female,Elective,Diabetes,12,9,None,Home,No
+10226,52,Male,Emergency,Diabetes,21,3,None,Transferred,No
+10227,87,Male,Emergency,Pneumonia,11,0,5+,Transferred,No
+10228,52,Male,Elective,Stroke,12,1,3-4,Expired,No
+10229,33,Female,Urgent,Cancer,19,7,1-2,Transferred,Yes
+10230,40,Male,Emergency,Heart Failure,26,9,3-4,Expired,No
+10231,67,Male,Elective,Diabetes,12,7,5+,Expired,No
+10232,39,Male,Urgent,Stroke,12,1,3-4,Expired,No
+10233,27,Female,Elective,Cancer,14,3,None,Home,No
+10234,26,Female,Emergency,Stroke,2,0,None,Transferred,No
+10235,86,Female,Urgent,Pneumonia,2,6,3-4,Home,No
+10236,36,Female,Urgent,Cancer,25,3,1-2,Transferred,No
+10237,52,Female,Elective,Stroke,29,7,3-4,Home,No
+10238,67,Female,Elective,Pneumonia,4,8,5+,Home,No
+10239,78,Female,Elective,Stroke,20,8,1-2,Expired,No
+10240,41,Male,Urgent,Stroke,23,2,3-4,Expired,No
+10241,49,Male,Urgent,Cancer,26,4,3-4,Home,No
+10242,57,Male,Emergency,Pneumonia,16,5,1-2,Transferred,No
+10243,70,Male,Urgent,Diabetes,10,5,3-4,Transferred,Yes
+10244,73,Female,Emergency,Heart Failure,13,9,5+,Expired,No
+10245,27,Male,Elective,Cancer,2,7,None,Expired,No
+10246,46,Male,Elective,Pneumonia,3,5,5+,Transferred,No
+10247,46,Male,Urgent,Stroke,19,5,3-4,Transferred,No
+10248,40,Male,Elective,Pneumonia,6,3,None,Transferred,No
+10249,49,Female,Elective,Heart Failure,19,6,1-2,Expired,Yes
+10250,47,Female,Urgent,Heart Failure,27,7,5+,Transferred,No
+10251,83,Female,Emergency,Diabetes,21,2,1-2,Expired,No
+10252,88,Male,Urgent,Diabetes,20,6,None,Home,No
+10253,80,Female,Emergency,Heart Failure,19,2,3-4,Home,No
+10254,67,Male,Urgent,Cancer,8,7,None,Home,No
+10255,38,Female,Urgent,Cancer,14,0,None,Transferred,No
+10256,23,Female,Elective,Stroke,10,0,1-2,Expired,Yes
+10257,54,Female,Urgent,Diabetes,3,5,5+,Transferred,Yes
+10258,83,Female,Urgent,Stroke,6,9,None,Expired,No
+10259,68,Female,Emergency,Diabetes,29,8,3-4,Transferred,No
+10260,36,Male,Elective,Heart Failure,15,3,None,Home,Yes
+10261,63,Female,Emergency,Cancer,23,5,1-2,Expired,No
+10262,49,Male,Emergency,Cancer,23,4,5+,Transferred,No
+10263,65,Male,Elective,Heart Failure,18,0,3-4,Expired,No
+10264,25,Male,Elective,Stroke,14,5,1-2,Expired,No
+10265,56,Male,Elective,Stroke,19,8,None,Transferred,No
+10266,43,Male,Urgent,Pneumonia,28,2,None,Transferred,No
+10267,65,Female,Elective,Diabetes,26,2,5+,Expired,No
+10268,72,Female,Elective,Stroke,10,1,1-2,Expired,No
+10269,79,Female,Elective,Heart Failure,15,3,1-2,Home,No
+10270,82,Female,Emergency,Stroke,4,9,5+,Expired,Yes
+10271,51,Male,Emergency,Cancer,23,2,3-4,Home,No
+10272,52,Female,Urgent,Diabetes,2,1,1-2,Home,Yes
+10273,86,Female,Emergency,Pneumonia,3,0,5+,Home,No
+10274,37,Male,Urgent,Diabetes,7,2,1-2,Expired,No
+10275,44,Male,Emergency,Cancer,23,9,5+,Home,Yes
+10276,73,Female,Elective,Cancer,16,5,None,Expired,No
+10277,77,Female,Emergency,Cancer,10,8,None,Expired,No
+10278,86,Male,Urgent,Cancer,19,4,1-2,Transferred,No
+10279,65,Female,Emergency,Heart Failure,28,2,1-2,Expired,No
+10280,43,Female,Elective,Pneumonia,17,4,None,Expired,No
+10281,51,Female,Urgent,Cancer,28,4,3-4,Home,No
+10282,66,Female,Elective,Cancer,19,4,5+,Expired,No
+10283,42,Male,Elective,Stroke,5,6,3-4,Expired,Yes
+10284,85,Male,Urgent,Pneumonia,23,4,3-4,Transferred,No
+10285,46,Male,Elective,Diabetes,20,6,3-4,Transferred,No
+10286,21,Female,Elective,Pneumonia,13,8,None,Home,No
+10287,36,Female,Emergency,Pneumonia,13,4,1-2,Home,Yes
+10288,52,Female,Elective,Pneumonia,11,1,3-4,Transferred,No
+10289,28,Female,Elective,Cancer,11,4,None,Transferred,No
+10290,62,Female,Elective,Cancer,16,7,5+,Expired,No
+10291,67,Male,Elective,Heart Failure,15,3,1-2,Home,No
+10292,58,Female,Urgent,Diabetes,17,1,5+,Home,No
+10293,61,Female,Emergency,Stroke,22,9,3-4,Expired,Yes
+10294,45,Male,Elective,Pneumonia,18,2,1-2,Expired,Yes
+10295,69,Female,Elective,Diabetes,28,8,3-4,Home,No
+10296,44,Male,Urgent,Diabetes,19,8,1-2,Transferred,No
+10297,43,Male,Elective,Heart Failure,4,7,3-4,Transferred,No
+10298,32,Male,Urgent,Stroke,22,7,5+,Expired,No
+10299,79,Male,Emergency,Pneumonia,22,7,5+,Home,No
+10300,26,Male,Emergency,Stroke,23,7,3-4,Expired,No
+10301,76,Female,Elective,Heart Failure,5,7,1-2,Transferred,Yes
+10302,55,Male,Elective,Cancer,7,0,5+,Transferred,Yes
+10303,64,Male,Elective,Diabetes,2,5,1-2,Expired,No
+10304,39,Female,Urgent,Pneumonia,1,8,1-2,Transferred,No
+10305,84,Female,Elective,Cancer,12,7,5+,Home,No
+10306,27,Male,Elective,Heart Failure,10,2,None,Expired,No
+10307,35,Female,Emergency,Stroke,8,0,None,Expired,No
+10308,33,Female,Elective,Diabetes,1,1,1-2,Expired,No
+10309,34,Male,Emergency,Pneumonia,12,1,5+,Transferred,No
+10310,85,Male,Elective,Cancer,2,6,None,Home,No
+10311,51,Female,Emergency,Cancer,27,5,3-4,Expired,No
+10312,82,Male,Elective,Diabetes,28,1,1-2,Expired,Yes
+10313,70,Male,Emergency,Stroke,10,7,None,Transferred,No
+10314,44,Female,Urgent,Heart Failure,22,8,5+,Home,No
+10315,77,Male,Emergency,Stroke,17,6,5+,Expired,Yes
+10316,82,Male,Emergency,Stroke,26,3,1-2,Transferred,No
+10317,81,Male,Emergency,Stroke,3,0,5+,Expired,No
+10318,41,Male,Elective,Diabetes,7,3,3-4,Transferred,No
+10319,77,Male,Elective,Diabetes,12,3,3-4,Home,No
+10320,77,Female,Elective,Heart Failure,8,7,None,Transferred,No
+10321,68,Female,Urgent,Stroke,20,3,5+,Expired,No
+10322,71,Male,Urgent,Diabetes,12,3,3-4,Expired,Yes
+10323,61,Female,Emergency,Heart Failure,3,1,1-2,Transferred,Yes
+10324,89,Male,Urgent,Heart Failure,17,9,5+,Home,No
+10325,34,Male,Emergency,Stroke,28,6,None,Home,No
+10326,73,Male,Emergency,Pneumonia,9,3,1-2,Expired,No
+10327,79,Male,Emergency,Stroke,10,5,1-2,Expired,No
+10328,27,Male,Urgent,Pneumonia,22,2,1-2,Transferred,No
+10329,72,Female,Elective,Heart Failure,6,6,3-4,Transferred,Yes
+10330,79,Female,Urgent,Diabetes,25,5,1-2,Transferred,No
+10331,24,Male,Emergency,Cancer,1,2,3-4,Home,No
+10332,87,Female,Emergency,Heart Failure,22,3,1-2,Home,No
+10333,25,Male,Urgent,Diabetes,12,9,3-4,Expired,No
+10334,66,Female,Emergency,Heart Failure,5,4,5+,Expired,Yes
+10335,74,Male,Emergency,Stroke,13,8,3-4,Expired,No
+10336,59,Female,Urgent,Pneumonia,27,5,3-4,Transferred,Yes
+10337,71,Male,Urgent,Heart Failure,15,3,5+,Home,No
+10338,35,Male,Urgent,Diabetes,22,6,1-2,Expired,No
+10339,32,Female,Emergency,Stroke,11,1,5+,Expired,No
+10340,49,Female,Emergency,Cancer,8,3,1-2,Expired,No
+10341,38,Male,Elective,Stroke,5,4,3-4,Expired,No
+10342,36,Female,Elective,Pneumonia,2,3,1-2,Expired,No
+10343,82,Male,Urgent,Stroke,12,3,3-4,Expired,No
+10344,38,Female,Elective,Cancer,28,8,1-2,Home,Yes
+10345,77,Female,Emergency,Diabetes,2,1,3-4,Expired,No
+10346,74,Male,Elective,Heart Failure,26,5,3-4,Home,No
+10347,81,Female,Emergency,Pneumonia,16,7,None,Transferred,Yes
+10348,42,Female,Urgent,Cancer,21,7,1-2,Home,Yes
+10349,28,Male,Urgent,Pneumonia,3,6,1-2,Transferred,No
+10350,31,Female,Emergency,Stroke,10,9,None,Home,No
+10351,20,Male,Elective,Pneumonia,19,3,3-4,Home,No
+10352,77,Male,Urgent,Cancer,8,6,3-4,Expired,No
+10353,20,Male,Urgent,Heart Failure,7,9,None,Home,No
+10354,53,Male,Elective,Heart Failure,1,5,None,Home,No
+10355,67,Male,Elective,Pneumonia,12,5,5+,Expired,Yes
+10356,20,Female,Emergency,Diabetes,29,1,3-4,Transferred,No
+10357,35,Male,Elective,Pneumonia,28,7,5+,Expired,No
+10358,80,Male,Elective,Stroke,5,7,1-2,Expired,No
+10359,83,Female,Elective,Heart Failure,16,6,5+,Expired,No
+10360,82,Female,Emergency,Heart Failure,25,8,None,Transferred,No
+10361,88,Female,Emergency,Heart Failure,4,7,None,Home,No
+10362,41,Male,Urgent,Diabetes,17,8,None,Home,No
+10363,86,Male,Emergency,Diabetes,24,8,None,Expired,Yes
+10364,45,Male,Urgent,Cancer,21,5,5+,Expired,No
+10365,35,Female,Elective,Pneumonia,2,1,5+,Home,No
+10366,70,Male,Urgent,Pneumonia,12,6,5+,Home,No
+10367,76,Female,Urgent,Stroke,1,2,None,Home,No
+10368,48,Male,Elective,Heart Failure,12,6,None,Transferred,No
+10369,88,Female,Urgent,Diabetes,12,8,3-4,Transferred,No
+10370,66,Male,Emergency,Stroke,12,9,3-4,Expired,No
+10371,81,Male,Emergency,Stroke,19,9,None,Transferred,No
+10372,88,Male,Emergency,Diabetes,25,1,3-4,Expired,No
+10373,35,Female,Emergency,Pneumonia,17,5,1-2,Home,No
+10374,67,Female,Urgent,Heart Failure,20,5,1-2,Home,No
+10375,58,Male,Urgent,Pneumonia,24,8,None,Expired,No
+10376,52,Male,Elective,Stroke,24,8,5+,Home,No
+10377,42,Male,Urgent,Heart Failure,26,4,1-2,Expired,Yes
+10378,29,Female,Urgent,Cancer,28,4,1-2,Expired,No
+10379,88,Male,Urgent,Stroke,11,8,5+,Expired,No
+10380,53,Male,Elective,Pneumonia,13,7,3-4,Transferred,Yes
+10381,71,Male,Emergency,Pneumonia,27,6,5+,Expired,No
+10382,29,Male,Urgent,Pneumonia,8,7,3-4,Expired,No
+10383,38,Female,Elective,Diabetes,10,5,3-4,Expired,No
+10384,77,Female,Elective,Stroke,8,2,5+,Transferred,No
+10385,20,Male,Elective,Heart Failure,20,6,3-4,Home,No
+10386,88,Male,Emergency,Pneumonia,8,7,1-2,Transferred,No
+10387,23,Female,Urgent,Pneumonia,9,7,None,Expired,No
+10388,35,Female,Elective,Diabetes,7,0,3-4,Transferred,No
+10389,43,Male,Emergency,Heart Failure,14,6,1-2,Home,No
+10390,21,Female,Elective,Stroke,28,2,5+,Home,No
+10391,51,Female,Elective,Cancer,2,1,3-4,Expired,No
+10392,43,Male,Elective,Diabetes,25,1,1-2,Home,No
+10393,31,Female,Elective,Stroke,11,7,3-4,Transferred,No
+10394,69,Female,Elective,Cancer,8,8,5+,Transferred,Yes
+10395,54,Male,Emergency,Pneumonia,13,2,None,Home,No
+10396,52,Male,Urgent,Pneumonia,21,2,3-4,Expired,No
+10397,52,Female,Urgent,Heart Failure,15,5,None,Expired,No
+10398,80,Male,Urgent,Cancer,28,9,3-4,Transferred,Yes
+10399,70,Female,Urgent,Pneumonia,3,0,3-4,Home,Yes
+10400,62,Male,Emergency,Pneumonia,23,5,5+,Transferred,No
+10401,31,Female,Emergency,Heart Failure,14,2,3-4,Transferred,Yes
+10402,86,Male,Emergency,Stroke,15,3,1-2,Transferred,No
+10403,84,Female,Elective,Pneumonia,2,8,1-2,Expired,No
+10404,52,Female,Elective,Diabetes,29,2,None,Home,No
+10405,59,Female,Elective,Diabetes,19,0,None,Home,No
+10406,62,Male,Urgent,Stroke,12,2,1-2,Expired,No
+10407,63,Male,Elective,Cancer,25,6,None,Transferred,No
+10408,48,Female,Urgent,Heart Failure,20,6,None,Transferred,Yes
+10409,32,Female,Elective,Diabetes,4,4,1-2,Expired,No
+10410,31,Male,Urgent,Diabetes,3,0,1-2,Home,No
+10411,65,Male,Elective,Stroke,5,7,1-2,Expired,No
+10412,21,Male,Elective,Cancer,3,9,5+,Home,Yes
+10413,54,Male,Emergency,Cancer,25,7,5+,Home,Yes
+10414,27,Male,Elective,Stroke,15,9,1-2,Home,No
+10415,45,Male,Elective,Diabetes,19,9,3-4,Transferred,No
+10416,53,Female,Emergency,Heart Failure,2,9,1-2,Transferred,No
+10417,26,Male,Urgent,Diabetes,12,1,5+,Expired,No
+10418,87,Female,Emergency,Cancer,5,9,None,Expired,No
+10419,77,Male,Emergency,Diabetes,22,2,3-4,Transferred,No
+10420,48,Male,Urgent,Heart Failure,17,3,3-4,Expired,No
+10421,55,Female,Elective,Pneumonia,14,0,None,Transferred,No
+10422,40,Female,Urgent,Diabetes,28,3,3-4,Transferred,No
+10423,55,Male,Elective,Stroke,27,4,None,Home,No
+10424,29,Female,Elective,Pneumonia,22,2,5+,Home,No
+10425,43,Female,Urgent,Stroke,10,9,3-4,Transferred,Yes
+10426,83,Female,Emergency,Stroke,3,1,3-4,Home,No
+10427,68,Female,Urgent,Stroke,4,5,None,Transferred,Yes
+10428,55,Male,Elective,Diabetes,6,7,None,Home,Yes
+10429,43,Female,Urgent,Cancer,24,6,5+,Expired,No
+10430,42,Male,Urgent,Pneumonia,25,0,None,Expired,No
+10431,81,Male,Elective,Heart Failure,22,3,None,Transferred,No
+10432,56,Male,Emergency,Cancer,16,2,5+,Transferred,No
+10433,31,Male,Urgent,Diabetes,7,5,1-2,Home,No
+10434,74,Female,Elective,Stroke,15,8,1-2,Home,No
+10435,32,Female,Elective,Heart Failure,21,8,None,Transferred,No
+10436,42,Male,Urgent,Pneumonia,28,6,5+,Expired,No
+10437,49,Male,Emergency,Cancer,25,8,1-2,Expired,Yes
+10438,36,Male,Urgent,Cancer,20,7,5+,Transferred,No
+10439,81,Male,Emergency,Heart Failure,26,4,None,Expired,No
+10440,32,Female,Emergency,Diabetes,11,8,None,Transferred,Yes
+10441,78,Male,Emergency,Pneumonia,22,6,5+,Home,No
+10442,38,Female,Emergency,Heart Failure,21,4,3-4,Expired,No
+10443,68,Male,Urgent,Stroke,1,7,None,Expired,Yes
+10444,31,Male,Elective,Pneumonia,5,6,None,Home,No
+10445,80,Male,Elective,Cancer,13,8,None,Home,No
+10446,38,Male,Elective,Heart Failure,21,9,None,Expired,No
+10447,28,Female,Elective,Cancer,14,0,5+,Expired,No
+10448,47,Female,Elective,Cancer,9,8,5+,Transferred,No
+10449,71,Female,Elective,Cancer,17,6,5+,Transferred,No
+10450,35,Male,Urgent,Diabetes,15,0,5+,Expired,No
+10451,88,Male,Emergency,Cancer,21,0,3-4,Transferred,Yes
+10452,31,Female,Elective,Stroke,7,4,5+,Home,No
+10453,44,Female,Urgent,Stroke,27,7,5+,Transferred,No
+10454,71,Male,Elective,Pneumonia,22,8,None,Transferred,No
+10455,72,Male,Elective,Cancer,22,5,3-4,Expired,No
+10456,42,Female,Emergency,Cancer,12,9,None,Transferred,No
+10457,35,Male,Emergency,Heart Failure,23,7,3-4,Expired,Yes
+10458,76,Male,Emergency,Diabetes,6,5,1-2,Expired,No
+10459,58,Female,Elective,Pneumonia,21,5,3-4,Expired,No
+10460,72,Male,Elective,Cancer,16,3,3-4,Home,No
+10461,61,Female,Elective,Heart Failure,26,4,None,Transferred,No
+10462,77,Male,Emergency,Diabetes,5,1,3-4,Transferred,Yes
+10463,58,Female,Urgent,Pneumonia,9,2,3-4,Transferred,No
+10464,33,Male,Elective,Pneumonia,14,2,None,Expired,No
+10465,24,Female,Elective,Cancer,8,4,1-2,Home,No
+10466,54,Female,Elective,Pneumonia,14,4,1-2,Expired,No
+10467,37,Female,Urgent,Heart Failure,12,5,1-2,Transferred,No
+10468,28,Female,Elective,Pneumonia,10,4,3-4,Expired,No
+10469,77,Male,Urgent,Stroke,20,5,None,Expired,No
+10470,36,Male,Elective,Heart Failure,20,7,1-2,Transferred,No
+10471,26,Female,Urgent,Diabetes,26,1,1-2,Expired,No
+10472,65,Male,Elective,Diabetes,21,3,1-2,Expired,No
+10473,32,Male,Emergency,Cancer,13,5,1-2,Home,Yes
+10474,59,Male,Emergency,Cancer,29,4,None,Expired,Yes
+10475,61,Male,Emergency,Stroke,19,0,1-2,Home,No
+10476,28,Male,Emergency,Diabetes,15,8,3-4,Transferred,No
+10477,69,Female,Elective,Diabetes,8,2,3-4,Home,No
+10478,46,Female,Emergency,Diabetes,23,1,None,Expired,No
+10479,85,Female,Urgent,Diabetes,21,8,5+,Transferred,No
+10480,24,Female,Emergency,Pneumonia,10,6,1-2,Expired,No
+10481,48,Male,Emergency,Heart Failure,3,4,1-2,Expired,No
+10482,56,Male,Emergency,Heart Failure,21,5,3-4,Home,No
+10483,57,Female,Elective,Stroke,3,3,None,Expired,No
+10484,27,Male,Emergency,Pneumonia,26,0,5+,Home,Yes
+10485,84,Male,Urgent,Diabetes,5,3,3-4,Transferred,No
+10486,36,Female,Emergency,Diabetes,16,8,5+,Transferred,No
+10487,64,Male,Emergency,Cancer,17,0,None,Expired,No
+10488,23,Female,Emergency,Cancer,6,9,None,Home,No
+10489,55,Female,Urgent,Stroke,26,2,None,Expired,Yes
+10490,89,Male,Emergency,Diabetes,20,4,3-4,Expired,No
+10491,50,Male,Urgent,Stroke,20,6,None,Expired,No
+10492,38,Female,Urgent,Pneumonia,16,8,3-4,Expired,No
+10493,80,Female,Emergency,Heart Failure,24,5,3-4,Home,No
+10494,73,Male,Urgent,Diabetes,2,2,1-2,Expired,No
+10495,58,Female,Elective,Pneumonia,20,6,3-4,Transferred,No
+10496,38,Female,Emergency,Diabetes,15,3,3-4,Home,No
+10497,58,Female,Emergency,Cancer,18,2,1-2,Expired,No
+10498,86,Male,Urgent,Stroke,1,6,5+,Home,No
+10499,64,Female,Urgent,Cancer,26,6,1-2,Expired,No
+10500,32,Male,Emergency,Heart Failure,29,3,1-2,Transferred,No
+10501,77,Female,Elective,Cancer,29,6,None,Transferred,No
+10502,39,Male,Urgent,Diabetes,19,1,None,Transferred,No
+10503,80,Female,Urgent,Cancer,12,0,1-2,Home,No
+10504,58,Male,Elective,Diabetes,8,1,None,Transferred,Yes
+10505,20,Male,Elective,Heart Failure,6,3,1-2,Expired,Yes
+10506,22,Male,Emergency,Cancer,12,7,None,Expired,No
+10507,81,Female,Elective,Stroke,7,2,3-4,Expired,No
+10508,82,Female,Emergency,Stroke,18,9,None,Home,No
+10509,44,Female,Elective,Stroke,22,5,None,Home,Yes
+10510,75,Male,Urgent,Cancer,14,5,3-4,Transferred,No
+10511,52,Female,Emergency,Cancer,8,8,1-2,Home,Yes
+10512,57,Male,Emergency,Cancer,24,8,None,Expired,No
+10513,25,Female,Emergency,Diabetes,20,3,None,Expired,Yes
+10514,77,Male,Elective,Heart Failure,22,8,3-4,Expired,No
+10515,63,Male,Urgent,Stroke,14,5,3-4,Home,Yes
+10516,64,Male,Emergency,Diabetes,5,1,3-4,Expired,Yes
+10517,51,Female,Emergency,Stroke,9,9,5+,Transferred,No
+10518,64,Female,Emergency,Diabetes,8,5,3-4,Home,Yes
+10519,80,Female,Emergency,Cancer,2,1,1-2,Expired,No
+10520,66,Male,Urgent,Stroke,28,7,None,Expired,No
+10521,40,Male,Elective,Cancer,16,3,None,Home,Yes
+10522,55,Female,Urgent,Stroke,13,4,5+,Home,No
+10523,38,Female,Emergency,Pneumonia,7,7,None,Transferred,No
+10524,39,Female,Urgent,Diabetes,16,7,None,Home,No
+10525,76,Male,Emergency,Pneumonia,7,5,1-2,Expired,No
+10526,37,Male,Elective,Diabetes,27,3,None,Transferred,Yes
+10527,66,Male,Elective,Heart Failure,14,0,1-2,Expired,No
+10528,68,Male,Elective,Stroke,14,6,5+,Expired,Yes
+10529,33,Male,Emergency,Heart Failure,12,7,1-2,Expired,No
+10530,34,Female,Urgent,Heart Failure,1,8,3-4,Home,No
+10531,50,Male,Elective,Diabetes,1,1,3-4,Home,Yes
+10532,20,Male,Emergency,Pneumonia,12,0,5+,Expired,No
+10533,73,Male,Emergency,Cancer,20,3,None,Home,No
+10534,22,Male,Urgent,Diabetes,21,4,1-2,Expired,No
+10535,35,Male,Elective,Cancer,15,9,3-4,Home,Yes
+10536,76,Female,Emergency,Heart Failure,4,0,1-2,Home,No
+10537,31,Male,Urgent,Cancer,7,4,3-4,Home,No
+10538,35,Male,Elective,Pneumonia,16,5,1-2,Transferred,Yes
+10539,43,Male,Urgent,Diabetes,3,2,None,Home,No
+10540,47,Female,Urgent,Pneumonia,7,6,5+,Transferred,No
+10541,27,Female,Emergency,Pneumonia,29,5,None,Transferred,No
+10542,55,Female,Emergency,Diabetes,24,3,1-2,Transferred,No
+10543,27,Male,Emergency,Pneumonia,22,2,3-4,Expired,No
+10544,77,Female,Urgent,Stroke,6,4,3-4,Home,No
+10545,79,Male,Emergency,Stroke,16,2,5+,Expired,No
+10546,69,Male,Urgent,Stroke,24,9,None,Transferred,No
+10547,47,Female,Urgent,Cancer,8,8,None,Home,No
+10548,60,Male,Emergency,Pneumonia,23,8,None,Expired,No
+10549,83,Male,Elective,Diabetes,22,5,3-4,Transferred,No
+10550,46,Male,Elective,Diabetes,6,5,5+,Expired,No
+10551,82,Female,Elective,Cancer,10,3,3-4,Expired,No
+10552,36,Male,Urgent,Diabetes,16,3,None,Home,No
+10553,52,Male,Urgent,Stroke,11,1,1-2,Home,Yes
+10554,48,Female,Urgent,Pneumonia,13,9,3-4,Expired,Yes
+10555,32,Male,Emergency,Diabetes,29,3,5+,Home,No
+10556,65,Male,Urgent,Diabetes,6,7,None,Home,No
+10557,54,Female,Emergency,Heart Failure,24,9,1-2,Expired,No
+10558,25,Male,Emergency,Heart Failure,1,1,3-4,Home,No
+10559,88,Male,Elective,Heart Failure,21,8,1-2,Home,No
+10560,66,Male,Elective,Pneumonia,19,0,1-2,Transferred,No
+10561,44,Male,Elective,Stroke,12,1,5+,Home,Yes
+10562,85,Male,Emergency,Stroke,24,1,3-4,Transferred,No
+10563,29,Female,Emergency,Stroke,27,5,5+,Expired,No
+10564,75,Female,Emergency,Pneumonia,6,6,None,Transferred,No
+10565,49,Female,Urgent,Pneumonia,18,2,1-2,Expired,No
+10566,24,Female,Emergency,Heart Failure,13,8,5+,Home,No
+10567,52,Male,Elective,Diabetes,7,4,5+,Home,No
+10568,84,Male,Elective,Cancer,23,4,None,Transferred,No
+10569,37,Male,Emergency,Cancer,13,3,3-4,Expired,No
+10570,68,Male,Emergency,Diabetes,21,8,5+,Home,No
+10571,30,Male,Elective,Heart Failure,8,7,1-2,Transferred,No
+10572,45,Female,Emergency,Diabetes,21,3,1-2,Transferred,No
+10573,82,Female,Elective,Diabetes,17,3,1-2,Transferred,No
+10574,78,Male,Urgent,Cancer,9,1,1-2,Home,No
+10575,46,Male,Elective,Heart Failure,20,8,5+,Expired,No
+10576,68,Male,Urgent,Pneumonia,13,2,1-2,Home,Yes
+10577,52,Female,Emergency,Cancer,2,3,5+,Home,No
+10578,20,Male,Emergency,Pneumonia,4,6,3-4,Expired,No
+10579,40,Male,Urgent,Heart Failure,29,9,1-2,Transferred,Yes
+10580,74,Male,Emergency,Diabetes,25,7,3-4,Home,No
+10581,25,Female,Urgent,Stroke,2,7,5+,Transferred,No
+10582,88,Male,Emergency,Stroke,4,3,None,Transferred,No
+10583,24,Female,Elective,Heart Failure,18,6,3-4,Expired,No
+10584,22,Female,Emergency,Stroke,5,9,1-2,Expired,No
+10585,72,Female,Elective,Pneumonia,19,0,None,Expired,No
+10586,42,Female,Elective,Stroke,10,5,3-4,Transferred,Yes
+10587,72,Female,Urgent,Heart Failure,18,5,5+,Transferred,No
+10588,56,Female,Emergency,Heart Failure,25,5,5+,Home,No
+10589,36,Male,Urgent,Pneumonia,21,1,5+,Transferred,No
+10590,20,Male,Emergency,Stroke,10,7,3-4,Expired,Yes
+10591,70,Male,Elective,Stroke,5,4,5+,Expired,No
+10592,64,Female,Elective,Diabetes,17,4,3-4,Expired,No
+10593,23,Male,Emergency,Cancer,22,1,1-2,Expired,No
+10594,81,Female,Emergency,Heart Failure,13,3,1-2,Transferred,No
+10595,84,Female,Urgent,Diabetes,23,8,3-4,Expired,Yes
+10596,51,Female,Emergency,Heart Failure,17,8,3-4,Home,No
+10597,53,Male,Emergency,Diabetes,9,5,None,Transferred,No
+10598,58,Female,Emergency,Cancer,24,8,5+,Expired,No
+10599,45,Female,Urgent,Diabetes,12,3,1-2,Home,No
+10600,53,Male,Emergency,Heart Failure,14,0,1-2,Expired,No
+10601,73,Male,Elective,Stroke,14,1,None,Transferred,Yes
+10602,22,Female,Urgent,Heart Failure,8,0,3-4,Transferred,No
+10603,69,Female,Urgent,Pneumonia,23,7,3-4,Home,No
+10604,31,Male,Elective,Pneumonia,5,8,None,Transferred,No
+10605,84,Male,Elective,Pneumonia,19,9,5+,Home,No
+10606,73,Male,Elective,Pneumonia,28,5,3-4,Expired,No
+10607,24,Female,Emergency,Cancer,14,1,3-4,Transferred,No
+10608,76,Male,Elective,Stroke,9,5,5+,Expired,No
+10609,36,Male,Emergency,Stroke,7,8,5+,Expired,Yes
+10610,66,Male,Urgent,Heart Failure,27,2,None,Transferred,No
+10611,42,Female,Urgent,Diabetes,26,8,None,Expired,No
+10612,33,Male,Elective,Heart Failure,26,1,None,Home,No
+10613,85,Male,Emergency,Heart Failure,8,4,3-4,Home,Yes
+10614,70,Male,Elective,Heart Failure,14,1,None,Home,No
+10615,57,Male,Elective,Heart Failure,22,6,3-4,Transferred,No
+10616,83,Male,Emergency,Stroke,28,9,1-2,Expired,No
+10617,57,Female,Elective,Diabetes,14,8,5+,Expired,No
+10618,69,Female,Urgent,Heart Failure,11,6,5+,Expired,No
+10619,49,Female,Elective,Stroke,14,4,1-2,Expired,No
+10620,70,Male,Emergency,Heart Failure,21,3,None,Home,No
+10621,82,Female,Emergency,Pneumonia,8,3,3-4,Transferred,No
+10622,71,Female,Urgent,Heart Failure,3,9,3-4,Home,No
+10623,57,Female,Emergency,Heart Failure,28,7,3-4,Home,No
+10624,49,Male,Emergency,Cancer,29,9,5+,Transferred,No
+10625,70,Male,Urgent,Pneumonia,29,9,None,Transferred,No
+10626,24,Female,Elective,Diabetes,23,9,3-4,Home,No
+10627,48,Female,Urgent,Heart Failure,18,9,3-4,Expired,No
+10628,23,Male,Elective,Diabetes,3,9,3-4,Transferred,No
+10629,29,Male,Urgent,Pneumonia,13,0,1-2,Transferred,No
+10630,75,Female,Elective,Heart Failure,12,4,3-4,Home,No
+10631,36,Male,Urgent,Cancer,15,1,1-2,Expired,No
+10632,36,Female,Elective,Stroke,18,8,3-4,Transferred,Yes
+10633,88,Male,Urgent,Cancer,5,6,3-4,Home,No
+10634,53,Female,Elective,Cancer,7,9,3-4,Transferred,No
+10635,25,Female,Urgent,Stroke,11,7,1-2,Expired,No
+10636,72,Male,Emergency,Stroke,26,5,3-4,Home,No
+10637,85,Female,Elective,Stroke,27,8,None,Home,Yes
+10638,62,Female,Urgent,Heart Failure,11,5,3-4,Expired,No
+10639,42,Female,Elective,Diabetes,27,6,1-2,Home,No
+10640,74,Male,Elective,Diabetes,15,6,1-2,Expired,No
+10641,35,Male,Urgent,Stroke,10,8,None,Home,No
+10642,27,Male,Elective,Cancer,15,7,5+,Expired,No
+10643,23,Female,Urgent,Pneumonia,13,0,None,Transferred,No
+10644,23,Male,Emergency,Stroke,14,3,None,Transferred,No
+10645,75,Female,Elective,Cancer,17,6,1-2,Transferred,Yes
+10646,44,Female,Emergency,Cancer,13,7,3-4,Home,No
+10647,86,Male,Elective,Heart Failure,10,6,3-4,Expired,No
+10648,86,Male,Elective,Heart Failure,25,2,5+,Expired,Yes
+10649,46,Female,Elective,Diabetes,1,3,5+,Transferred,Yes
+10650,51,Female,Urgent,Diabetes,1,6,5+,Transferred,Yes
+10651,69,Male,Emergency,Pneumonia,15,7,5+,Transferred,No
+10652,80,Male,Elective,Pneumonia,16,6,None,Expired,No
+10653,70,Male,Urgent,Pneumonia,12,5,None,Transferred,No
+10654,38,Female,Elective,Pneumonia,26,8,3-4,Home,No
+10655,40,Female,Urgent,Cancer,24,8,None,Transferred,No
+10656,24,Female,Elective,Cancer,6,6,3-4,Transferred,No
+10657,61,Female,Emergency,Diabetes,6,7,3-4,Expired,No
+10658,80,Female,Emergency,Heart Failure,12,5,3-4,Home,No
+10659,41,Male,Elective,Heart Failure,25,0,3-4,Expired,No
+10660,40,Male,Urgent,Stroke,15,0,1-2,Home,No
+10661,89,Female,Elective,Cancer,4,5,3-4,Home,No
+10662,20,Female,Urgent,Pneumonia,24,1,None,Transferred,No
+10663,24,Male,Elective,Pneumonia,4,7,None,Transferred,Yes
+10664,31,Male,Urgent,Stroke,2,0,None,Expired,No
+10665,65,Male,Emergency,Heart Failure,27,1,None,Expired,No
+10666,53,Male,Elective,Pneumonia,24,7,1-2,Expired,No
+10667,68,Female,Emergency,Heart Failure,12,5,5+,Home,No
+10668,64,Male,Emergency,Stroke,7,9,5+,Expired,No
+10669,46,Female,Elective,Heart Failure,20,1,3-4,Home,No
+10670,45,Male,Elective,Heart Failure,9,1,3-4,Home,No
+10671,66,Male,Urgent,Heart Failure,9,6,None,Home,No
+10672,75,Male,Urgent,Pneumonia,8,4,None,Home,No
+10673,82,Female,Emergency,Diabetes,14,4,5+,Home,No
+10674,67,Female,Urgent,Cancer,1,7,5+,Transferred,No
+10675,80,Male,Urgent,Heart Failure,23,6,None,Home,No
+10676,45,Female,Elective,Heart Failure,21,8,3-4,Home,No
+10677,55,Female,Urgent,Heart Failure,23,3,1-2,Transferred,No
+10678,20,Male,Emergency,Diabetes,12,9,1-2,Transferred,Yes
+10679,27,Male,Urgent,Stroke,25,3,5+,Transferred,No
+10680,71,Female,Emergency,Pneumonia,2,1,5+,Expired,No
+10681,66,Female,Elective,Diabetes,13,2,5+,Expired,No
+10682,75,Female,Emergency,Heart Failure,27,0,1-2,Home,No
+10683,33,Male,Urgent,Diabetes,4,0,1-2,Home,No
+10684,47,Male,Elective,Diabetes,20,6,None,Home,No
+10685,21,Female,Urgent,Diabetes,18,4,3-4,Home,No
+10686,45,Male,Elective,Stroke,19,2,5+,Transferred,No
+10687,33,Male,Elective,Cancer,16,6,None,Expired,No
+10688,78,Female,Urgent,Pneumonia,27,1,1-2,Transferred,No
+10689,75,Female,Urgent,Stroke,14,2,None,Expired,Yes
+10690,26,Male,Elective,Stroke,29,0,1-2,Transferred,No
+10691,22,Male,Elective,Cancer,8,7,3-4,Home,No
+10692,42,Female,Urgent,Stroke,12,1,1-2,Expired,No
+10693,37,Male,Emergency,Diabetes,9,6,None,Home,No
+10694,57,Male,Urgent,Diabetes,6,8,3-4,Expired,No
+10695,34,Female,Elective,Heart Failure,26,5,1-2,Expired,Yes
+10696,83,Female,Urgent,Stroke,18,1,5+,Home,Yes
+10697,47,Male,Emergency,Heart Failure,2,1,1-2,Home,Yes
+10698,58,Male,Urgent,Pneumonia,23,8,3-4,Home,No
+10699,76,Male,Elective,Diabetes,8,9,None,Transferred,No
+10700,36,Female,Urgent,Pneumonia,24,7,3-4,Expired,Yes
+10701,63,Male,Elective,Cancer,14,8,None,Expired,No
+10702,44,Male,Elective,Diabetes,6,3,1-2,Expired,No
+10703,36,Female,Urgent,Pneumonia,10,3,1-2,Home,No
+10704,32,Female,Elective,Cancer,8,1,3-4,Expired,No
+10705,44,Male,Elective,Pneumonia,17,9,5+,Expired,No
+10706,87,Female,Emergency,Cancer,25,0,1-2,Home,No
+10707,29,Female,Emergency,Cancer,29,9,5+,Home,No
+10708,86,Male,Emergency,Diabetes,12,3,5+,Expired,Yes
+10709,37,Female,Emergency,Heart Failure,17,9,3-4,Transferred,No
+10710,53,Female,Elective,Cancer,13,9,1-2,Home,No
+10711,27,Male,Urgent,Cancer,19,7,5+,Transferred,Yes
+10712,59,Female,Elective,Diabetes,12,1,1-2,Transferred,No
+10713,61,Male,Elective,Heart Failure,16,7,None,Transferred,No
+10714,60,Male,Elective,Stroke,25,0,5+,Transferred,No
+10715,25,Female,Urgent,Stroke,27,0,3-4,Home,No
+10716,71,Female,Emergency,Heart Failure,5,3,3-4,Expired,No
+10717,45,Female,Elective,Pneumonia,25,6,5+,Expired,No
+10718,83,Male,Elective,Diabetes,16,8,1-2,Home,No
+10719,78,Female,Emergency,Heart Failure,25,4,None,Home,No
+10720,75,Male,Elective,Stroke,6,1,None,Transferred,No
+10721,78,Female,Urgent,Cancer,11,6,3-4,Transferred,No
+10722,89,Female,Elective,Stroke,17,1,3-4,Home,No
+10723,52,Female,Elective,Cancer,26,8,1-2,Expired,No
+10724,72,Male,Emergency,Diabetes,23,8,3-4,Transferred,No
+10725,41,Female,Elective,Cancer,14,2,1-2,Home,No
+10726,40,Female,Elective,Heart Failure,6,7,5+,Home,Yes
+10727,89,Male,Urgent,Cancer,25,3,None,Home,No
+10728,89,Male,Emergency,Pneumonia,23,2,5+,Transferred,No
+10729,23,Female,Emergency,Heart Failure,28,0,3-4,Home,Yes
+10730,81,Female,Urgent,Diabetes,11,4,None,Expired,Yes
+10731,81,Female,Elective,Heart Failure,12,3,None,Home,No
+10732,43,Male,Emergency,Pneumonia,13,0,5+,Transferred,No
+10733,74,Male,Emergency,Diabetes,4,9,1-2,Expired,No
+10734,28,Male,Elective,Stroke,7,7,None,Expired,No
+10735,22,Male,Elective,Pneumonia,2,7,1-2,Home,No
+10736,50,Female,Emergency,Diabetes,6,7,5+,Home,Yes
+10737,59,Male,Elective,Cancer,6,2,5+,Expired,No
+10738,55,Male,Emergency,Heart Failure,18,5,1-2,Home,No
+10739,43,Male,Elective,Diabetes,20,6,5+,Transferred,No
+10740,25,Female,Elective,Heart Failure,8,8,None,Expired,Yes
+10741,85,Female,Urgent,Cancer,8,4,5+,Home,No
+10742,23,Male,Elective,Diabetes,29,8,5+,Expired,No
+10743,25,Male,Urgent,Stroke,8,5,None,Home,No
+10744,70,Female,Elective,Pneumonia,8,9,1-2,Home,No
+10745,81,Female,Emergency,Diabetes,1,9,5+,Transferred,Yes
+10746,76,Female,Emergency,Cancer,2,9,1-2,Home,No
+10747,85,Female,Elective,Diabetes,12,3,None,Home,Yes
+10748,27,Female,Elective,Heart Failure,15,0,1-2,Home,No
+10749,45,Female,Emergency,Diabetes,4,0,1-2,Transferred,No
+10750,70,Female,Elective,Stroke,28,9,3-4,Home,No
+10751,64,Female,Urgent,Diabetes,25,4,3-4,Home,Yes
+10752,63,Male,Urgent,Pneumonia,3,2,5+,Home,No
+10753,24,Male,Urgent,Diabetes,14,4,3-4,Expired,No
+10754,89,Male,Urgent,Heart Failure,22,4,3-4,Transferred,No
+10755,45,Male,Urgent,Diabetes,23,0,3-4,Expired,Yes
+10756,87,Male,Elective,Stroke,8,7,1-2,Transferred,No
+10757,38,Male,Elective,Cancer,13,4,1-2,Transferred,No
+10758,39,Female,Urgent,Diabetes,23,4,3-4,Expired,No
+10759,31,Female,Elective,Diabetes,19,8,None,Transferred,No
+10760,66,Male,Elective,Pneumonia,22,7,3-4,Transferred,No
+10761,20,Male,Urgent,Stroke,5,0,None,Expired,Yes
+10762,33,Female,Elective,Cancer,13,2,1-2,Home,No
+10763,83,Female,Elective,Heart Failure,28,6,None,Transferred,No
+10764,57,Female,Elective,Diabetes,26,0,1-2,Expired,No
+10765,56,Male,Urgent,Cancer,20,0,None,Transferred,No
+10766,30,Female,Elective,Heart Failure,1,4,1-2,Expired,No
+10767,22,Male,Emergency,Stroke,16,8,1-2,Home,No
+10768,52,Male,Emergency,Stroke,29,5,3-4,Transferred,No
+10769,25,Female,Urgent,Cancer,23,9,5+,Home,No
+10770,69,Female,Emergency,Heart Failure,24,1,5+,Home,No
+10771,29,Male,Urgent,Stroke,2,8,1-2,Expired,No
+10772,24,Female,Emergency,Cancer,7,5,3-4,Transferred,No
+10773,42,Female,Emergency,Stroke,6,4,5+,Transferred,No
+10774,29,Male,Emergency,Stroke,5,4,5+,Transferred,Yes
+10775,63,Female,Urgent,Stroke,29,2,3-4,Transferred,No
+10776,21,Male,Urgent,Pneumonia,4,5,3-4,Transferred,No
+10777,32,Male,Elective,Heart Failure,2,3,5+,Expired,No
+10778,59,Female,Urgent,Cancer,10,9,5+,Transferred,No
+10779,21,Male,Emergency,Cancer,22,1,None,Home,Yes
+10780,84,Male,Emergency,Heart Failure,5,2,None,Home,Yes
+10781,82,Female,Urgent,Heart Failure,18,8,1-2,Transferred,No
+10782,36,Female,Urgent,Heart Failure,10,8,5+,Expired,Yes
+10783,28,Female,Urgent,Heart Failure,23,5,3-4,Expired,No
+10784,34,Male,Elective,Diabetes,22,9,3-4,Transferred,No
+10785,43,Male,Emergency,Cancer,28,9,5+,Home,No
+10786,57,Female,Elective,Diabetes,15,8,1-2,Transferred,No
+10787,54,Male,Elective,Stroke,27,3,3-4,Transferred,No
+10788,68,Female,Emergency,Stroke,9,4,5+,Transferred,No
+10789,88,Female,Emergency,Cancer,11,9,5+,Expired,No
+10790,81,Male,Urgent,Stroke,26,5,1-2,Expired,Yes
+10791,79,Female,Urgent,Heart Failure,21,8,5+,Home,No
+10792,69,Male,Elective,Diabetes,25,4,3-4,Home,No
+10793,28,Male,Urgent,Heart Failure,25,7,None,Transferred,No
+10794,53,Female,Urgent,Stroke,29,0,1-2,Home,Yes
+10795,54,Male,Emergency,Diabetes,17,4,5+,Transferred,No
+10796,20,Female,Emergency,Heart Failure,21,9,1-2,Home,Yes
+10797,59,Male,Urgent,Cancer,9,0,5+,Transferred,No
+10798,83,Male,Emergency,Heart Failure,23,9,None,Expired,Yes
+10799,41,Male,Urgent,Stroke,16,5,1-2,Transferred,No
+10800,79,Female,Emergency,Diabetes,6,6,5+,Expired,Yes
+10801,83,Male,Emergency,Cancer,22,4,None,Expired,No
+10802,30,Female,Emergency,Diabetes,11,0,3-4,Home,No
+10803,33,Male,Emergency,Cancer,23,5,5+,Home,No
+10804,79,Male,Urgent,Diabetes,17,9,None,Expired,No
+10805,49,Female,Elective,Stroke,4,4,None,Transferred,No
+10806,54,Female,Emergency,Cancer,29,5,1-2,Transferred,No
+10807,56,Female,Urgent,Pneumonia,15,9,5+,Home,No
+10808,24,Female,Urgent,Diabetes,1,6,3-4,Transferred,No
+10809,45,Female,Emergency,Diabetes,22,6,5+,Transferred,No
+10810,81,Male,Elective,Heart Failure,29,1,None,Transferred,Yes
+10811,23,Male,Emergency,Cancer,20,2,3-4,Expired,No
+10812,61,Female,Urgent,Pneumonia,1,5,None,Expired,No
+10813,37,Male,Elective,Stroke,9,2,1-2,Transferred,Yes
+10814,59,Male,Urgent,Heart Failure,12,1,5+,Home,No
+10815,58,Male,Emergency,Pneumonia,4,3,None,Transferred,No
+10816,33,Female,Elective,Cancer,28,4,None,Home,No
+10817,51,Male,Urgent,Pneumonia,22,9,5+,Expired,No
+10818,70,Male,Urgent,Diabetes,13,8,3-4,Transferred,No
+10819,57,Male,Urgent,Diabetes,7,2,None,Transferred,No
+10820,42,Female,Emergency,Heart Failure,8,2,5+,Home,No
+10821,82,Male,Elective,Cancer,28,5,1-2,Home,Yes
+10822,34,Male,Emergency,Cancer,13,4,1-2,Transferred,No
+10823,44,Female,Emergency,Pneumonia,11,5,5+,Transferred,Yes
+10824,36,Female,Emergency,Heart Failure,9,6,None,Home,No
+10825,85,Male,Elective,Cancer,25,2,5+,Expired,No
+10826,72,Male,Emergency,Diabetes,24,4,5+,Home,No
+10827,70,Female,Emergency,Pneumonia,16,7,None,Transferred,No
+10828,58,Female,Emergency,Stroke,10,3,3-4,Expired,No
+10829,70,Female,Emergency,Diabetes,11,9,3-4,Expired,No
+10830,89,Female,Urgent,Heart Failure,12,1,1-2,Expired,Yes
+10831,25,Female,Emergency,Cancer,28,3,3-4,Expired,No
+10832,86,Female,Urgent,Diabetes,14,1,5+,Transferred,No
+10833,26,Female,Emergency,Stroke,19,2,None,Expired,No
+10834,70,Male,Elective,Stroke,12,3,1-2,Home,No
+10835,61,Female,Urgent,Heart Failure,18,3,3-4,Home,No
+10836,83,Female,Urgent,Diabetes,21,9,5+,Home,No
+10837,34,Male,Urgent,Pneumonia,17,8,1-2,Transferred,No
+10838,48,Female,Urgent,Diabetes,3,9,None,Expired,No
+10839,52,Female,Elective,Stroke,1,5,3-4,Home,No
+10840,46,Male,Emergency,Heart Failure,29,8,5+,Home,No
+10841,55,Female,Urgent,Heart Failure,19,3,None,Home,No
+10842,48,Male,Elective,Pneumonia,29,8,5+,Expired,No
+10843,57,Male,Urgent,Heart Failure,4,8,5+,Home,No
+10844,76,Male,Emergency,Heart Failure,23,5,5+,Expired,No
+10845,46,Male,Urgent,Heart Failure,28,4,None,Expired,No
+10846,74,Female,Elective,Heart Failure,16,2,1-2,Expired,No
+10847,52,Male,Emergency,Heart Failure,12,4,5+,Transferred,No
+10848,87,Male,Elective,Stroke,21,2,1-2,Transferred,No
+10849,85,Female,Emergency,Diabetes,21,4,1-2,Expired,No
+10850,29,Male,Emergency,Cancer,13,4,3-4,Expired,No
+10851,24,Male,Emergency,Heart Failure,17,1,3-4,Transferred,No
+10852,57,Male,Urgent,Cancer,8,8,1-2,Transferred,No
+10853,32,Male,Elective,Cancer,13,6,3-4,Expired,Yes
+10854,50,Female,Elective,Stroke,20,5,3-4,Transferred,No
+10855,66,Male,Elective,Heart Failure,26,4,1-2,Home,No
+10856,71,Female,Emergency,Cancer,5,3,None,Expired,No
+10857,75,Female,Urgent,Heart Failure,18,7,3-4,Expired,No
+10858,34,Male,Emergency,Pneumonia,15,1,3-4,Transferred,No
+10859,48,Male,Elective,Pneumonia,12,7,None,Home,No
+10860,27,Male,Urgent,Pneumonia,29,0,None,Transferred,No
+10861,24,Male,Urgent,Cancer,17,9,None,Home,Yes
+10862,48,Female,Urgent,Pneumonia,25,0,1-2,Home,No
+10863,66,Female,Elective,Stroke,15,2,None,Expired,No
+10864,87,Female,Urgent,Stroke,2,4,1-2,Home,Yes
+10865,64,Male,Urgent,Cancer,6,5,5+,Expired,No
+10866,21,Female,Emergency,Heart Failure,17,3,5+,Home,Yes
+10867,46,Male,Emergency,Diabetes,16,6,None,Expired,No
+10868,55,Male,Urgent,Heart Failure,17,6,None,Home,Yes
+10869,55,Male,Urgent,Heart Failure,25,1,5+,Transferred,Yes
+10870,45,Male,Emergency,Heart Failure,20,1,1-2,Home,No
+10871,62,Male,Emergency,Heart Failure,9,1,1-2,Transferred,No
+10872,46,Female,Emergency,Diabetes,27,1,None,Home,Yes
+10873,88,Female,Elective,Pneumonia,5,8,None,Home,No
+10874,39,Male,Elective,Heart Failure,23,4,None,Expired,No
+10875,30,Female,Emergency,Stroke,1,7,5+,Home,No
+10876,57,Male,Urgent,Cancer,6,4,3-4,Home,No
+10877,25,Male,Emergency,Cancer,24,4,None,Home,No
+10878,42,Male,Elective,Stroke,14,0,1-2,Transferred,No
+10879,66,Female,Urgent,Heart Failure,17,5,3-4,Expired,No
+10880,65,Male,Elective,Diabetes,25,3,1-2,Expired,No
+10881,31,Male,Urgent,Pneumonia,19,2,3-4,Home,No
+10882,32,Female,Elective,Cancer,1,5,5+,Home,Yes
+10883,81,Female,Urgent,Pneumonia,1,1,3-4,Transferred,No
+10884,79,Female,Urgent,Diabetes,13,7,1-2,Home,Yes
+10885,62,Male,Urgent,Cancer,14,0,3-4,Expired,No
+10886,87,Male,Urgent,Pneumonia,27,8,5+,Expired,No
+10887,24,Female,Elective,Diabetes,6,7,1-2,Transferred,No
+10888,56,Male,Elective,Pneumonia,27,0,None,Transferred,No
+10889,50,Female,Urgent,Heart Failure,6,9,3-4,Expired,No
+10890,28,Female,Urgent,Diabetes,1,8,1-2,Transferred,Yes
+10891,70,Male,Elective,Pneumonia,14,1,3-4,Home,No
+10892,48,Male,Urgent,Heart Failure,3,2,5+,Home,No
+10893,59,Female,Urgent,Heart Failure,23,1,1-2,Transferred,Yes
+10894,60,Female,Urgent,Diabetes,10,7,None,Expired,No
+10895,30,Female,Emergency,Stroke,19,1,None,Transferred,No
+10896,42,Female,Urgent,Cancer,19,9,3-4,Expired,No
+10897,20,Male,Emergency,Diabetes,19,1,5+,Transferred,Yes
+10898,65,Female,Urgent,Heart Failure,28,0,5+,Transferred,No
+10899,40,Female,Elective,Heart Failure,23,6,3-4,Transferred,No
+10900,55,Female,Emergency,Diabetes,4,1,1-2,Home,No
+10901,73,Male,Emergency,Stroke,20,9,1-2,Home,No
+10902,76,Male,Urgent,Cancer,19,4,3-4,Expired,No
+10903,20,Female,Urgent,Pneumonia,10,4,1-2,Transferred,No
+10904,82,Male,Emergency,Diabetes,27,2,1-2,Home,No
+10905,73,Male,Elective,Cancer,25,2,1-2,Transferred,No
+10906,74,Male,Elective,Cancer,2,2,3-4,Expired,No
+10907,59,Female,Urgent,Heart Failure,4,5,None,Home,No
+10908,34,Female,Elective,Pneumonia,24,3,5+,Expired,No
+10909,40,Male,Elective,Diabetes,6,2,None,Home,No
+10910,66,Female,Urgent,Heart Failure,7,1,1-2,Transferred,No
+10911,72,Female,Elective,Heart Failure,16,2,3-4,Expired,No
+10912,28,Male,Urgent,Stroke,29,3,5+,Home,Yes
+10913,71,Male,Emergency,Cancer,7,5,1-2,Home,No
+10914,76,Female,Urgent,Diabetes,18,3,5+,Transferred,No
+10915,45,Male,Emergency,Diabetes,20,7,5+,Expired,No
+10916,60,Female,Emergency,Diabetes,26,2,None,Expired,No
+10917,54,Female,Elective,Heart Failure,26,2,1-2,Expired,No
+10918,82,Male,Elective,Stroke,22,2,5+,Transferred,No
+10919,44,Female,Elective,Pneumonia,19,7,None,Home,No
+10920,57,Female,Urgent,Heart Failure,9,3,3-4,Home,No
+10921,21,Male,Elective,Pneumonia,29,0,5+,Expired,No
+10922,26,Male,Emergency,Stroke,20,1,1-2,Home,No
+10923,53,Male,Elective,Cancer,10,9,3-4,Expired,No
+10924,36,Female,Elective,Diabetes,13,1,5+,Transferred,Yes
+10925,62,Male,Urgent,Pneumonia,18,2,5+,Transferred,Yes
+10926,78,Male,Urgent,Heart Failure,16,5,1-2,Transferred,No
+10927,70,Male,Emergency,Pneumonia,22,7,5+,Expired,No
+10928,73,Male,Urgent,Cancer,17,0,1-2,Home,Yes
+10929,43,Female,Elective,Diabetes,22,8,1-2,Transferred,No
+10930,44,Female,Urgent,Pneumonia,13,0,1-2,Expired,No
+10931,71,Male,Emergency,Cancer,12,9,1-2,Expired,No
+10932,89,Female,Elective,Heart Failure,10,1,5+,Transferred,No
+10933,52,Male,Emergency,Stroke,1,2,3-4,Transferred,No
+10934,68,Male,Urgent,Heart Failure,8,6,3-4,Transferred,Yes
+10935,48,Female,Urgent,Diabetes,21,8,None,Home,Yes
+10936,82,Female,Emergency,Heart Failure,22,2,1-2,Home,No
+10937,41,Male,Elective,Heart Failure,18,7,5+,Expired,No
+10938,45,Male,Urgent,Heart Failure,2,8,5+,Transferred,No
+10939,47,Female,Urgent,Heart Failure,16,9,None,Transferred,No
+10940,68,Male,Elective,Diabetes,12,6,3-4,Home,Yes
+10941,68,Female,Urgent,Cancer,9,3,5+,Transferred,No
+10942,39,Male,Emergency,Pneumonia,3,3,None,Expired,No
+10943,82,Male,Urgent,Stroke,22,3,3-4,Transferred,No
+10944,80,Female,Urgent,Pneumonia,26,5,5+,Home,No
+10945,68,Female,Elective,Pneumonia,21,3,1-2,Expired,Yes
+10946,20,Female,Emergency,Stroke,28,4,None,Expired,Yes
+10947,32,Female,Elective,Diabetes,4,8,5+,Transferred,Yes
+10948,70,Female,Urgent,Stroke,26,6,None,Expired,No
+10949,75,Female,Urgent,Diabetes,2,7,None,Transferred,No
+10950,81,Female,Elective,Pneumonia,8,4,None,Transferred,No
+10951,51,Male,Elective,Diabetes,10,4,1-2,Home,No
+10952,49,Male,Elective,Cancer,16,6,3-4,Expired,No
+10953,48,Male,Emergency,Stroke,23,7,3-4,Transferred,No
+10954,68,Female,Urgent,Cancer,11,8,5+,Transferred,No
+10955,64,Female,Elective,Pneumonia,18,1,1-2,Transferred,No
+10956,49,Female,Urgent,Stroke,22,2,3-4,Expired,No
+10957,35,Male,Emergency,Pneumonia,14,1,5+,Expired,Yes
+10958,59,Female,Emergency,Cancer,8,9,5+,Expired,Yes
+10959,38,Female,Emergency,Pneumonia,23,6,None,Transferred,No
+10960,37,Male,Emergency,Stroke,15,1,1-2,Expired,No
+10961,20,Female,Urgent,Stroke,17,1,3-4,Transferred,No
+10962,66,Male,Emergency,Pneumonia,21,1,1-2,Expired,No
+10963,85,Male,Emergency,Stroke,18,3,1-2,Expired,No
+10964,57,Female,Elective,Stroke,6,0,3-4,Transferred,No
+10965,70,Female,Emergency,Pneumonia,23,1,3-4,Expired,Yes
+10966,82,Female,Elective,Cancer,14,2,1-2,Transferred,No
+10967,23,Male,Emergency,Stroke,23,6,5+,Expired,No
+10968,20,Male,Emergency,Stroke,3,9,1-2,Expired,No
+10969,27,Male,Elective,Stroke,7,0,3-4,Expired,No
+10970,48,Female,Emergency,Stroke,15,5,1-2,Expired,No
+10971,74,Female,Urgent,Pneumonia,21,2,3-4,Home,No
+10972,22,Female,Urgent,Cancer,24,2,5+,Transferred,No
+10973,51,Female,Emergency,Cancer,28,3,1-2,Home,No
+10974,29,Male,Urgent,Diabetes,16,3,5+,Expired,No
+10975,53,Male,Elective,Stroke,16,6,1-2,Expired,No
+10976,74,Male,Emergency,Stroke,8,2,1-2,Transferred,Yes
+10977,51,Male,Emergency,Diabetes,7,7,3-4,Transferred,No
+10978,69,Female,Elective,Cancer,6,7,None,Transferred,Yes
+10979,26,Female,Elective,Heart Failure,2,6,3-4,Transferred,No
+10980,27,Female,Elective,Heart Failure,22,1,1-2,Expired,No
+10981,84,Male,Emergency,Cancer,13,4,None,Transferred,No
+10982,76,Male,Elective,Stroke,12,5,None,Home,Yes
+10983,86,Female,Elective,Heart Failure,15,9,5+,Transferred,No
+10984,78,Female,Urgent,Pneumonia,27,3,1-2,Transferred,No
+10985,73,Male,Urgent,Pneumonia,9,9,3-4,Home,No
+10986,86,Female,Emergency,Diabetes,2,4,None,Home,No
+10987,70,Male,Urgent,Cancer,17,8,None,Home,No
+10988,27,Male,Urgent,Cancer,27,6,3-4,Home,Yes
+10989,53,Male,Elective,Heart Failure,29,1,3-4,Transferred,No
+10990,54,Female,Elective,Stroke,5,0,None,Home,No
+10991,51,Female,Urgent,Cancer,11,1,3-4,Expired,No
+10992,65,Male,Urgent,Heart Failure,22,2,5+,Transferred,No
+10993,35,Female,Urgent,Heart Failure,19,1,None,Expired,No
+10994,87,Male,Emergency,Cancer,24,2,5+,Transferred,No
+10995,56,Male,Emergency,Heart Failure,7,9,1-2,Transferred,Yes
+10996,73,Male,Emergency,Diabetes,2,8,5+,Expired,No
+10997,33,Male,Urgent,Diabetes,16,3,3-4,Home,No
+10998,74,Female,Urgent,Cancer,12,8,None,Home,No
+10999,67,Male,Emergency,Stroke,23,2,5+,Expired,Yes
+11000,26,Male,Emergency,Diabetes,15,0,3-4,Home,Yes
+11001,26,Female,Urgent,Diabetes,1,4,3-4,Transferred,No
+11002,52,Male,Elective,Cancer,25,9,5+,Transferred,No
+11003,42,Male,Emergency,Pneumonia,13,9,None,Transferred,No
+11004,38,Female,Urgent,Heart Failure,23,1,5+,Home,Yes
+11005,38,Female,Urgent,Diabetes,6,3,1-2,Home,No
+11006,55,Female,Elective,Pneumonia,13,1,5+,Expired,No
+11007,48,Male,Urgent,Stroke,18,1,5+,Transferred,No
+11008,79,Female,Urgent,Pneumonia,3,2,None,Expired,No
+11009,21,Female,Emergency,Cancer,1,4,5+,Home,No
+11010,20,Male,Emergency,Stroke,15,3,3-4,Expired,Yes
+11011,66,Male,Elective,Stroke,26,1,None,Home,No
+11012,88,Male,Elective,Pneumonia,13,9,3-4,Transferred,No
+11013,39,Male,Urgent,Cancer,5,1,None,Transferred,Yes
+11014,30,Male,Emergency,Diabetes,25,5,1-2,Home,No
+11015,21,Female,Elective,Pneumonia,13,6,1-2,Home,No
+11016,86,Female,Elective,Diabetes,22,9,1-2,Home,Yes
+11017,31,Female,Elective,Pneumonia,5,5,5+,Transferred,No
+11018,39,Male,Urgent,Diabetes,28,6,1-2,Home,Yes
+11019,24,Male,Emergency,Pneumonia,19,0,None,Transferred,No
+11020,56,Male,Elective,Stroke,21,5,1-2,Expired,No
+11021,57,Female,Emergency,Heart Failure,24,2,None,Transferred,No
+11022,28,Female,Elective,Stroke,28,0,3-4,Expired,No
+11023,72,Male,Elective,Diabetes,18,7,5+,Transferred,Yes
+11024,63,Female,Emergency,Cancer,21,3,3-4,Transferred,Yes
+11025,43,Male,Emergency,Stroke,22,9,3-4,Home,Yes
+11026,49,Female,Emergency,Heart Failure,10,7,1-2,Transferred,No
+11027,78,Female,Urgent,Diabetes,24,9,1-2,Home,No
+11028,33,Female,Elective,Stroke,8,3,1-2,Home,No
+11029,28,Male,Urgent,Pneumonia,15,3,3-4,Home,No
+11030,59,Female,Emergency,Cancer,21,9,5+,Transferred,No
+11031,85,Female,Elective,Diabetes,25,3,5+,Home,No
+11032,44,Male,Urgent,Stroke,20,5,3-4,Expired,No
+11033,41,Female,Elective,Diabetes,28,8,5+,Expired,No
+11034,23,Male,Urgent,Pneumonia,25,4,3-4,Transferred,Yes
+11035,45,Male,Emergency,Heart Failure,27,9,3-4,Home,No
+11036,77,Male,Urgent,Stroke,23,7,5+,Expired,No
+11037,48,Male,Elective,Diabetes,22,7,None,Transferred,No
+11038,56,Male,Elective,Diabetes,4,3,None,Transferred,No
+11039,89,Female,Elective,Diabetes,2,9,1-2,Transferred,No
+11040,37,Male,Elective,Heart Failure,24,8,5+,Transferred,Yes
+11041,61,Male,Emergency,Diabetes,6,8,1-2,Transferred,No
+11042,60,Male,Urgent,Cancer,28,4,3-4,Home,No
+11043,57,Male,Emergency,Cancer,3,5,None,Home,Yes
+11044,53,Female,Emergency,Diabetes,7,4,5+,Home,No
+11045,36,Male,Emergency,Cancer,10,2,5+,Home,No
+11046,56,Female,Elective,Stroke,23,7,5+,Transferred,No
+11047,44,Male,Elective,Cancer,6,8,None,Transferred,No
+11048,46,Female,Elective,Diabetes,16,3,1-2,Expired,No
+11049,76,Male,Urgent,Pneumonia,2,8,None,Expired,No
+11050,50,Male,Elective,Stroke,24,8,1-2,Home,No
+11051,25,Female,Urgent,Heart Failure,17,6,3-4,Transferred,No
+11052,59,Male,Elective,Diabetes,13,7,3-4,Expired,No
+11053,31,Female,Elective,Heart Failure,1,2,1-2,Expired,Yes
+11054,72,Male,Emergency,Pneumonia,6,4,3-4,Expired,Yes
+11055,29,Female,Emergency,Heart Failure,5,2,3-4,Expired,Yes
+11056,64,Male,Emergency,Diabetes,25,6,5+,Home,No
+11057,36,Male,Urgent,Diabetes,13,5,5+,Transferred,No
+11058,45,Female,Urgent,Pneumonia,28,2,None,Home,No
+11059,81,Male,Elective,Diabetes,23,8,None,Expired,No
+11060,65,Male,Urgent,Pneumonia,18,0,None,Expired,Yes
+11061,83,Male,Elective,Pneumonia,29,9,5+,Transferred,Yes
+11062,21,Male,Urgent,Diabetes,12,2,None,Transferred,Yes
+11063,73,Male,Urgent,Cancer,7,9,None,Home,No
+11064,84,Male,Urgent,Pneumonia,15,6,5+,Transferred,Yes
+11065,70,Female,Emergency,Diabetes,3,2,1-2,Home,No
+11066,72,Female,Urgent,Cancer,16,2,5+,Home,No
+11067,55,Female,Emergency,Pneumonia,1,1,1-2,Expired,No
+11068,45,Male,Emergency,Cancer,27,8,5+,Home,No
+11069,48,Female,Urgent,Stroke,16,3,None,Expired,No
+11070,40,Male,Elective,Stroke,24,9,3-4,Home,Yes
+11071,30,Male,Elective,Cancer,12,5,3-4,Home,No
+11072,59,Male,Elective,Pneumonia,19,1,1-2,Transferred,Yes
+11073,30,Male,Urgent,Diabetes,27,8,1-2,Transferred,Yes
+11074,55,Female,Elective,Heart Failure,8,6,1-2,Expired,No
+11075,78,Male,Emergency,Diabetes,23,9,3-4,Transferred,No
+11076,58,Female,Elective,Heart Failure,12,4,1-2,Home,No
+11077,73,Male,Urgent,Heart Failure,15,6,5+,Expired,Yes
+11078,74,Female,Elective,Pneumonia,2,3,5+,Expired,No
+11079,43,Female,Emergency,Cancer,29,9,3-4,Expired,No
+11080,41,Female,Urgent,Diabetes,17,6,5+,Home,No
+11081,88,Female,Elective,Cancer,7,1,1-2,Transferred,No
+11082,75,Female,Urgent,Stroke,13,6,3-4,Expired,No
+11083,52,Female,Urgent,Pneumonia,1,3,1-2,Home,No
+11084,55,Male,Urgent,Pneumonia,6,3,5+,Transferred,No
+11085,39,Female,Elective,Stroke,13,0,1-2,Transferred,Yes
+11086,81,Male,Urgent,Diabetes,11,2,3-4,Expired,No
+11087,45,Female,Elective,Stroke,10,4,1-2,Home,No
+11088,85,Male,Emergency,Diabetes,16,4,5+,Transferred,No
+11089,59,Female,Elective,Heart Failure,27,1,None,Home,No
+11090,36,Female,Emergency,Pneumonia,26,3,3-4,Transferred,Yes
+11091,20,Male,Elective,Diabetes,24,0,1-2,Expired,No
+11092,80,Female,Urgent,Cancer,23,8,3-4,Expired,Yes
+11093,62,Female,Elective,Cancer,20,0,1-2,Transferred,No
+11094,61,Female,Urgent,Pneumonia,17,5,None,Home,No
+11095,44,Male,Emergency,Stroke,17,6,5+,Transferred,Yes
+11096,58,Female,Elective,Stroke,4,2,1-2,Home,No
+11097,54,Male,Urgent,Diabetes,5,0,1-2,Transferred,No
+11098,22,Female,Emergency,Stroke,28,6,None,Expired,Yes
+11099,63,Female,Emergency,Pneumonia,23,2,3-4,Home,No
+11100,70,Male,Elective,Diabetes,14,9,5+,Expired,No
+11101,31,Female,Emergency,Heart Failure,20,5,1-2,Home,Yes
+11102,38,Female,Urgent,Stroke,10,5,1-2,Transferred,Yes
+11103,63,Male,Emergency,Stroke,14,3,5+,Expired,No
+11104,78,Female,Emergency,Diabetes,28,5,None,Expired,No
+11105,68,Male,Urgent,Cancer,1,9,3-4,Home,No
+11106,80,Male,Emergency,Stroke,11,3,5+,Home,No
+11107,36,Male,Emergency,Pneumonia,26,7,3-4,Home,No
+11108,76,Female,Emergency,Stroke,23,8,None,Expired,No
+11109,74,Male,Emergency,Heart Failure,18,1,None,Transferred,No
+11110,66,Male,Urgent,Stroke,16,6,5+,Home,Yes
+11111,31,Female,Emergency,Cancer,29,8,1-2,Transferred,No
+11112,81,Male,Urgent,Stroke,27,8,None,Home,Yes
+11113,27,Female,Emergency,Diabetes,18,4,None,Transferred,Yes
+11114,40,Female,Emergency,Stroke,8,0,5+,Home,No
+11115,89,Female,Emergency,Cancer,28,5,5+,Transferred,Yes
+11116,44,Female,Emergency,Diabetes,10,7,5+,Expired,No
+11117,31,Male,Urgent,Pneumonia,26,0,None,Home,No
+11118,34,Male,Urgent,Diabetes,10,1,3-4,Home,Yes
+11119,78,Male,Urgent,Heart Failure,5,0,None,Expired,Yes
+11120,45,Male,Elective,Diabetes,10,4,5+,Home,No
+11121,45,Male,Emergency,Pneumonia,18,1,1-2,Home,No
+11122,66,Female,Emergency,Stroke,21,9,1-2,Expired,No
+11123,51,Male,Urgent,Diabetes,24,9,5+,Expired,No
+11124,29,Male,Elective,Diabetes,6,3,1-2,Transferred,No
+11125,35,Male,Emergency,Diabetes,3,0,None,Expired,No
+11126,36,Female,Urgent,Diabetes,8,6,3-4,Expired,No
+11127,42,Female,Emergency,Pneumonia,9,7,None,Home,No
+11128,45,Male,Emergency,Cancer,5,4,5+,Expired,No
+11129,26,Female,Urgent,Cancer,29,1,None,Home,No
+11130,33,Male,Urgent,Diabetes,2,7,1-2,Expired,No
+11131,26,Male,Emergency,Pneumonia,2,0,None,Expired,No
+11132,28,Female,Emergency,Pneumonia,7,6,3-4,Transferred,No
+11133,67,Female,Urgent,Diabetes,17,0,1-2,Expired,No
+11134,78,Male,Emergency,Heart Failure,10,5,3-4,Expired,Yes
+11135,58,Male,Emergency,Diabetes,12,5,3-4,Home,No
+11136,37,Female,Urgent,Heart Failure,2,4,3-4,Home,No
+11137,78,Male,Emergency,Diabetes,10,1,None,Transferred,Yes
+11138,36,Female,Emergency,Heart Failure,20,1,None,Expired,No
+11139,33,Male,Elective,Heart Failure,1,8,None,Home,No
+11140,50,Female,Urgent,Diabetes,4,4,None,Expired,Yes
+11141,43,Male,Elective,Heart Failure,13,4,1-2,Transferred,No
+11142,79,Male,Elective,Stroke,12,6,None,Home,No
+11143,64,Female,Elective,Cancer,11,5,1-2,Home,No
+11144,22,Male,Emergency,Pneumonia,29,1,3-4,Transferred,Yes
+11145,56,Male,Emergency,Heart Failure,10,0,1-2,Expired,Yes
+11146,62,Female,Elective,Heart Failure,15,4,5+,Home,No
+11147,59,Male,Elective,Pneumonia,5,3,None,Home,No
+11148,74,Male,Elective,Heart Failure,25,2,5+,Transferred,Yes
+11149,58,Male,Emergency,Pneumonia,17,1,1-2,Transferred,No
+11150,34,Female,Elective,Diabetes,28,9,None,Transferred,No
+11151,23,Female,Elective,Stroke,5,1,5+,Expired,Yes
+11152,44,Female,Urgent,Stroke,2,3,None,Expired,No
+11153,32,Male,Urgent,Cancer,9,1,1-2,Expired,No
+11154,52,Male,Emergency,Heart Failure,6,3,5+,Transferred,No
+11155,35,Male,Urgent,Cancer,18,2,1-2,Home,Yes
+11156,61,Male,Urgent,Diabetes,14,8,5+,Expired,No
+11157,85,Female,Urgent,Stroke,19,6,3-4,Transferred,No
+11158,74,Male,Emergency,Diabetes,14,2,3-4,Expired,No
+11159,61,Male,Urgent,Diabetes,8,7,3-4,Home,No
+11160,53,Male,Emergency,Heart Failure,17,8,3-4,Home,No
+11161,49,Female,Elective,Diabetes,28,6,3-4,Transferred,No
+11162,32,Male,Urgent,Stroke,3,5,1-2,Home,No
+11163,32,Male,Emergency,Cancer,29,3,3-4,Transferred,Yes
+11164,37,Male,Urgent,Stroke,10,4,1-2,Transferred,No
+11165,51,Male,Elective,Heart Failure,17,7,3-4,Transferred,Yes
+11166,58,Male,Emergency,Stroke,27,2,None,Transferred,Yes
+11167,65,Female,Emergency,Pneumonia,11,1,3-4,Home,No
+11168,48,Male,Emergency,Cancer,8,2,None,Home,No
+11169,81,Male,Elective,Pneumonia,1,6,1-2,Home,Yes
+11170,81,Male,Elective,Pneumonia,13,7,3-4,Home,No
+11171,76,Male,Elective,Heart Failure,21,0,5+,Transferred,No
+11172,35,Male,Emergency,Diabetes,4,6,1-2,Transferred,No
+11173,75,Male,Elective,Pneumonia,7,8,3-4,Home,No
+11174,29,Male,Urgent,Stroke,14,2,1-2,Expired,No
+11175,49,Male,Elective,Diabetes,5,2,5+,Expired,Yes
+11176,44,Male,Emergency,Stroke,24,7,3-4,Expired,No
+11177,24,Male,Urgent,Stroke,28,3,5+,Home,Yes
+11178,84,Female,Elective,Diabetes,11,7,3-4,Transferred,No
+11179,68,Female,Urgent,Diabetes,17,4,None,Transferred,Yes
+11180,22,Female,Urgent,Stroke,5,2,1-2,Expired,No
+11181,64,Female,Emergency,Heart Failure,20,3,5+,Expired,No
+11182,33,Male,Urgent,Cancer,3,3,1-2,Transferred,No
+11183,49,Female,Urgent,Cancer,5,7,5+,Expired,No
+11184,87,Female,Emergency,Heart Failure,26,5,1-2,Expired,No
+11185,37,Male,Emergency,Diabetes,15,6,1-2,Transferred,No
+11186,81,Female,Emergency,Stroke,19,8,1-2,Expired,No
+11187,56,Female,Urgent,Cancer,16,5,None,Expired,Yes
+11188,44,Male,Urgent,Stroke,8,2,3-4,Home,Yes
+11189,67,Male,Urgent,Heart Failure,13,2,None,Expired,Yes
+11190,84,Male,Emergency,Stroke,16,2,1-2,Home,Yes
+11191,72,Female,Elective,Heart Failure,3,9,5+,Transferred,No
+11192,34,Female,Urgent,Diabetes,1,1,1-2,Home,No
+11193,68,Male,Elective,Heart Failure,9,0,3-4,Transferred,No
+11194,87,Male,Emergency,Heart Failure,9,9,None,Home,No
+11195,31,Female,Urgent,Cancer,22,0,3-4,Home,Yes
+11196,78,Male,Elective,Stroke,26,3,5+,Home,No
+11197,56,Female,Urgent,Cancer,17,2,3-4,Expired,No
+11198,80,Male,Urgent,Pneumonia,24,4,None,Expired,No
+11199,62,Male,Urgent,Heart Failure,2,8,5+,Expired,No
+11200,89,Female,Elective,Pneumonia,9,7,3-4,Expired,No
+11201,58,Male,Emergency,Cancer,24,8,None,Expired,No
+11202,75,Male,Urgent,Stroke,19,4,None,Home,No
+11203,82,Male,Emergency,Cancer,13,7,1-2,Expired,No
+11204,65,Female,Emergency,Stroke,5,3,3-4,Transferred,No
+11205,30,Male,Elective,Stroke,9,4,5+,Home,Yes
+11206,81,Male,Elective,Diabetes,13,2,1-2,Home,No
+11207,44,Male,Emergency,Heart Failure,1,4,3-4,Transferred,No
+11208,71,Male,Urgent,Cancer,25,2,3-4,Expired,No
+11209,23,Male,Elective,Stroke,15,4,5+,Transferred,Yes
+11210,78,Male,Urgent,Cancer,4,4,1-2,Home,No
+11211,39,Female,Urgent,Cancer,4,5,1-2,Home,No
+11212,82,Female,Urgent,Stroke,20,8,5+,Home,No
+11213,73,Male,Emergency,Pneumonia,10,0,1-2,Transferred,No
+11214,76,Female,Urgent,Heart Failure,28,9,None,Expired,No
+11215,60,Female,Emergency,Heart Failure,25,5,5+,Home,No
+11216,22,Male,Emergency,Diabetes,6,0,3-4,Expired,No
+11217,25,Female,Urgent,Diabetes,27,5,5+,Home,No
+11218,24,Female,Urgent,Diabetes,24,1,None,Expired,No
+11219,24,Female,Urgent,Heart Failure,12,7,5+,Transferred,No
+11220,73,Female,Urgent,Pneumonia,20,2,3-4,Home,Yes
+11221,66,Female,Emergency,Heart Failure,16,9,3-4,Home,No
+11222,68,Female,Urgent,Heart Failure,3,5,5+,Home,No
+11223,28,Female,Urgent,Heart Failure,14,5,5+,Transferred,Yes
+11224,39,Female,Emergency,Heart Failure,1,3,None,Transferred,No
+11225,80,Male,Elective,Pneumonia,10,4,None,Expired,No
+11226,54,Male,Elective,Diabetes,15,1,3-4,Transferred,No
+11227,69,Female,Emergency,Cancer,7,9,1-2,Home,No
+11228,81,Female,Elective,Diabetes,4,9,1-2,Expired,Yes
+11229,36,Male,Emergency,Diabetes,14,7,1-2,Transferred,No
+11230,22,Female,Urgent,Cancer,24,9,1-2,Expired,Yes
+11231,51,Female,Urgent,Heart Failure,16,6,3-4,Expired,No
+11232,32,Male,Elective,Pneumonia,14,9,1-2,Expired,No
+11233,87,Male,Urgent,Pneumonia,3,5,1-2,Home,No
+11234,33,Male,Elective,Diabetes,17,6,5+,Home,No
+11235,30,Female,Elective,Cancer,21,0,1-2,Transferred,Yes
+11236,75,Female,Urgent,Stroke,14,4,5+,Home,No
+11237,86,Male,Urgent,Heart Failure,18,6,3-4,Expired,No
+11238,48,Male,Elective,Diabetes,3,0,5+,Expired,No
+11239,28,Female,Urgent,Pneumonia,22,1,None,Home,No
+11240,86,Male,Emergency,Cancer,19,8,5+,Expired,No
+11241,44,Female,Urgent,Cancer,3,2,1-2,Home,No
+11242,61,Female,Urgent,Diabetes,12,5,5+,Expired,No
+11243,28,Male,Emergency,Stroke,22,6,5+,Transferred,No
+11244,59,Male,Urgent,Pneumonia,5,8,3-4,Transferred,No
+11245,44,Female,Urgent,Diabetes,10,4,3-4,Home,No
+11246,24,Male,Elective,Stroke,9,3,1-2,Home,No
+11247,30,Male,Urgent,Cancer,1,1,None,Home,No
+11248,78,Male,Urgent,Heart Failure,13,2,None,Home,No
+11249,57,Male,Emergency,Pneumonia,3,4,5+,Home,No
+11250,24,Female,Elective,Pneumonia,19,1,None,Expired,Yes
+11251,67,Female,Elective,Stroke,11,3,3-4,Transferred,No
+11252,37,Female,Elective,Diabetes,16,0,1-2,Expired,Yes
+11253,89,Female,Urgent,Cancer,6,3,1-2,Transferred,No
+11254,56,Male,Elective,Stroke,24,6,3-4,Expired,No
+11255,79,Male,Emergency,Heart Failure,3,2,1-2,Expired,No
+11256,67,Female,Elective,Heart Failure,19,9,5+,Expired,No
+11257,47,Female,Emergency,Heart Failure,6,7,1-2,Home,No
+11258,88,Male,Elective,Stroke,8,5,None,Transferred,No
+11259,59,Female,Elective,Cancer,22,5,1-2,Home,Yes
+11260,64,Female,Emergency,Pneumonia,13,0,1-2,Home,No
+11261,81,Male,Elective,Diabetes,12,4,3-4,Expired,No
+11262,77,Female,Elective,Pneumonia,10,2,3-4,Transferred,No
+11263,86,Male,Elective,Cancer,3,9,None,Transferred,No
+11264,75,Male,Urgent,Pneumonia,4,0,3-4,Transferred,No
+11265,59,Female,Emergency,Stroke,1,7,None,Transferred,No
+11266,59,Male,Elective,Heart Failure,13,6,5+,Home,No
+11267,52,Female,Emergency,Cancer,24,6,None,Home,No
+11268,25,Male,Emergency,Cancer,4,9,1-2,Transferred,No
+11269,38,Female,Emergency,Pneumonia,22,9,None,Home,No
+11270,59,Female,Elective,Stroke,11,9,5+,Transferred,No
+11271,78,Female,Elective,Pneumonia,19,3,1-2,Home,Yes
+11272,78,Male,Emergency,Pneumonia,11,5,None,Expired,No
+11273,67,Male,Urgent,Cancer,12,8,3-4,Expired,Yes
+11274,60,Female,Emergency,Pneumonia,11,2,3-4,Transferred,Yes
+11275,32,Male,Urgent,Heart Failure,6,8,3-4,Transferred,No
+11276,64,Female,Emergency,Pneumonia,12,3,None,Home,Yes
+11277,72,Female,Emergency,Heart Failure,27,4,None,Transferred,No
+11278,61,Male,Emergency,Cancer,9,6,5+,Transferred,No
+11279,82,Female,Elective,Stroke,25,5,1-2,Home,No
+11280,46,Male,Urgent,Heart Failure,10,9,1-2,Transferred,No
+11281,57,Female,Urgent,Stroke,3,7,1-2,Transferred,No
+11282,79,Male,Emergency,Stroke,3,7,1-2,Expired,No
+11283,26,Female,Elective,Heart Failure,20,7,None,Expired,No
+11284,24,Female,Elective,Cancer,28,2,None,Expired,Yes
+11285,64,Male,Urgent,Diabetes,23,9,5+,Transferred,No
+11286,77,Female,Elective,Stroke,16,5,1-2,Home,No
+11287,50,Female,Urgent,Stroke,3,6,None,Expired,No
+11288,42,Male,Urgent,Cancer,10,8,None,Transferred,No
+11289,61,Female,Urgent,Cancer,24,9,None,Expired,No
+11290,29,Male,Elective,Pneumonia,11,9,None,Home,Yes
+11291,51,Female,Urgent,Cancer,8,3,1-2,Home,No
+11292,72,Male,Urgent,Stroke,6,4,1-2,Home,Yes
+11293,49,Female,Emergency,Heart Failure,20,7,None,Home,No
+11294,58,Female,Urgent,Diabetes,11,0,3-4,Home,No
+11295,50,Female,Urgent,Pneumonia,28,5,5+,Home,No
+11296,21,Male,Emergency,Heart Failure,27,3,1-2,Transferred,No
+11297,31,Male,Emergency,Diabetes,21,4,1-2,Expired,No
+11298,58,Male,Elective,Diabetes,12,4,3-4,Home,No
+11299,85,Male,Urgent,Diabetes,16,1,1-2,Expired,No
+11300,32,Female,Elective,Heart Failure,18,7,3-4,Expired,No
+11301,65,Female,Elective,Pneumonia,13,1,3-4,Transferred,No
+11302,46,Male,Emergency,Pneumonia,22,3,None,Home,No
+11303,36,Male,Elective,Diabetes,3,4,1-2,Home,No
+11304,79,Male,Urgent,Heart Failure,15,0,5+,Transferred,Yes
+11305,83,Female,Emergency,Diabetes,22,5,3-4,Transferred,No
+11306,54,Male,Urgent,Cancer,28,1,5+,Transferred,No
+11307,89,Male,Urgent,Pneumonia,21,4,None,Transferred,No
+11308,49,Female,Emergency,Stroke,14,5,1-2,Transferred,No
+11309,82,Female,Urgent,Diabetes,18,7,None,Expired,No
+11310,47,Male,Emergency,Cancer,28,8,None,Transferred,No
+11311,79,Female,Urgent,Pneumonia,29,5,5+,Home,No
+11312,56,Male,Emergency,Heart Failure,14,4,5+,Home,No
+11313,41,Female,Elective,Pneumonia,5,3,3-4,Transferred,Yes
+11314,87,Male,Urgent,Heart Failure,21,1,1-2,Transferred,No
+11315,39,Male,Emergency,Heart Failure,14,1,None,Transferred,No
+11316,87,Male,Urgent,Diabetes,25,6,3-4,Transferred,No
+11317,83,Male,Urgent,Diabetes,27,4,3-4,Transferred,Yes
+11318,36,Female,Urgent,Pneumonia,8,6,None,Home,Yes
+11319,31,Female,Emergency,Cancer,28,0,None,Expired,Yes
+11320,41,Female,Elective,Pneumonia,28,0,3-4,Transferred,Yes
+11321,36,Female,Elective,Stroke,23,4,None,Transferred,Yes
+11322,29,Male,Elective,Heart Failure,15,1,None,Transferred,No
+11323,84,Male,Emergency,Heart Failure,28,7,5+,Home,No
+11324,41,Female,Elective,Diabetes,29,2,1-2,Home,No
+11325,69,Female,Emergency,Cancer,15,0,3-4,Expired,No
+11326,33,Female,Urgent,Diabetes,19,1,None,Expired,Yes
+11327,83,Female,Urgent,Stroke,26,9,3-4,Expired,No
+11328,66,Female,Elective,Pneumonia,20,9,1-2,Expired,No
+11329,48,Male,Emergency,Pneumonia,6,6,3-4,Home,No
+11330,55,Male,Urgent,Cancer,19,5,3-4,Expired,Yes
+11331,71,Male,Emergency,Diabetes,27,7,3-4,Transferred,Yes
+11332,26,Female,Emergency,Diabetes,25,6,5+,Home,No
+11333,48,Female,Urgent,Stroke,8,9,1-2,Home,Yes
+11334,30,Female,Emergency,Pneumonia,6,7,1-2,Home,No
+11335,52,Female,Urgent,Diabetes,20,2,3-4,Transferred,Yes
+11336,25,Male,Urgent,Cancer,23,5,3-4,Home,No
+11337,51,Male,Urgent,Pneumonia,29,6,1-2,Transferred,Yes
+11338,70,Female,Emergency,Stroke,15,9,None,Expired,No
+11339,77,Male,Urgent,Cancer,27,0,5+,Home,No
+11340,45,Male,Emergency,Heart Failure,3,0,1-2,Transferred,No
+11341,65,Female,Urgent,Stroke,10,6,3-4,Home,Yes
+11342,48,Female,Urgent,Cancer,15,2,None,Expired,No
+11343,23,Female,Elective,Diabetes,24,2,None,Home,No
+11344,32,Female,Elective,Heart Failure,16,4,None,Expired,No
+11345,58,Female,Elective,Stroke,17,5,5+,Home,Yes
+11346,34,Female,Emergency,Diabetes,19,1,5+,Transferred,No
+11347,48,Male,Emergency,Heart Failure,11,2,1-2,Expired,Yes
+11348,48,Male,Urgent,Pneumonia,16,5,1-2,Home,No
+11349,51,Female,Urgent,Diabetes,5,2,1-2,Expired,Yes
+11350,21,Male,Urgent,Cancer,5,4,1-2,Expired,No
+11351,66,Female,Urgent,Stroke,26,8,3-4,Transferred,Yes
+11352,41,Female,Emergency,Heart Failure,14,2,5+,Transferred,No
+11353,46,Female,Urgent,Diabetes,18,5,None,Transferred,No
+11354,86,Female,Urgent,Pneumonia,26,4,3-4,Transferred,No
+11355,75,Male,Elective,Stroke,8,4,1-2,Expired,No
+11356,40,Female,Urgent,Stroke,5,5,1-2,Expired,No
+11357,66,Male,Urgent,Diabetes,7,5,3-4,Home,No
+11358,78,Female,Urgent,Pneumonia,16,0,None,Home,No
+11359,25,Female,Emergency,Heart Failure,23,8,5+,Home,Yes
+11360,38,Female,Elective,Diabetes,14,4,5+,Transferred,Yes
+11361,76,Male,Urgent,Heart Failure,5,0,None,Expired,No
+11362,88,Female,Urgent,Stroke,24,7,5+,Expired,No
+11363,22,Female,Elective,Heart Failure,9,6,1-2,Home,No
+11364,20,Female,Urgent,Pneumonia,4,6,1-2,Home,No
+11365,77,Male,Emergency,Cancer,4,4,1-2,Expired,No
+11366,57,Male,Urgent,Pneumonia,16,0,1-2,Transferred,No
+11367,34,Male,Emergency,Heart Failure,24,8,None,Home,No
+11368,53,Female,Emergency,Diabetes,17,8,5+,Home,Yes
+11369,80,Male,Urgent,Stroke,15,7,5+,Expired,No
+11370,54,Female,Elective,Cancer,4,4,3-4,Expired,No
+11371,83,Male,Emergency,Diabetes,6,2,None,Home,No
+11372,44,Male,Elective,Diabetes,16,7,5+,Home,No
+11373,43,Female,Urgent,Pneumonia,29,0,5+,Transferred,No
+11374,31,Male,Emergency,Heart Failure,4,2,3-4,Transferred,Yes
+11375,37,Female,Urgent,Pneumonia,6,6,1-2,Transferred,Yes
+11376,34,Female,Elective,Heart Failure,5,3,5+,Transferred,No
+11377,46,Male,Urgent,Pneumonia,16,6,1-2,Home,No
+11378,79,Female,Urgent,Diabetes,25,4,3-4,Home,No
+11379,65,Female,Emergency,Stroke,16,5,5+,Home,No
+11380,36,Male,Urgent,Heart Failure,10,6,1-2,Transferred,Yes
+11381,72,Male,Urgent,Cancer,9,9,None,Home,No
+11382,27,Female,Urgent,Cancer,4,6,1-2,Expired,Yes
+11383,46,Male,Emergency,Diabetes,29,6,1-2,Transferred,No
+11384,65,Female,Elective,Pneumonia,14,6,1-2,Expired,No
+11385,69,Female,Elective,Pneumonia,4,6,1-2,Transferred,No
+11386,22,Male,Urgent,Diabetes,12,2,None,Home,No
+11387,83,Male,Emergency,Cancer,24,2,3-4,Transferred,No
+11388,63,Male,Urgent,Cancer,10,6,1-2,Expired,No
+11389,72,Male,Elective,Pneumonia,4,1,1-2,Transferred,No
+11390,43,Female,Emergency,Heart Failure,18,1,5+,Expired,No
+11391,79,Female,Elective,Stroke,13,2,5+,Home,No
+11392,22,Male,Elective,Heart Failure,13,3,None,Expired,No
+11393,39,Male,Emergency,Cancer,14,5,None,Home,No
+11394,65,Female,Emergency,Heart Failure,18,7,None,Expired,No
+11395,34,Female,Urgent,Stroke,1,9,5+,Home,No
+11396,44,Female,Urgent,Heart Failure,21,9,1-2,Expired,No
+11397,36,Female,Elective,Heart Failure,16,6,5+,Home,No
+11398,28,Male,Emergency,Heart Failure,15,3,3-4,Home,No
+11399,57,Female,Emergency,Heart Failure,22,1,None,Home,No
+11400,67,Female,Urgent,Diabetes,25,1,None,Expired,No
+11401,79,Male,Elective,Cancer,5,3,None,Expired,No
+11402,82,Female,Elective,Stroke,29,5,3-4,Home,No
+11403,21,Female,Urgent,Cancer,6,2,1-2,Transferred,Yes
+11404,30,Male,Emergency,Diabetes,6,5,1-2,Home,Yes
+11405,83,Male,Urgent,Diabetes,3,4,1-2,Transferred,No
+11406,40,Male,Urgent,Diabetes,16,4,None,Home,No
+11407,37,Female,Urgent,Diabetes,12,1,1-2,Expired,No
+11408,83,Female,Urgent,Heart Failure,4,7,5+,Transferred,No
+11409,57,Male,Emergency,Cancer,1,4,None,Expired,No
+11410,51,Male,Urgent,Pneumonia,4,1,3-4,Transferred,Yes
+11411,30,Female,Emergency,Stroke,1,6,3-4,Transferred,No
+11412,64,Male,Urgent,Diabetes,21,8,1-2,Transferred,No
+11413,52,Male,Elective,Cancer,27,8,None,Transferred,No
+11414,60,Male,Emergency,Diabetes,27,0,5+,Expired,No
+11415,27,Female,Elective,Diabetes,8,6,5+,Transferred,No
+11416,30,Female,Urgent,Diabetes,24,8,None,Home,Yes
+11417,70,Female,Urgent,Diabetes,5,5,1-2,Home,Yes
+11418,60,Female,Urgent,Diabetes,26,0,3-4,Transferred,No
+11419,36,Female,Emergency,Stroke,2,1,3-4,Expired,No
+11420,65,Female,Elective,Cancer,12,3,5+,Expired,No
+11421,51,Male,Emergency,Diabetes,22,3,5+,Transferred,No
+11422,73,Female,Emergency,Diabetes,17,1,5+,Expired,No
+11423,39,Female,Urgent,Diabetes,7,7,3-4,Expired,No
+11424,52,Male,Elective,Diabetes,11,1,5+,Expired,Yes
+11425,59,Female,Urgent,Heart Failure,4,2,3-4,Transferred,No
+11426,51,Female,Emergency,Heart Failure,5,3,3-4,Home,No
+11427,21,Male,Urgent,Pneumonia,6,8,1-2,Home,No
+11428,52,Male,Elective,Diabetes,11,9,1-2,Home,Yes
+11429,49,Male,Urgent,Pneumonia,1,0,1-2,Home,No
+11430,52,Female,Elective,Stroke,25,7,5+,Home,No
+11431,45,Male,Elective,Pneumonia,10,4,3-4,Expired,No
+11432,41,Female,Urgent,Cancer,20,6,5+,Expired,No
+11433,85,Female,Emergency,Heart Failure,24,7,3-4,Expired,No
+11434,57,Female,Urgent,Heart Failure,21,4,1-2,Transferred,No
+11435,65,Female,Emergency,Diabetes,11,7,1-2,Expired,No
+11436,34,Male,Emergency,Diabetes,24,9,5+,Home,No
+11437,63,Male,Urgent,Stroke,17,7,3-4,Expired,No
+11438,68,Female,Emergency,Stroke,8,8,5+,Home,No
+11439,80,Male,Emergency,Cancer,27,1,None,Expired,No
+11440,86,Female,Urgent,Diabetes,13,2,5+,Home,No
+11441,25,Female,Urgent,Diabetes,27,0,1-2,Expired,No
+11442,28,Female,Urgent,Stroke,20,3,3-4,Home,Yes
+11443,25,Male,Emergency,Stroke,18,4,3-4,Home,No
+11444,51,Female,Elective,Stroke,27,0,5+,Transferred,Yes
+11445,60,Female,Emergency,Heart Failure,22,7,1-2,Expired,Yes
+11446,27,Male,Elective,Pneumonia,16,1,None,Home,Yes
+11447,69,Male,Urgent,Pneumonia,2,0,5+,Expired,Yes
+11448,81,Male,Elective,Diabetes,5,1,3-4,Home,No
+11449,81,Male,Urgent,Heart Failure,18,4,1-2,Transferred,No
+11450,26,Female,Urgent,Stroke,3,8,3-4,Transferred,No
+11451,23,Male,Elective,Diabetes,27,8,3-4,Transferred,No
+11452,25,Female,Urgent,Heart Failure,22,1,3-4,Transferred,No
+11453,77,Male,Elective,Cancer,17,1,3-4,Home,No
+11454,41,Male,Urgent,Heart Failure,16,2,None,Expired,No
+11455,45,Male,Emergency,Diabetes,6,6,1-2,Transferred,No
+11456,22,Male,Emergency,Pneumonia,19,2,5+,Transferred,No
+11457,60,Male,Urgent,Stroke,7,0,1-2,Transferred,Yes
+11458,79,Male,Urgent,Cancer,18,5,1-2,Expired,No
+11459,33,Female,Elective,Heart Failure,14,2,1-2,Home,No
+11460,31,Male,Emergency,Diabetes,6,0,5+,Home,No
+11461,31,Male,Elective,Diabetes,8,3,1-2,Home,No
+11462,32,Male,Urgent,Stroke,15,0,5+,Home,Yes
+11463,44,Male,Urgent,Diabetes,15,0,5+,Expired,Yes
+11464,64,Female,Elective,Diabetes,15,1,None,Expired,No
+11465,38,Male,Urgent,Stroke,16,9,3-4,Expired,No
+11466,74,Male,Emergency,Cancer,1,7,5+,Transferred,No
+11467,64,Male,Elective,Pneumonia,11,1,3-4,Expired,No
+11468,27,Male,Emergency,Pneumonia,27,1,1-2,Home,No
+11469,72,Female,Emergency,Heart Failure,29,9,3-4,Expired,No
+11470,74,Male,Emergency,Cancer,25,9,3-4,Transferred,No
+11471,51,Female,Elective,Heart Failure,5,7,3-4,Home,Yes
+11472,70,Male,Urgent,Pneumonia,5,5,1-2,Expired,Yes
+11473,63,Female,Emergency,Stroke,29,3,1-2,Home,No
+11474,89,Female,Emergency,Diabetes,28,2,5+,Home,No
+11475,37,Male,Emergency,Pneumonia,21,0,5+,Expired,Yes
+11476,41,Male,Urgent,Cancer,6,2,None,Expired,No
+11477,56,Female,Urgent,Pneumonia,2,8,1-2,Transferred,No
+11478,75,Female,Elective,Cancer,6,4,None,Expired,No
+11479,78,Male,Urgent,Cancer,14,5,1-2,Expired,Yes
+11480,22,Female,Elective,Cancer,11,4,3-4,Expired,No
+11481,47,Female,Elective,Heart Failure,4,0,None,Home,No
+11482,54,Female,Elective,Stroke,24,9,None,Transferred,No
+11483,80,Male,Elective,Pneumonia,29,0,None,Home,No
+11484,73,Female,Elective,Stroke,27,3,1-2,Expired,No
+11485,82,Female,Emergency,Diabetes,25,2,5+,Transferred,No
+11486,26,Female,Urgent,Pneumonia,9,7,None,Expired,No
+11487,68,Male,Emergency,Stroke,24,6,5+,Home,No
+11488,50,Male,Elective,Stroke,3,6,1-2,Home,No
+11489,77,Female,Urgent,Diabetes,26,7,None,Expired,No
+11490,80,Male,Emergency,Cancer,16,9,1-2,Transferred,No
+11491,43,Female,Emergency,Pneumonia,11,6,5+,Home,No
+11492,39,Male,Elective,Pneumonia,27,9,5+,Expired,No
+11493,56,Male,Emergency,Diabetes,4,1,None,Expired,No
+11494,23,Female,Emergency,Cancer,1,3,5+,Expired,No
+11495,39,Male,Emergency,Pneumonia,25,5,3-4,Transferred,Yes
+11496,79,Male,Emergency,Pneumonia,21,2,3-4,Expired,No
+11497,43,Male,Emergency,Pneumonia,22,2,None,Expired,Yes
+11498,69,Female,Elective,Cancer,16,5,1-2,Home,No
+11499,68,Male,Elective,Diabetes,19,0,1-2,Expired,No
+11500,70,Male,Emergency,Pneumonia,16,0,1-2,Transferred,Yes
+11501,55,Female,Elective,Stroke,11,4,3-4,Expired,No
+11502,85,Male,Elective,Cancer,26,0,5+,Transferred,No
+11503,53,Male,Urgent,Heart Failure,8,9,3-4,Expired,No
+11504,55,Male,Emergency,Diabetes,23,7,5+,Expired,No
+11505,25,Male,Elective,Stroke,1,1,3-4,Expired,No
+11506,58,Male,Elective,Pneumonia,26,5,1-2,Transferred,No
+11507,61,Female,Emergency,Heart Failure,28,9,1-2,Home,No
+11508,77,Female,Urgent,Diabetes,21,9,1-2,Transferred,Yes
+11509,31,Male,Emergency,Cancer,26,4,None,Home,No
+11510,22,Male,Urgent,Heart Failure,9,9,None,Transferred,Yes
+11511,37,Male,Emergency,Heart Failure,28,3,5+,Expired,No
+11512,59,Female,Emergency,Stroke,27,0,None,Expired,No
+11513,40,Female,Emergency,Diabetes,12,2,3-4,Home,No
+11514,34,Male,Emergency,Stroke,22,3,3-4,Home,No
+11515,45,Male,Urgent,Stroke,8,1,5+,Transferred,No
+11516,27,Female,Urgent,Pneumonia,26,1,5+,Transferred,No
+11517,61,Male,Elective,Cancer,17,1,1-2,Home,No
+11518,63,Female,Emergency,Heart Failure,10,0,None,Home,Yes
+11519,33,Female,Urgent,Diabetes,27,9,1-2,Transferred,No
+11520,21,Male,Urgent,Cancer,7,1,None,Home,Yes
+11521,56,Female,Urgent,Cancer,19,5,None,Home,No
+11522,88,Male,Emergency,Diabetes,25,2,5+,Home,No
+11523,57,Male,Elective,Cancer,6,9,1-2,Home,No
+11524,60,Male,Urgent,Pneumonia,21,4,1-2,Expired,No
+11525,81,Male,Emergency,Cancer,24,0,None,Expired,Yes
+11526,79,Male,Urgent,Pneumonia,24,7,None,Home,No
+11527,33,Male,Urgent,Heart Failure,28,3,5+,Transferred,Yes
+11528,21,Female,Elective,Heart Failure,28,8,3-4,Expired,Yes
+11529,89,Female,Urgent,Stroke,19,3,1-2,Transferred,No
+11530,36,Female,Urgent,Pneumonia,18,1,1-2,Transferred,Yes
+11531,47,Female,Emergency,Heart Failure,15,2,5+,Expired,No
+11532,85,Male,Emergency,Cancer,2,4,5+,Transferred,No
+11533,54,Female,Elective,Diabetes,14,9,1-2,Transferred,No
+11534,24,Female,Emergency,Diabetes,21,5,1-2,Home,No
+11535,84,Female,Emergency,Pneumonia,10,6,None,Home,No
+11536,59,Male,Elective,Stroke,28,3,3-4,Home,No
+11537,75,Female,Urgent,Cancer,16,6,1-2,Expired,No
+11538,55,Male,Elective,Pneumonia,7,9,5+,Home,No
+11539,64,Female,Emergency,Diabetes,8,2,None,Transferred,No
+11540,42,Male,Elective,Pneumonia,10,6,None,Transferred,Yes
+11541,66,Male,Urgent,Cancer,15,3,5+,Transferred,No
+11542,50,Female,Elective,Heart Failure,8,7,5+,Transferred,No
+11543,30,Male,Emergency,Cancer,13,8,None,Transferred,No
+11544,29,Male,Emergency,Heart Failure,12,6,5+,Expired,No
+11545,86,Female,Elective,Heart Failure,8,7,None,Transferred,No
+11546,33,Female,Urgent,Heart Failure,15,7,5+,Expired,No
+11547,29,Female,Elective,Pneumonia,26,1,None,Transferred,No
+11548,20,Male,Urgent,Diabetes,12,8,1-2,Expired,No
+11549,24,Male,Urgent,Pneumonia,11,5,1-2,Expired,Yes
+11550,39,Male,Elective,Diabetes,19,3,5+,Transferred,No
+11551,27,Female,Urgent,Cancer,14,4,3-4,Transferred,No
+11552,62,Male,Emergency,Stroke,27,9,1-2,Transferred,No
+11553,20,Male,Elective,Cancer,18,4,None,Transferred,No
+11554,76,Male,Urgent,Pneumonia,13,6,3-4,Home,Yes
+11555,83,Male,Emergency,Pneumonia,4,8,None,Home,No
+11556,47,Male,Elective,Diabetes,17,6,None,Expired,Yes
+11557,56,Male,Emergency,Pneumonia,19,8,1-2,Expired,No
+11558,66,Male,Emergency,Heart Failure,27,3,5+,Home,No
+11559,56,Female,Emergency,Pneumonia,9,9,5+,Expired,No
+11560,68,Female,Urgent,Diabetes,23,9,None,Transferred,No
+11561,63,Female,Elective,Diabetes,7,3,1-2,Expired,No
+11562,75,Male,Elective,Heart Failure,1,5,None,Expired,No
+11563,47,Male,Urgent,Diabetes,7,7,3-4,Expired,No
+11564,25,Female,Elective,Stroke,26,8,None,Home,No
+11565,80,Male,Emergency,Cancer,7,0,1-2,Home,No
+11566,39,Female,Elective,Pneumonia,20,0,None,Expired,No
+11567,21,Male,Urgent,Stroke,7,7,1-2,Transferred,Yes
+11568,56,Male,Emergency,Pneumonia,8,6,5+,Expired,No
+11569,39,Female,Urgent,Stroke,16,8,1-2,Home,No
+11570,45,Female,Emergency,Pneumonia,3,2,3-4,Transferred,No
+11571,48,Female,Emergency,Heart Failure,13,9,1-2,Expired,No
+11572,20,Female,Elective,Diabetes,10,4,3-4,Home,No
+11573,54,Female,Emergency,Diabetes,18,2,3-4,Transferred,No
+11574,89,Male,Urgent,Heart Failure,7,4,None,Expired,No
+11575,78,Male,Elective,Stroke,21,9,3-4,Home,No
+11576,88,Male,Urgent,Cancer,21,0,1-2,Transferred,No
+11577,52,Female,Emergency,Stroke,5,3,5+,Expired,No
+11578,70,Female,Urgent,Diabetes,23,5,1-2,Transferred,No
+11579,31,Female,Urgent,Cancer,25,1,5+,Transferred,No
+11580,39,Female,Emergency,Pneumonia,27,6,3-4,Transferred,No
+11581,72,Female,Elective,Cancer,24,7,None,Home,No
+11582,62,Female,Urgent,Stroke,22,0,3-4,Expired,No
+11583,69,Male,Emergency,Heart Failure,7,3,3-4,Transferred,Yes
+11584,48,Male,Elective,Pneumonia,25,3,5+,Transferred,No
+11585,76,Male,Elective,Stroke,27,4,1-2,Transferred,No
+11586,58,Male,Elective,Pneumonia,22,3,None,Home,No
+11587,75,Male,Urgent,Cancer,17,8,None,Transferred,No
+11588,62,Female,Urgent,Diabetes,4,6,None,Home,Yes
+11589,69,Female,Urgent,Stroke,24,1,None,Home,No
+11590,42,Female,Elective,Heart Failure,23,0,1-2,Transferred,Yes
+11591,63,Female,Urgent,Cancer,16,8,None,Transferred,Yes
+11592,57,Female,Emergency,Stroke,19,0,5+,Home,No
+11593,42,Female,Urgent,Heart Failure,10,5,5+,Home,No
+11594,64,Male,Urgent,Stroke,3,1,None,Transferred,No
+11595,71,Female,Elective,Cancer,27,3,None,Home,Yes
+11596,69,Female,Urgent,Stroke,3,5,1-2,Home,No
+11597,27,Female,Emergency,Pneumonia,28,4,1-2,Transferred,No
+11598,20,Female,Elective,Cancer,17,5,None,Transferred,Yes
+11599,27,Male,Emergency,Stroke,10,2,1-2,Expired,Yes
+11600,48,Male,Elective,Diabetes,17,4,3-4,Transferred,No
+11601,24,Female,Elective,Stroke,22,1,None,Transferred,Yes
+11602,66,Male,Urgent,Pneumonia,17,6,1-2,Transferred,Yes
+11603,53,Male,Emergency,Heart Failure,21,2,5+,Expired,No
+11604,84,Female,Elective,Heart Failure,4,0,None,Home,No
+11605,74,Female,Urgent,Heart Failure,21,7,None,Transferred,No
+11606,62,Female,Elective,Diabetes,23,7,5+,Transferred,Yes
+11607,49,Female,Elective,Pneumonia,6,2,5+,Expired,No
+11608,36,Female,Elective,Cancer,12,6,1-2,Expired,No
+11609,45,Male,Elective,Heart Failure,25,8,5+,Expired,No
+11610,27,Female,Elective,Pneumonia,22,7,3-4,Home,Yes
+11611,66,Female,Elective,Stroke,25,2,None,Expired,No
+11612,65,Female,Urgent,Diabetes,20,1,3-4,Home,Yes
+11613,87,Male,Elective,Pneumonia,17,9,1-2,Transferred,Yes
+11614,52,Female,Emergency,Pneumonia,17,6,5+,Transferred,No
+11615,20,Female,Urgent,Cancer,10,6,None,Transferred,Yes
+11616,38,Female,Emergency,Pneumonia,7,8,5+,Expired,No
+11617,50,Male,Elective,Cancer,29,4,5+,Transferred,Yes
+11618,33,Female,Emergency,Diabetes,16,3,1-2,Expired,No
+11619,72,Female,Elective,Diabetes,29,7,1-2,Home,No
+11620,67,Female,Elective,Stroke,13,3,1-2,Transferred,No
+11621,88,Male,Urgent,Cancer,3,3,1-2,Home,Yes
+11622,81,Female,Urgent,Cancer,2,1,None,Expired,No
+11623,85,Female,Elective,Heart Failure,16,0,3-4,Expired,No
+11624,83,Female,Urgent,Heart Failure,6,3,3-4,Transferred,No
+11625,89,Male,Emergency,Stroke,6,6,None,Transferred,No
+11626,82,Female,Urgent,Diabetes,13,8,5+,Expired,No
+11627,52,Female,Urgent,Heart Failure,7,8,None,Transferred,No
+11628,60,Female,Emergency,Pneumonia,5,9,3-4,Transferred,No
+11629,67,Male,Urgent,Diabetes,24,0,3-4,Home,No
+11630,32,Male,Elective,Pneumonia,7,4,None,Expired,No
+11631,50,Female,Emergency,Cancer,2,6,1-2,Home,No
+11632,87,Male,Elective,Diabetes,17,6,5+,Transferred,No
+11633,23,Male,Emergency,Stroke,13,9,None,Home,No
+11634,38,Male,Elective,Cancer,25,5,3-4,Expired,No
+11635,89,Female,Elective,Cancer,21,9,1-2,Home,No
+11636,32,Female,Urgent,Pneumonia,28,3,5+,Home,No
+11637,42,Male,Elective,Cancer,27,2,3-4,Transferred,No
+11638,20,Male,Urgent,Heart Failure,21,8,5+,Expired,No
+11639,73,Male,Emergency,Diabetes,28,9,1-2,Transferred,No
+11640,34,Female,Elective,Heart Failure,16,3,3-4,Transferred,No
+11641,84,Female,Elective,Pneumonia,26,7,1-2,Expired,No
+11642,34,Male,Emergency,Pneumonia,20,0,None,Home,Yes
+11643,40,Male,Emergency,Diabetes,2,6,None,Transferred,Yes
+11644,38,Male,Elective,Cancer,5,5,5+,Home,Yes
+11645,79,Male,Emergency,Stroke,18,0,1-2,Expired,Yes
+11646,52,Female,Urgent,Pneumonia,28,3,1-2,Transferred,No
+11647,68,Male,Emergency,Diabetes,7,4,5+,Home,No
+11648,54,Female,Emergency,Stroke,11,7,5+,Home,No
+11649,63,Male,Elective,Cancer,25,3,5+,Transferred,No
+11650,30,Male,Urgent,Pneumonia,25,2,None,Expired,No
+11651,85,Male,Emergency,Diabetes,11,1,5+,Home,No
+11652,65,Male,Urgent,Diabetes,22,3,None,Expired,No
+11653,28,Male,Urgent,Diabetes,17,9,5+,Transferred,Yes
+11654,22,Female,Urgent,Pneumonia,16,3,1-2,Home,No
+11655,45,Male,Elective,Stroke,13,9,1-2,Home,Yes
+11656,67,Male,Emergency,Diabetes,22,4,5+,Home,No
+11657,85,Male,Elective,Cancer,5,6,5+,Expired,No
+11658,89,Female,Emergency,Diabetes,20,8,None,Home,No
+11659,47,Female,Emergency,Stroke,16,1,3-4,Home,Yes
+11660,45,Female,Elective,Pneumonia,28,4,None,Transferred,No
+11661,44,Female,Urgent,Diabetes,22,9,1-2,Home,No
+11662,31,Male,Urgent,Diabetes,22,8,5+,Expired,Yes
+11663,24,Male,Emergency,Cancer,16,2,1-2,Transferred,Yes
+11664,67,Male,Elective,Cancer,16,0,3-4,Transferred,No
+11665,56,Female,Urgent,Diabetes,14,1,None,Home,No
+11666,63,Male,Urgent,Diabetes,6,5,1-2,Transferred,No
+11667,34,Male,Emergency,Cancer,2,4,None,Home,No
+11668,62,Female,Emergency,Stroke,14,0,5+,Transferred,No
+11669,67,Female,Elective,Heart Failure,16,0,1-2,Expired,No
+11670,89,Female,Emergency,Heart Failure,23,3,3-4,Home,No
+11671,65,Male,Urgent,Diabetes,20,3,None,Expired,No
+11672,62,Male,Urgent,Cancer,13,5,None,Home,No
+11673,40,Female,Urgent,Pneumonia,15,5,3-4,Expired,Yes
+11674,42,Male,Urgent,Pneumonia,12,9,1-2,Expired,Yes
+11675,66,Female,Elective,Heart Failure,9,5,1-2,Transferred,No
+11676,34,Female,Elective,Stroke,26,0,None,Home,No
+11677,44,Male,Emergency,Heart Failure,18,9,3-4,Transferred,Yes
+11678,55,Female,Emergency,Diabetes,21,8,None,Expired,No
+11679,70,Female,Emergency,Stroke,14,6,None,Home,No
+11680,34,Female,Elective,Pneumonia,20,6,5+,Expired,No
+11681,87,Male,Urgent,Cancer,25,6,1-2,Expired,No
+11682,40,Female,Emergency,Cancer,4,1,1-2,Expired,Yes
+11683,32,Female,Urgent,Diabetes,8,1,5+,Expired,Yes
+11684,38,Female,Emergency,Heart Failure,8,5,1-2,Transferred,No
+11685,53,Female,Emergency,Diabetes,22,6,1-2,Expired,Yes
+11686,87,Female,Emergency,Cancer,22,2,1-2,Transferred,No
+11687,71,Female,Emergency,Pneumonia,16,3,3-4,Expired,No
+11688,46,Female,Emergency,Cancer,27,2,5+,Home,No
+11689,48,Male,Urgent,Stroke,24,6,None,Expired,No
+11690,47,Male,Emergency,Cancer,28,6,3-4,Expired,No
+11691,54,Female,Urgent,Cancer,29,3,None,Home,No
+11692,27,Male,Elective,Stroke,28,6,5+,Home,No
+11693,35,Male,Emergency,Heart Failure,10,4,5+,Expired,No
+11694,55,Female,Urgent,Cancer,25,0,5+,Expired,No
+11695,49,Male,Elective,Diabetes,21,9,1-2,Transferred,No
+11696,37,Female,Elective,Cancer,27,3,3-4,Home,Yes
+11697,21,Female,Elective,Diabetes,17,6,5+,Home,Yes
+11698,68,Female,Urgent,Stroke,1,1,None,Transferred,No
+11699,23,Female,Emergency,Cancer,18,1,1-2,Expired,No
+11700,26,Female,Emergency,Stroke,10,0,1-2,Expired,No
+11701,58,Male,Urgent,Stroke,26,1,3-4,Home,No
+11702,32,Female,Emergency,Heart Failure,21,9,3-4,Transferred,No
+11703,50,Male,Urgent,Cancer,4,7,3-4,Expired,No
+11704,82,Female,Emergency,Diabetes,1,7,1-2,Home,No
+11705,75,Female,Elective,Diabetes,4,7,5+,Expired,No
+11706,61,Female,Emergency,Cancer,4,0,None,Expired,No
+11707,80,Male,Urgent,Heart Failure,26,0,5+,Expired,No
+11708,61,Female,Urgent,Heart Failure,4,9,None,Home,No
+11709,75,Female,Elective,Heart Failure,17,3,5+,Transferred,No
+11710,55,Female,Urgent,Diabetes,9,5,3-4,Transferred,No
+11711,87,Female,Emergency,Stroke,19,7,None,Expired,No
+11712,26,Male,Emergency,Heart Failure,13,1,1-2,Transferred,Yes
+11713,73,Female,Elective,Diabetes,4,2,None,Expired,No
+11714,20,Male,Urgent,Diabetes,5,5,1-2,Home,No
+11715,63,Female,Elective,Stroke,29,9,5+,Home,No
+11716,64,Male,Emergency,Cancer,13,3,3-4,Home,No
+11717,66,Male,Elective,Cancer,23,1,None,Expired,No
+11718,32,Female,Urgent,Heart Failure,16,6,1-2,Transferred,No
+11719,41,Female,Elective,Heart Failure,22,3,5+,Home,No
+11720,40,Male,Urgent,Stroke,5,7,3-4,Expired,No
+11721,28,Female,Urgent,Heart Failure,8,7,3-4,Transferred,Yes
+11722,45,Female,Emergency,Stroke,16,6,3-4,Transferred,No
+11723,28,Female,Emergency,Diabetes,1,9,5+,Transferred,No
+11724,34,Male,Emergency,Heart Failure,23,8,5+,Expired,Yes
+11725,29,Female,Urgent,Diabetes,28,3,5+,Expired,No
+11726,61,Female,Elective,Pneumonia,6,6,3-4,Expired,No
+11727,43,Female,Urgent,Stroke,11,9,None,Home,No
+11728,68,Male,Emergency,Pneumonia,16,9,1-2,Expired,No
+11729,45,Female,Emergency,Heart Failure,5,0,5+,Home,No
+11730,56,Male,Elective,Diabetes,16,3,None,Home,No
+11731,87,Female,Emergency,Heart Failure,7,1,1-2,Home,No
+11732,69,Male,Emergency,Pneumonia,19,8,3-4,Expired,No
+11733,43,Female,Emergency,Heart Failure,1,4,None,Home,No
+11734,38,Female,Elective,Cancer,9,2,3-4,Expired,No
+11735,79,Male,Urgent,Pneumonia,18,3,1-2,Expired,No
+11736,58,Male,Emergency,Heart Failure,13,5,5+,Home,No
+11737,37,Male,Elective,Diabetes,26,9,3-4,Home,No
+11738,38,Female,Emergency,Heart Failure,15,0,None,Home,No
+11739,55,Female,Elective,Diabetes,3,6,5+,Expired,No
+11740,74,Female,Emergency,Cancer,24,7,None,Expired,No
+11741,88,Female,Elective,Heart Failure,28,6,1-2,Home,Yes
+11742,66,Male,Emergency,Cancer,10,6,1-2,Home,No
+11743,68,Female,Urgent,Pneumonia,9,8,5+,Transferred,No
+11744,52,Female,Emergency,Diabetes,13,3,None,Home,No
+11745,40,Female,Elective,Pneumonia,16,6,None,Transferred,Yes
+11746,41,Female,Emergency,Diabetes,3,8,None,Transferred,No
+11747,67,Female,Urgent,Cancer,22,4,None,Expired,Yes
+11748,56,Female,Emergency,Stroke,23,1,1-2,Expired,Yes
+11749,34,Female,Elective,Heart Failure,15,4,None,Transferred,Yes
+11750,54,Male,Elective,Cancer,17,3,1-2,Transferred,No
+11751,51,Female,Urgent,Diabetes,14,7,None,Home,No
+11752,30,Female,Elective,Diabetes,7,4,None,Transferred,No
+11753,29,Female,Emergency,Diabetes,20,8,3-4,Home,No
+11754,76,Female,Emergency,Diabetes,16,8,3-4,Expired,Yes
+11755,44,Male,Emergency,Heart Failure,21,2,None,Home,No
+11756,21,Male,Elective,Pneumonia,8,9,1-2,Expired,Yes
+11757,83,Male,Emergency,Stroke,4,5,None,Transferred,No
+11758,54,Male,Emergency,Heart Failure,20,5,3-4,Transferred,No
+11759,26,Male,Emergency,Diabetes,24,3,None,Transferred,No
+11760,37,Male,Urgent,Heart Failure,15,9,3-4,Home,Yes
+11761,86,Female,Elective,Cancer,5,2,None,Expired,Yes
+11762,61,Male,Elective,Diabetes,13,0,5+,Expired,No
+11763,58,Male,Elective,Stroke,6,6,None,Expired,No
+11764,60,Female,Urgent,Diabetes,28,4,1-2,Expired,No
+11765,43,Male,Elective,Stroke,27,9,3-4,Expired,No
+11766,79,Female,Urgent,Stroke,5,6,5+,Home,No
+11767,65,Female,Urgent,Pneumonia,17,0,3-4,Expired,No
+11768,38,Male,Elective,Pneumonia,7,7,3-4,Transferred,No
+11769,87,Female,Emergency,Heart Failure,6,2,1-2,Expired,Yes
+11770,61,Male,Emergency,Heart Failure,2,6,None,Transferred,No
+11771,51,Male,Elective,Stroke,11,2,1-2,Home,No
+11772,58,Female,Elective,Diabetes,7,2,None,Home,No
+11773,55,Female,Urgent,Cancer,22,9,5+,Transferred,No
+11774,55,Male,Elective,Cancer,21,8,1-2,Expired,No
+11775,22,Female,Urgent,Diabetes,8,1,1-2,Home,No
+11776,27,Female,Elective,Diabetes,5,3,3-4,Home,No
+11777,89,Male,Emergency,Pneumonia,27,5,1-2,Home,No
+11778,60,Male,Emergency,Cancer,18,2,None,Expired,No
+11779,87,Female,Elective,Stroke,22,9,1-2,Transferred,Yes
+11780,32,Male,Urgent,Heart Failure,16,9,1-2,Transferred,No
+11781,68,Male,Emergency,Pneumonia,14,6,5+,Expired,No
+11782,79,Male,Urgent,Cancer,12,6,None,Home,No
+11783,21,Male,Elective,Diabetes,17,4,3-4,Expired,No
+11784,79,Male,Elective,Cancer,5,2,None,Expired,No
+11785,24,Male,Emergency,Stroke,14,1,5+,Transferred,No
+11786,63,Male,Elective,Pneumonia,6,3,None,Expired,Yes
+11787,46,Female,Emergency,Diabetes,15,3,None,Expired,No
+11788,51,Male,Urgent,Stroke,7,7,1-2,Home,No
+11789,40,Female,Emergency,Heart Failure,14,7,1-2,Home,No
+11790,27,Female,Emergency,Pneumonia,18,4,None,Transferred,No
+11791,69,Female,Urgent,Stroke,1,5,None,Home,No
+11792,86,Male,Emergency,Stroke,6,7,3-4,Expired,No
+11793,63,Male,Emergency,Diabetes,3,0,5+,Expired,No
+11794,77,Female,Elective,Heart Failure,5,4,1-2,Expired,No
+11795,22,Male,Urgent,Stroke,12,3,1-2,Transferred,No
+11796,89,Female,Emergency,Pneumonia,11,3,1-2,Home,No
+11797,21,Male,Urgent,Stroke,13,1,1-2,Expired,No
+11798,63,Male,Urgent,Cancer,16,9,None,Home,Yes
+11799,21,Female,Emergency,Pneumonia,18,0,None,Home,Yes
+11800,54,Female,Elective,Pneumonia,17,5,3-4,Home,No
+11801,49,Female,Urgent,Stroke,17,6,1-2,Home,No
+11802,27,Male,Emergency,Diabetes,29,4,1-2,Transferred,No
+11803,41,Female,Urgent,Pneumonia,11,7,None,Transferred,No
+11804,63,Male,Elective,Cancer,20,8,3-4,Transferred,No
+11805,77,Male,Elective,Diabetes,10,1,None,Expired,No
+11806,55,Male,Elective,Diabetes,29,3,1-2,Expired,No
+11807,88,Female,Emergency,Diabetes,16,8,1-2,Expired,No
+11808,50,Female,Emergency,Pneumonia,2,4,5+,Transferred,No
+11809,66,Female,Elective,Diabetes,17,2,5+,Home,No
+11810,74,Male,Emergency,Stroke,22,5,5+,Transferred,Yes
+11811,81,Male,Elective,Diabetes,20,2,3-4,Expired,No
+11812,49,Female,Emergency,Cancer,10,4,None,Expired,Yes
+11813,74,Male,Elective,Heart Failure,13,2,1-2,Home,No
+11814,35,Male,Urgent,Cancer,12,5,1-2,Transferred,No
+11815,31,Female,Elective,Pneumonia,15,9,3-4,Home,No
+11816,36,Female,Elective,Diabetes,7,4,1-2,Transferred,No
+11817,35,Female,Emergency,Diabetes,27,8,1-2,Expired,Yes
+11818,31,Male,Emergency,Stroke,22,2,None,Home,No
+11819,27,Male,Emergency,Diabetes,21,5,5+,Home,No
+11820,22,Male,Emergency,Cancer,26,7,5+,Transferred,No
+11821,35,Male,Emergency,Pneumonia,28,6,3-4,Transferred,No
+11822,49,Male,Emergency,Heart Failure,13,5,5+,Transferred,No
+11823,42,Female,Urgent,Diabetes,12,1,5+,Expired,No
+11824,24,Male,Elective,Heart Failure,12,6,3-4,Transferred,No
+11825,84,Male,Elective,Diabetes,28,7,3-4,Expired,No
+11826,49,Male,Elective,Pneumonia,2,0,5+,Transferred,Yes
+11827,40,Female,Urgent,Cancer,5,8,None,Transferred,Yes
+11828,89,Female,Elective,Pneumonia,25,3,3-4,Expired,Yes
+11829,41,Female,Urgent,Heart Failure,25,7,1-2,Transferred,Yes
+11830,51,Male,Urgent,Diabetes,2,9,3-4,Expired,No
+11831,52,Female,Urgent,Heart Failure,23,6,1-2,Expired,Yes
+11832,35,Female,Elective,Cancer,26,9,3-4,Transferred,Yes
+11833,57,Female,Urgent,Pneumonia,20,6,3-4,Transferred,No
+11834,33,Male,Elective,Heart Failure,13,1,5+,Home,No
+11835,55,Female,Elective,Heart Failure,29,0,5+,Transferred,No
+11836,42,Male,Emergency,Cancer,3,3,5+,Home,No
+11837,85,Male,Emergency,Diabetes,11,1,None,Transferred,Yes
+11838,21,Female,Urgent,Heart Failure,16,7,5+,Expired,Yes
+11839,84,Male,Urgent,Cancer,1,9,5+,Expired,No
+11840,86,Female,Elective,Diabetes,19,6,3-4,Home,No
+11841,71,Male,Urgent,Diabetes,11,7,3-4,Transferred,No
+11842,81,Female,Urgent,Pneumonia,9,5,None,Home,No
+11843,42,Female,Elective,Cancer,14,0,1-2,Transferred,Yes
+11844,45,Female,Urgent,Diabetes,9,8,3-4,Transferred,No
+11845,87,Male,Urgent,Pneumonia,7,5,3-4,Expired,No
+11846,74,Female,Elective,Stroke,16,9,1-2,Home,No
+11847,25,Male,Elective,Cancer,3,0,None,Expired,No
+11848,54,Female,Emergency,Stroke,29,0,3-4,Expired,No
+11849,41,Male,Elective,Diabetes,19,7,5+,Expired,No
+11850,62,Male,Emergency,Cancer,4,5,None,Home,No
+11851,34,Female,Urgent,Pneumonia,7,7,1-2,Transferred,No
+11852,79,Female,Elective,Diabetes,23,7,1-2,Transferred,No
+11853,31,Female,Elective,Cancer,28,7,5+,Home,No
+11854,68,Female,Elective,Cancer,12,9,5+,Transferred,No
+11855,61,Female,Urgent,Stroke,18,6,5+,Home,No
+11856,57,Male,Emergency,Diabetes,28,6,None,Home,No
+11857,64,Female,Urgent,Pneumonia,5,9,1-2,Transferred,Yes
+11858,54,Female,Urgent,Pneumonia,23,3,5+,Expired,No
+11859,49,Male,Elective,Diabetes,23,8,5+,Home,No
+11860,49,Female,Emergency,Diabetes,22,1,1-2,Home,No
+11861,25,Female,Urgent,Heart Failure,26,8,3-4,Home,No
+11862,86,Male,Elective,Stroke,10,9,None,Home,Yes
+11863,26,Female,Urgent,Diabetes,12,2,3-4,Transferred,Yes
+11864,71,Female,Urgent,Diabetes,8,1,5+,Transferred,No
+11865,33,Female,Elective,Heart Failure,19,3,None,Home,No
+11866,34,Male,Elective,Heart Failure,15,4,3-4,Expired,No
+11867,40,Female,Emergency,Cancer,1,1,1-2,Transferred,Yes
+11868,54,Male,Urgent,Pneumonia,3,0,5+,Expired,No
+11869,85,Female,Elective,Stroke,27,9,None,Expired,No
+11870,21,Male,Elective,Cancer,18,4,None,Home,No
+11871,54,Female,Emergency,Diabetes,18,8,None,Transferred,No
+11872,39,Male,Emergency,Heart Failure,2,4,None,Home,No
+11873,29,Male,Elective,Pneumonia,5,9,5+,Home,Yes
+11874,44,Male,Emergency,Cancer,29,8,5+,Expired,Yes
+11875,85,Male,Elective,Pneumonia,1,9,1-2,Expired,No
+11876,44,Male,Urgent,Heart Failure,10,5,1-2,Expired,No
+11877,73,Male,Emergency,Cancer,20,2,1-2,Home,No
+11878,52,Female,Urgent,Cancer,10,3,3-4,Home,No
+11879,55,Female,Urgent,Pneumonia,5,3,1-2,Home,No
+11880,33,Male,Urgent,Heart Failure,18,0,5+,Home,No
+11881,84,Male,Elective,Diabetes,21,2,3-4,Home,Yes
+11882,73,Male,Urgent,Cancer,26,2,5+,Home,No
+11883,71,Male,Urgent,Diabetes,15,0,3-4,Home,Yes
+11884,22,Female,Urgent,Heart Failure,20,8,1-2,Home,No
+11885,60,Male,Elective,Cancer,8,0,1-2,Transferred,No
+11886,25,Female,Urgent,Cancer,17,8,1-2,Transferred,No
+11887,44,Female,Urgent,Diabetes,12,0,3-4,Transferred,Yes
+11888,32,Male,Emergency,Stroke,21,1,5+,Transferred,Yes
+11889,27,Male,Elective,Diabetes,27,1,None,Home,No
+11890,40,Female,Urgent,Diabetes,12,5,5+,Home,No
+11891,87,Female,Emergency,Stroke,26,6,1-2,Expired,No
+11892,44,Male,Elective,Heart Failure,1,0,3-4,Expired,No
+11893,87,Male,Elective,Heart Failure,26,2,3-4,Transferred,Yes
+11894,64,Male,Elective,Cancer,26,1,1-2,Expired,No
+11895,79,Female,Elective,Pneumonia,4,7,3-4,Transferred,Yes
+11896,31,Female,Elective,Pneumonia,8,8,1-2,Home,Yes
+11897,51,Male,Elective,Cancer,1,1,5+,Home,No
+11898,32,Female,Urgent,Pneumonia,27,1,3-4,Expired,No
+11899,50,Female,Urgent,Diabetes,15,9,None,Home,No
+11900,39,Male,Urgent,Diabetes,18,8,3-4,Home,No
+11901,37,Male,Urgent,Stroke,1,3,1-2,Transferred,No
+11902,79,Female,Emergency,Stroke,11,4,None,Expired,Yes
+11903,82,Female,Urgent,Cancer,23,8,1-2,Home,No
+11904,25,Male,Elective,Cancer,2,5,3-4,Expired,No
+11905,51,Male,Urgent,Cancer,1,9,None,Home,No
+11906,62,Male,Urgent,Diabetes,12,8,None,Transferred,No
+11907,21,Male,Elective,Pneumonia,16,8,3-4,Home,No
+11908,79,Male,Urgent,Cancer,22,6,None,Expired,No
+11909,42,Female,Urgent,Cancer,22,9,5+,Expired,No
+11910,50,Female,Urgent,Diabetes,10,8,None,Transferred,No
+11911,24,Female,Emergency,Diabetes,18,4,None,Home,Yes
+11912,53,Female,Urgent,Diabetes,15,4,5+,Transferred,No
+11913,29,Male,Elective,Pneumonia,17,7,1-2,Expired,Yes
+11914,21,Male,Elective,Cancer,10,9,1-2,Transferred,No
+11915,30,Male,Urgent,Heart Failure,3,3,5+,Home,No
+11916,69,Female,Urgent,Heart Failure,26,8,None,Home,Yes
+11917,50,Female,Urgent,Cancer,21,6,3-4,Transferred,No
+11918,75,Female,Elective,Cancer,16,6,5+,Expired,No
+11919,28,Male,Elective,Cancer,6,2,3-4,Expired,Yes
+11920,40,Female,Emergency,Cancer,3,3,1-2,Transferred,No
+11921,47,Male,Emergency,Pneumonia,9,6,5+,Home,No
+11922,81,Male,Emergency,Heart Failure,11,4,3-4,Home,Yes
+11923,26,Male,Elective,Stroke,21,2,None,Home,No
+11924,35,Male,Emergency,Heart Failure,13,0,5+,Home,Yes
+11925,23,Male,Urgent,Heart Failure,18,6,3-4,Expired,Yes
+11926,23,Male,Urgent,Diabetes,26,5,5+,Home,No
+11927,59,Female,Elective,Cancer,22,9,5+,Transferred,No
+11928,36,Male,Emergency,Cancer,28,6,1-2,Transferred,No
+11929,71,Male,Urgent,Cancer,24,1,1-2,Transferred,Yes
+11930,71,Female,Elective,Diabetes,27,3,None,Transferred,No
+11931,55,Male,Emergency,Pneumonia,22,1,1-2,Home,No
+11932,57,Female,Urgent,Pneumonia,4,7,1-2,Expired,Yes
+11933,69,Female,Emergency,Stroke,22,6,1-2,Home,Yes
+11934,82,Female,Elective,Pneumonia,24,0,3-4,Expired,Yes
+11935,82,Male,Emergency,Pneumonia,8,1,5+,Home,No
+11936,81,Male,Elective,Cancer,13,1,1-2,Expired,Yes
+11937,26,Female,Emergency,Heart Failure,10,3,3-4,Transferred,No
+11938,46,Male,Urgent,Pneumonia,2,2,5+,Transferred,Yes
+11939,33,Male,Elective,Pneumonia,8,0,1-2,Expired,Yes
+11940,24,Female,Elective,Diabetes,6,1,1-2,Expired,Yes
+11941,74,Female,Elective,Stroke,16,8,5+,Expired,No
+11942,21,Male,Emergency,Diabetes,18,0,3-4,Transferred,Yes
+11943,81,Female,Emergency,Cancer,17,8,3-4,Transferred,No
+11944,40,Female,Urgent,Heart Failure,6,6,None,Home,No
+11945,40,Female,Elective,Stroke,13,1,5+,Expired,No
+11946,29,Male,Elective,Diabetes,23,1,None,Expired,No
+11947,77,Male,Emergency,Pneumonia,14,4,3-4,Expired,No
+11948,58,Male,Emergency,Pneumonia,26,4,1-2,Transferred,No
+11949,24,Female,Urgent,Stroke,21,3,None,Expired,No
+11950,84,Male,Urgent,Pneumonia,10,9,3-4,Expired,No
+11951,32,Female,Emergency,Diabetes,24,9,3-4,Transferred,Yes
+11952,72,Male,Elective,Diabetes,11,2,1-2,Expired,No
+11953,64,Male,Urgent,Pneumonia,13,3,5+,Home,No
+11954,51,Female,Emergency,Pneumonia,12,9,3-4,Transferred,No
+11955,55,Male,Emergency,Cancer,9,3,None,Transferred,Yes
+11956,79,Female,Elective,Heart Failure,4,1,1-2,Transferred,No
+11957,30,Male,Emergency,Stroke,7,4,5+,Home,No
+11958,82,Male,Emergency,Diabetes,24,4,5+,Transferred,No
+11959,40,Female,Urgent,Stroke,29,4,5+,Transferred,No
+11960,71,Female,Emergency,Cancer,22,9,3-4,Transferred,No
+11961,74,Female,Emergency,Diabetes,2,0,5+,Transferred,Yes
+11962,45,Male,Urgent,Cancer,7,5,3-4,Home,No
+11963,87,Male,Elective,Cancer,29,1,1-2,Expired,No
+11964,53,Male,Elective,Pneumonia,9,6,1-2,Expired,No
+11965,71,Female,Urgent,Stroke,5,3,5+,Transferred,No
+11966,71,Female,Urgent,Stroke,15,4,1-2,Home,No
+11967,48,Female,Elective,Pneumonia,18,4,None,Transferred,Yes
+11968,57,Male,Elective,Stroke,4,4,None,Expired,No
+11969,61,Male,Elective,Pneumonia,19,1,3-4,Expired,No
+11970,40,Female,Elective,Diabetes,20,4,5+,Home,No
+11971,61,Male,Elective,Cancer,26,2,3-4,Expired,No
+11972,32,Female,Urgent,Cancer,7,3,1-2,Transferred,No
+11973,83,Male,Emergency,Stroke,26,1,5+,Home,No
+11974,36,Male,Elective,Heart Failure,8,3,3-4,Expired,Yes
+11975,28,Female,Elective,Cancer,17,8,5+,Transferred,No
+11976,60,Male,Emergency,Pneumonia,13,7,5+,Home,No
+11977,20,Male,Emergency,Heart Failure,24,2,3-4,Transferred,No
+11978,21,Female,Emergency,Heart Failure,21,0,5+,Expired,No
+11979,79,Female,Emergency,Cancer,28,0,1-2,Transferred,No
+11980,67,Male,Emergency,Cancer,23,5,None,Home,No
+11981,48,Female,Emergency,Cancer,11,2,None,Transferred,No
+11982,29,Male,Urgent,Pneumonia,27,3,5+,Expired,No
+11983,77,Female,Emergency,Heart Failure,1,0,None,Home,No
+11984,79,Male,Emergency,Stroke,2,7,5+,Home,No
+11985,40,Male,Urgent,Pneumonia,17,0,3-4,Expired,No
+11986,47,Female,Emergency,Diabetes,5,4,1-2,Transferred,No
+11987,53,Male,Elective,Cancer,6,5,None,Transferred,No
+11988,27,Male,Elective,Heart Failure,26,1,3-4,Expired,Yes
+11989,78,Female,Emergency,Pneumonia,25,6,1-2,Home,No
+11990,68,Female,Urgent,Diabetes,24,6,None,Expired,No
+11991,36,Male,Elective,Pneumonia,7,0,None,Home,No
+11992,79,Female,Urgent,Pneumonia,28,3,1-2,Home,No
+11993,64,Female,Elective,Stroke,21,3,3-4,Transferred,No
+11994,88,Male,Emergency,Stroke,15,4,3-4,Expired,No
+11995,51,Male,Urgent,Pneumonia,19,0,None,Home,No
+11996,63,Female,Urgent,Diabetes,16,0,1-2,Transferred,No
+11997,84,Female,Urgent,Heart Failure,25,6,3-4,Expired,No
+11998,27,Female,Elective,Heart Failure,13,8,1-2,Expired,No
+11999,62,Male,Elective,Cancer,5,0,1-2,Home,Yes
+12000,20,Male,Elective,Cancer,3,1,None,Home,No
+12001,70,Male,Emergency,Heart Failure,3,5,1-2,Home,No
+12002,43,Male,Elective,Pneumonia,19,5,1-2,Expired,No
+12003,43,Male,Emergency,Pneumonia,14,1,5+,Home,No
+12004,36,Male,Urgent,Stroke,16,8,1-2,Expired,No
+12005,24,Male,Urgent,Stroke,22,3,3-4,Transferred,No
+12006,39,Female,Emergency,Cancer,17,6,None,Expired,Yes
+12007,40,Female,Elective,Heart Failure,27,5,None,Home,No
+12008,77,Male,Emergency,Pneumonia,4,2,1-2,Expired,No
+12009,50,Male,Urgent,Heart Failure,13,7,1-2,Home,Yes
+12010,30,Male,Urgent,Diabetes,8,6,3-4,Transferred,No
+12011,71,Female,Emergency,Heart Failure,19,8,5+,Home,No
+12012,34,Male,Elective,Diabetes,5,2,None,Home,No
+12013,26,Female,Elective,Stroke,2,0,5+,Home,Yes
+12014,47,Female,Emergency,Stroke,15,1,3-4,Home,No
+12015,70,Female,Emergency,Cancer,2,0,None,Home,Yes
+12016,77,Female,Elective,Heart Failure,11,4,3-4,Home,No
+12017,24,Female,Urgent,Heart Failure,13,9,1-2,Transferred,No
+12018,24,Male,Emergency,Diabetes,23,1,3-4,Transferred,No
+12019,27,Male,Elective,Stroke,10,2,1-2,Expired,No
+12020,83,Female,Elective,Diabetes,3,7,5+,Home,No
+12021,29,Male,Urgent,Stroke,5,9,None,Expired,No
+12022,57,Female,Urgent,Diabetes,3,4,None,Transferred,No
+12023,27,Female,Urgent,Stroke,6,3,5+,Transferred,No
+12024,44,Male,Urgent,Diabetes,13,4,1-2,Home,No
+12025,85,Male,Urgent,Stroke,10,9,None,Home,No
+12026,69,Male,Emergency,Diabetes,19,5,3-4,Expired,No
+12027,86,Male,Elective,Heart Failure,8,6,1-2,Transferred,No
+12028,68,Male,Emergency,Cancer,18,8,None,Expired,Yes
+12029,55,Female,Emergency,Diabetes,3,0,3-4,Expired,No
+12030,87,Male,Emergency,Cancer,24,3,3-4,Expired,No
+12031,60,Male,Emergency,Heart Failure,24,8,None,Home,No
+12032,81,Male,Emergency,Heart Failure,17,4,5+,Transferred,No
+12033,29,Female,Urgent,Stroke,8,7,5+,Expired,No
+12034,40,Male,Urgent,Cancer,10,0,None,Transferred,No
+12035,55,Female,Elective,Pneumonia,2,3,3-4,Transferred,No
+12036,31,Male,Emergency,Stroke,12,8,5+,Expired,No
+12037,21,Male,Elective,Cancer,23,0,5+,Expired,Yes
+12038,32,Female,Urgent,Diabetes,6,0,5+,Home,No
+12039,72,Male,Urgent,Diabetes,2,3,1-2,Transferred,No
+12040,51,Male,Urgent,Heart Failure,21,2,5+,Expired,No
+12041,35,Female,Emergency,Pneumonia,23,6,None,Expired,No
+12042,51,Male,Emergency,Diabetes,24,2,None,Transferred,No
+12043,51,Female,Urgent,Cancer,3,0,1-2,Expired,No
+12044,30,Female,Elective,Cancer,17,9,1-2,Transferred,No
+12045,29,Female,Elective,Diabetes,29,1,None,Expired,No
+12046,34,Female,Urgent,Cancer,7,9,1-2,Transferred,No
+12047,36,Female,Elective,Cancer,29,3,5+,Expired,No
+12048,59,Male,Urgent,Heart Failure,21,0,3-4,Expired,No
+12049,37,Male,Elective,Pneumonia,5,0,3-4,Home,No
+12050,74,Male,Urgent,Heart Failure,23,7,3-4,Transferred,No
+12051,44,Female,Elective,Pneumonia,1,6,None,Home,No
+12052,78,Female,Emergency,Cancer,8,7,1-2,Expired,No
+12053,41,Female,Urgent,Pneumonia,12,3,3-4,Transferred,No
+12054,49,Female,Urgent,Cancer,14,5,5+,Transferred,No
+12055,63,Male,Elective,Cancer,16,2,5+,Expired,No
+12056,51,Male,Urgent,Heart Failure,10,7,5+,Expired,No
+12057,70,Female,Urgent,Heart Failure,15,3,1-2,Expired,No
+12058,65,Female,Urgent,Stroke,21,2,3-4,Expired,No
+12059,40,Male,Emergency,Diabetes,24,3,5+,Transferred,No
+12060,51,Female,Emergency,Stroke,26,5,1-2,Home,No
+12061,58,Female,Elective,Stroke,15,6,5+,Transferred,No
+12062,31,Female,Emergency,Pneumonia,10,6,3-4,Transferred,Yes
+12063,66,Male,Elective,Cancer,21,3,3-4,Transferred,Yes
+12064,37,Male,Emergency,Cancer,28,7,3-4,Transferred,No
+12065,40,Female,Elective,Cancer,7,6,3-4,Expired,Yes
+12066,32,Male,Emergency,Diabetes,26,1,3-4,Home,No
+12067,40,Female,Emergency,Pneumonia,3,7,5+,Transferred,No
+12068,27,Female,Elective,Pneumonia,2,8,3-4,Transferred,No
+12069,65,Male,Urgent,Cancer,6,4,5+,Home,No
+12070,26,Female,Urgent,Stroke,21,3,3-4,Expired,No
+12071,42,Female,Emergency,Diabetes,9,3,5+,Transferred,No
+12072,41,Male,Elective,Stroke,10,3,3-4,Expired,No
+12073,41,Female,Urgent,Heart Failure,4,5,5+,Transferred,Yes
+12074,48,Female,Elective,Pneumonia,27,3,3-4,Transferred,No
+12075,32,Female,Urgent,Pneumonia,3,6,1-2,Home,No
+12076,21,Male,Elective,Stroke,9,6,5+,Home,Yes
+12077,48,Female,Emergency,Diabetes,24,4,1-2,Expired,No
+12078,71,Male,Elective,Pneumonia,22,4,5+,Transferred,No
+12079,46,Female,Urgent,Stroke,17,9,5+,Expired,No
+12080,69,Female,Emergency,Diabetes,14,7,5+,Home,Yes
+12081,42,Female,Elective,Stroke,10,6,None,Home,No
+12082,63,Female,Urgent,Diabetes,13,6,3-4,Home,No
+12083,41,Male,Emergency,Cancer,12,5,1-2,Home,No
+12084,62,Male,Elective,Diabetes,27,6,1-2,Home,No
+12085,56,Female,Urgent,Heart Failure,1,6,5+,Expired,No
+12086,80,Female,Elective,Cancer,28,9,1-2,Expired,No
+12087,75,Female,Elective,Stroke,22,1,1-2,Home,No
+12088,22,Female,Emergency,Cancer,29,9,1-2,Transferred,Yes
+12089,82,Female,Emergency,Cancer,19,1,1-2,Transferred,Yes
+12090,38,Female,Urgent,Stroke,19,9,None,Transferred,Yes
+12091,42,Female,Emergency,Stroke,6,6,5+,Transferred,No
+12092,48,Female,Urgent,Heart Failure,13,9,1-2,Transferred,No
+12093,49,Male,Elective,Stroke,19,6,None,Home,Yes
+12094,58,Male,Elective,Pneumonia,13,6,None,Expired,No
+12095,44,Male,Urgent,Pneumonia,27,4,5+,Home,Yes
+12096,27,Female,Elective,Heart Failure,26,0,3-4,Transferred,No
+12097,77,Female,Emergency,Diabetes,22,1,3-4,Transferred,No
+12098,35,Female,Elective,Diabetes,21,8,3-4,Expired,No
+12099,20,Male,Emergency,Pneumonia,4,7,1-2,Home,No
+12100,24,Female,Urgent,Stroke,24,7,5+,Expired,No
+12101,22,Male,Urgent,Heart Failure,2,9,3-4,Transferred,No
+12102,84,Female,Elective,Diabetes,15,0,1-2,Transferred,Yes
+12103,23,Male,Elective,Diabetes,12,5,5+,Expired,Yes
+12104,83,Male,Emergency,Cancer,27,8,1-2,Transferred,No
+12105,29,Male,Emergency,Pneumonia,7,7,3-4,Home,No
+12106,40,Female,Elective,Stroke,20,2,3-4,Transferred,No
+12107,65,Male,Elective,Heart Failure,18,3,None,Transferred,Yes
+12108,46,Female,Urgent,Diabetes,23,2,None,Home,No
+12109,85,Female,Urgent,Cancer,13,5,5+,Transferred,Yes
+12110,60,Female,Urgent,Pneumonia,17,8,1-2,Expired,Yes
+12111,32,Female,Elective,Pneumonia,4,7,1-2,Expired,No
+12112,28,Female,Elective,Heart Failure,25,9,3-4,Transferred,No
+12113,55,Male,Elective,Diabetes,14,3,3-4,Home,No
+12114,77,Female,Urgent,Heart Failure,20,1,5+,Home,No
+12115,73,Female,Elective,Heart Failure,28,7,None,Expired,No
+12116,31,Female,Emergency,Cancer,13,7,3-4,Transferred,Yes
+12117,33,Female,Elective,Pneumonia,3,5,1-2,Home,No
+12118,53,Female,Elective,Stroke,26,7,3-4,Home,No
+12119,72,Male,Elective,Pneumonia,26,8,None,Expired,No
+12120,39,Male,Elective,Pneumonia,18,0,1-2,Expired,No
+12121,35,Female,Elective,Cancer,14,8,None,Home,No
+12122,89,Male,Emergency,Stroke,15,1,5+,Expired,No
+12123,75,Male,Emergency,Diabetes,3,0,5+,Home,Yes
+12124,77,Female,Elective,Stroke,1,7,None,Transferred,Yes
+12125,23,Male,Urgent,Diabetes,26,7,1-2,Expired,No
+12126,23,Female,Elective,Stroke,24,3,None,Expired,No
+12127,39,Male,Elective,Heart Failure,17,7,3-4,Transferred,No
+12128,29,Male,Elective,Stroke,3,6,3-4,Home,No
+12129,43,Male,Urgent,Cancer,14,1,None,Home,No
+12130,45,Female,Urgent,Diabetes,3,4,3-4,Expired,No
+12131,56,Male,Urgent,Pneumonia,13,9,None,Home,No
+12132,73,Male,Emergency,Cancer,15,3,3-4,Home,Yes
+12133,40,Female,Urgent,Diabetes,18,2,None,Transferred,No
+12134,57,Female,Emergency,Diabetes,14,0,3-4,Transferred,No
+12135,65,Male,Emergency,Pneumonia,21,4,1-2,Transferred,Yes
+12136,23,Female,Urgent,Heart Failure,26,9,1-2,Expired,No
+12137,79,Male,Urgent,Cancer,3,7,3-4,Transferred,No
+12138,76,Male,Urgent,Pneumonia,19,8,None,Transferred,No
+12139,64,Female,Emergency,Pneumonia,8,6,3-4,Home,No
+12140,39,Female,Elective,Heart Failure,4,0,5+,Transferred,Yes
+12141,36,Female,Urgent,Cancer,4,0,5+,Expired,No
+12142,23,Male,Urgent,Pneumonia,19,0,None,Transferred,No
+12143,33,Female,Urgent,Heart Failure,11,1,3-4,Expired,Yes
+12144,22,Male,Emergency,Cancer,1,0,3-4,Home,No
+12145,77,Female,Emergency,Stroke,8,3,1-2,Home,Yes
+12146,74,Male,Elective,Diabetes,15,9,None,Transferred,No
+12147,23,Female,Urgent,Heart Failure,1,8,5+,Home,No
+12148,43,Male,Emergency,Diabetes,7,3,5+,Transferred,No
+12149,53,Female,Elective,Stroke,21,3,None,Home,No
+12150,49,Male,Urgent,Pneumonia,20,6,5+,Expired,No
+12151,38,Female,Emergency,Pneumonia,20,8,None,Home,Yes
+12152,50,Female,Urgent,Cancer,24,6,5+,Transferred,No
+12153,79,Male,Urgent,Heart Failure,11,0,5+,Transferred,Yes
+12154,79,Female,Emergency,Heart Failure,27,0,None,Transferred,Yes
+12155,38,Male,Emergency,Cancer,29,3,None,Expired,No
+12156,68,Male,Emergency,Diabetes,14,3,5+,Home,No
+12157,82,Female,Urgent,Pneumonia,22,0,5+,Transferred,No
+12158,41,Male,Urgent,Pneumonia,16,5,1-2,Expired,Yes
+12159,43,Female,Elective,Heart Failure,14,9,3-4,Expired,No
+12160,49,Female,Urgent,Heart Failure,12,1,None,Expired,No
+12161,77,Male,Emergency,Cancer,17,4,None,Home,Yes
+12162,50,Female,Urgent,Stroke,14,7,3-4,Home,No
+12163,83,Male,Elective,Diabetes,10,2,1-2,Home,No
+12164,38,Male,Elective,Stroke,24,8,5+,Expired,No
+12165,67,Female,Emergency,Stroke,29,6,5+,Home,No
+12166,64,Female,Emergency,Heart Failure,14,8,1-2,Transferred,No
+12167,74,Male,Elective,Heart Failure,18,0,1-2,Expired,No
+12168,74,Male,Elective,Heart Failure,22,4,3-4,Home,Yes
+12169,37,Female,Elective,Stroke,9,2,3-4,Expired,Yes
+12170,82,Female,Emergency,Diabetes,17,3,5+,Expired,No
+12171,66,Female,Elective,Heart Failure,6,3,1-2,Home,Yes
+12172,76,Female,Elective,Pneumonia,8,6,1-2,Expired,No
+12173,64,Male,Emergency,Diabetes,26,9,5+,Home,Yes
+12174,52,Female,Urgent,Pneumonia,13,7,5+,Home,No
+12175,36,Male,Urgent,Diabetes,18,9,5+,Home,No
+12176,89,Male,Elective,Heart Failure,5,4,5+,Expired,Yes
+12177,23,Female,Urgent,Cancer,6,9,5+,Expired,No
+12178,39,Male,Urgent,Heart Failure,21,6,3-4,Home,No
+12179,66,Female,Urgent,Stroke,19,2,5+,Expired,No
+12180,34,Male,Urgent,Stroke,4,2,1-2,Home,No
+12181,89,Female,Elective,Diabetes,7,2,None,Transferred,Yes
+12182,66,Male,Urgent,Stroke,4,3,3-4,Expired,No
+12183,28,Male,Urgent,Heart Failure,25,5,1-2,Expired,No
+12184,35,Female,Emergency,Pneumonia,11,4,None,Transferred,No
+12185,88,Female,Elective,Heart Failure,12,7,3-4,Transferred,No
+12186,80,Male,Emergency,Diabetes,14,4,5+,Transferred,Yes
+12187,29,Male,Emergency,Stroke,13,4,3-4,Home,No
+12188,69,Female,Elective,Pneumonia,29,9,5+,Home,No
+12189,22,Male,Urgent,Cancer,10,1,5+,Transferred,Yes
+12190,89,Female,Emergency,Pneumonia,18,4,5+,Home,Yes
+12191,70,Male,Elective,Pneumonia,16,6,None,Expired,No
+12192,38,Female,Urgent,Heart Failure,5,1,3-4,Transferred,No
+12193,61,Male,Elective,Cancer,8,5,5+,Expired,No
+12194,54,Female,Emergency,Diabetes,14,6,1-2,Home,No
+12195,65,Female,Urgent,Diabetes,5,4,3-4,Transferred,Yes
+12196,45,Male,Urgent,Pneumonia,26,8,1-2,Home,No
+12197,88,Female,Elective,Pneumonia,28,3,None,Expired,No
+12198,83,Male,Urgent,Stroke,24,9,None,Home,No
+12199,56,Female,Emergency,Cancer,8,0,3-4,Expired,No
+12200,68,Female,Emergency,Pneumonia,25,7,None,Home,No
+12201,40,Female,Emergency,Stroke,26,7,None,Expired,Yes
+12202,83,Male,Elective,Cancer,6,6,3-4,Home,No
+12203,24,Female,Urgent,Diabetes,16,7,1-2,Transferred,No
+12204,89,Male,Urgent,Stroke,28,1,5+,Transferred,No
+12205,23,Female,Urgent,Cancer,4,2,3-4,Home,No
+12206,58,Male,Emergency,Stroke,12,8,3-4,Expired,No
+12207,54,Male,Urgent,Pneumonia,11,0,5+,Home,No
+12208,20,Male,Emergency,Heart Failure,3,7,1-2,Transferred,No
+12209,43,Female,Urgent,Diabetes,12,7,5+,Expired,No
+12210,76,Male,Emergency,Pneumonia,5,6,5+,Home,No
+12211,89,Female,Urgent,Pneumonia,6,4,1-2,Home,No
+12212,60,Male,Elective,Cancer,19,3,1-2,Expired,No
+12213,73,Male,Elective,Stroke,18,9,5+,Home,No
+12214,65,Male,Emergency,Diabetes,16,9,5+,Transferred,No
+12215,79,Male,Emergency,Pneumonia,23,9,3-4,Transferred,No
+12216,79,Female,Urgent,Cancer,11,9,1-2,Expired,Yes
+12217,76,Male,Urgent,Diabetes,5,5,None,Home,No
+12218,50,Male,Elective,Stroke,9,0,1-2,Home,No
+12219,43,Female,Urgent,Pneumonia,3,4,5+,Transferred,No
+12220,55,Male,Emergency,Pneumonia,8,3,5+,Expired,Yes
+12221,49,Male,Emergency,Pneumonia,6,3,5+,Expired,No
+12222,43,Male,Emergency,Diabetes,4,6,5+,Expired,No
+12223,49,Male,Emergency,Diabetes,12,8,None,Transferred,Yes
+12224,26,Female,Emergency,Diabetes,12,7,1-2,Transferred,Yes
+12225,54,Female,Elective,Diabetes,25,7,None,Expired,No
+12226,74,Male,Elective,Cancer,21,4,None,Expired,No
+12227,33,Female,Emergency,Heart Failure,16,5,5+,Home,No
+12228,29,Female,Urgent,Cancer,10,1,None,Home,Yes
+12229,35,Male,Emergency,Pneumonia,22,2,5+,Expired,No
+12230,73,Female,Elective,Cancer,14,4,5+,Transferred,No
+12231,89,Male,Emergency,Stroke,13,1,5+,Transferred,No
+12232,63,Female,Elective,Diabetes,9,2,None,Home,No
+12233,64,Female,Elective,Stroke,7,3,5+,Expired,No
+12234,75,Female,Emergency,Stroke,12,5,None,Transferred,Yes
+12235,76,Male,Emergency,Pneumonia,5,4,1-2,Transferred,No
+12236,40,Female,Urgent,Diabetes,18,9,5+,Transferred,Yes
+12237,87,Male,Elective,Stroke,4,3,3-4,Transferred,No
+12238,69,Male,Urgent,Pneumonia,2,1,3-4,Home,Yes
+12239,52,Female,Emergency,Diabetes,3,4,3-4,Transferred,No
+12240,26,Male,Elective,Heart Failure,26,4,3-4,Transferred,No
+12241,89,Female,Urgent,Pneumonia,12,6,3-4,Expired,No
+12242,34,Male,Urgent,Cancer,3,0,None,Expired,No
+12243,51,Male,Urgent,Diabetes,4,3,1-2,Home,Yes
+12244,39,Female,Emergency,Stroke,6,4,None,Home,No
+12245,34,Female,Emergency,Stroke,12,7,5+,Home,Yes
+12246,67,Female,Emergency,Cancer,19,7,1-2,Home,No
+12247,40,Female,Elective,Cancer,10,0,1-2,Transferred,No
+12248,61,Male,Emergency,Stroke,1,4,1-2,Expired,No
+12249,45,Male,Elective,Diabetes,17,9,1-2,Transferred,Yes
+12250,33,Male,Urgent,Pneumonia,16,0,3-4,Transferred,No
+12251,76,Female,Urgent,Cancer,9,0,5+,Transferred,Yes
+12252,56,Male,Emergency,Cancer,25,1,1-2,Expired,No
+12253,77,Female,Urgent,Cancer,21,1,1-2,Home,No
+12254,40,Male,Emergency,Heart Failure,9,8,3-4,Home,No
+12255,88,Female,Elective,Diabetes,27,3,None,Expired,No
+12256,22,Male,Urgent,Diabetes,23,2,None,Expired,No
+12257,56,Male,Emergency,Diabetes,9,0,None,Home,No
+12258,68,Female,Urgent,Diabetes,12,1,5+,Transferred,Yes
+12259,38,Male,Urgent,Diabetes,23,5,None,Home,No
+12260,31,Female,Emergency,Stroke,9,8,1-2,Expired,No
+12261,80,Male,Urgent,Cancer,15,4,3-4,Home,No
+12262,60,Male,Urgent,Stroke,2,3,3-4,Home,No
+12263,52,Female,Urgent,Heart Failure,11,4,None,Home,No
+12264,69,Female,Urgent,Pneumonia,11,8,3-4,Expired,No
+12265,87,Male,Elective,Cancer,8,6,1-2,Expired,No
+12266,52,Male,Urgent,Heart Failure,23,7,None,Home,Yes
+12267,43,Male,Urgent,Stroke,6,3,1-2,Home,No
+12268,80,Male,Emergency,Pneumonia,21,7,5+,Transferred,No
+12269,80,Male,Elective,Heart Failure,20,5,1-2,Transferred,No
+12270,47,Male,Emergency,Pneumonia,7,4,1-2,Home,No
+12271,77,Female,Emergency,Heart Failure,3,6,1-2,Expired,No
+12272,62,Female,Emergency,Stroke,8,5,1-2,Transferred,No
+12273,60,Female,Elective,Pneumonia,18,2,5+,Home,No
+12274,58,Male,Emergency,Heart Failure,17,4,None,Transferred,No
+12275,68,Male,Emergency,Stroke,11,8,1-2,Transferred,No
+12276,36,Male,Emergency,Cancer,2,6,None,Transferred,No
+12277,89,Female,Urgent,Stroke,25,3,3-4,Expired,Yes
+12278,89,Female,Emergency,Stroke,21,6,1-2,Home,No
+12279,84,Male,Elective,Cancer,27,4,1-2,Expired,No
+12280,24,Male,Elective,Stroke,24,1,3-4,Expired,No
+12281,21,Female,Urgent,Cancer,19,5,None,Transferred,Yes
+12282,41,Female,Elective,Cancer,7,6,5+,Home,No
+12283,76,Female,Elective,Cancer,18,7,1-2,Transferred,No
+12284,85,Male,Urgent,Heart Failure,8,5,3-4,Expired,No
+12285,35,Male,Emergency,Pneumonia,14,7,3-4,Expired,No
+12286,70,Male,Urgent,Heart Failure,7,6,1-2,Home,No
+12287,58,Female,Emergency,Cancer,28,1,None,Expired,No
+12288,59,Female,Emergency,Pneumonia,21,5,None,Expired,No
+12289,57,Male,Elective,Pneumonia,28,8,1-2,Home,No
+12290,79,Male,Urgent,Cancer,27,5,3-4,Transferred,No
+12291,78,Female,Elective,Pneumonia,4,3,1-2,Home,No
+12292,29,Male,Elective,Pneumonia,17,6,5+,Expired,Yes
+12293,83,Female,Emergency,Heart Failure,5,2,5+,Home,No
+12294,82,Female,Elective,Pneumonia,12,4,None,Transferred,No
+12295,68,Male,Urgent,Cancer,9,0,5+,Expired,No
+12296,83,Female,Elective,Diabetes,26,9,3-4,Transferred,No
+12297,51,Male,Elective,Diabetes,20,2,5+,Transferred,No
+12298,26,Female,Emergency,Diabetes,13,7,1-2,Home,Yes
+12299,40,Female,Urgent,Cancer,25,8,3-4,Transferred,Yes
+12300,39,Male,Elective,Diabetes,28,8,None,Home,No
+12301,45,Female,Emergency,Heart Failure,18,9,None,Home,No
+12302,87,Male,Elective,Cancer,20,1,5+,Transferred,No
+12303,34,Male,Urgent,Cancer,9,3,None,Home,No
+12304,33,Female,Elective,Cancer,4,4,1-2,Home,No
+12305,46,Male,Elective,Pneumonia,21,2,3-4,Transferred,Yes
+12306,59,Male,Emergency,Pneumonia,27,0,1-2,Expired,No
+12307,77,Male,Elective,Pneumonia,8,5,1-2,Home,No
+12308,47,Male,Emergency,Stroke,1,9,1-2,Home,No
+12309,45,Male,Urgent,Heart Failure,17,1,1-2,Transferred,No
+12310,82,Male,Elective,Cancer,25,8,3-4,Home,No
+12311,85,Female,Urgent,Cancer,9,0,3-4,Transferred,Yes
+12312,44,Male,Urgent,Pneumonia,20,8,1-2,Expired,No
+12313,22,Female,Elective,Cancer,13,6,1-2,Expired,No
+12314,63,Female,Emergency,Cancer,2,9,None,Transferred,No
+12315,61,Male,Urgent,Diabetes,13,1,None,Expired,No
+12316,25,Female,Urgent,Cancer,9,5,3-4,Transferred,No
+12317,58,Female,Elective,Stroke,20,7,None,Home,No
+12318,71,Male,Elective,Pneumonia,6,1,3-4,Expired,Yes
+12319,42,Male,Elective,Heart Failure,28,4,3-4,Home,Yes
+12320,69,Male,Elective,Heart Failure,1,5,5+,Home,No
+12321,62,Female,Elective,Diabetes,28,2,3-4,Transferred,No
+12322,38,Female,Elective,Heart Failure,25,1,None,Expired,Yes
+12323,88,Male,Emergency,Heart Failure,5,5,5+,Expired,Yes
+12324,70,Male,Urgent,Pneumonia,3,2,None,Home,No
+12325,30,Female,Emergency,Pneumonia,4,1,3-4,Home,No
+12326,31,Female,Emergency,Stroke,1,0,3-4,Transferred,Yes
+12327,27,Female,Elective,Diabetes,14,7,1-2,Expired,No
+12328,43,Female,Urgent,Heart Failure,9,0,3-4,Transferred,No
+12329,60,Male,Emergency,Stroke,24,4,5+,Transferred,No
+12330,55,Female,Elective,Diabetes,4,5,3-4,Transferred,No
+12331,74,Female,Elective,Heart Failure,18,2,1-2,Expired,No
+12332,28,Female,Urgent,Heart Failure,14,6,3-4,Transferred,No
+12333,66,Female,Emergency,Pneumonia,25,1,3-4,Expired,Yes
+12334,34,Male,Emergency,Cancer,4,6,3-4,Transferred,No
+12335,67,Male,Emergency,Diabetes,25,1,1-2,Home,Yes
+12336,61,Female,Elective,Heart Failure,10,4,None,Transferred,No
+12337,79,Female,Urgent,Diabetes,3,6,3-4,Transferred,No
+12338,89,Male,Urgent,Stroke,23,2,5+,Expired,Yes
+12339,31,Male,Emergency,Stroke,7,3,1-2,Home,No
+12340,21,Female,Elective,Cancer,10,0,5+,Home,No
+12341,26,Female,Emergency,Heart Failure,13,2,3-4,Expired,No
+12342,22,Male,Urgent,Pneumonia,4,8,1-2,Expired,No
+12343,22,Male,Elective,Heart Failure,18,9,3-4,Home,No
+12344,46,Male,Emergency,Diabetes,11,4,5+,Expired,No
+12345,59,Male,Emergency,Stroke,25,7,1-2,Home,No
+12346,52,Male,Elective,Diabetes,4,1,None,Transferred,No
+12347,20,Male,Urgent,Cancer,24,2,None,Transferred,Yes
+12348,27,Female,Elective,Stroke,14,6,None,Home,Yes
+12349,51,Male,Emergency,Pneumonia,18,9,3-4,Home,No
+12350,67,Male,Emergency,Stroke,8,3,1-2,Transferred,No
+12351,23,Male,Emergency,Heart Failure,27,8,5+,Transferred,No
+12352,89,Male,Emergency,Heart Failure,10,6,5+,Home,No
+12353,38,Female,Urgent,Stroke,5,0,3-4,Expired,No
+12354,51,Female,Urgent,Cancer,23,3,3-4,Expired,No
+12355,28,Male,Emergency,Heart Failure,7,9,5+,Home,Yes
+12356,31,Female,Urgent,Heart Failure,12,5,1-2,Expired,Yes
+12357,30,Female,Urgent,Pneumonia,25,5,3-4,Transferred,No
+12358,65,Female,Urgent,Stroke,3,9,1-2,Transferred,No
+12359,35,Female,Emergency,Heart Failure,26,5,5+,Expired,No
+12360,20,Female,Elective,Cancer,4,4,1-2,Home,No
+12361,82,Female,Elective,Diabetes,10,2,None,Transferred,No
+12362,40,Male,Elective,Stroke,4,1,5+,Transferred,Yes
+12363,49,Male,Emergency,Pneumonia,15,2,None,Transferred,No
+12364,32,Male,Urgent,Heart Failure,29,8,5+,Expired,No
+12365,53,Male,Urgent,Cancer,10,2,None,Home,Yes
+12366,23,Male,Emergency,Stroke,21,2,1-2,Expired,No
+12367,47,Female,Emergency,Cancer,22,0,5+,Home,No
+12368,78,Male,Elective,Cancer,16,1,5+,Home,No
+12369,46,Male,Elective,Pneumonia,15,2,None,Expired,Yes
+12370,88,Female,Emergency,Stroke,19,1,1-2,Transferred,Yes
+12371,44,Female,Elective,Heart Failure,29,7,5+,Home,Yes
+12372,22,Male,Urgent,Pneumonia,20,5,3-4,Expired,No
+12373,87,Female,Emergency,Heart Failure,19,6,None,Transferred,No
+12374,44,Female,Emergency,Diabetes,18,0,5+,Home,No
+12375,39,Female,Urgent,Cancer,26,5,1-2,Home,No
+12376,53,Female,Urgent,Diabetes,12,1,1-2,Transferred,No
+12377,45,Male,Urgent,Cancer,25,5,1-2,Home,No
+12378,24,Female,Elective,Pneumonia,16,2,1-2,Expired,No
+12379,80,Male,Emergency,Heart Failure,1,6,None,Home,No
+12380,28,Male,Elective,Heart Failure,16,2,5+,Home,No
+12381,69,Female,Urgent,Pneumonia,2,8,None,Transferred,Yes
+12382,25,Female,Elective,Stroke,24,2,None,Expired,No
+12383,79,Female,Urgent,Diabetes,15,6,1-2,Transferred,No
+12384,63,Male,Elective,Diabetes,7,3,3-4,Expired,No
+12385,30,Female,Elective,Heart Failure,28,7,1-2,Transferred,Yes
+12386,85,Female,Urgent,Heart Failure,1,1,3-4,Home,No
+12387,66,Female,Elective,Heart Failure,5,7,None,Expired,No
+12388,22,Female,Emergency,Pneumonia,10,8,1-2,Expired,Yes
+12389,49,Female,Elective,Stroke,22,7,1-2,Home,No
+12390,40,Male,Elective,Diabetes,21,5,None,Transferred,Yes
+12391,47,Female,Emergency,Cancer,4,9,1-2,Expired,No
+12392,81,Female,Urgent,Pneumonia,14,0,5+,Home,No
+12393,52,Female,Emergency,Diabetes,13,6,3-4,Home,No
+12394,54,Male,Elective,Stroke,1,0,3-4,Expired,No
+12395,71,Female,Urgent,Pneumonia,16,6,3-4,Expired,Yes
+12396,53,Male,Elective,Diabetes,23,1,1-2,Expired,No
+12397,60,Male,Elective,Pneumonia,9,7,5+,Home,No
+12398,70,Female,Emergency,Diabetes,22,1,1-2,Transferred,No
+12399,66,Female,Emergency,Diabetes,16,2,3-4,Transferred,No
+12400,77,Female,Urgent,Stroke,19,2,1-2,Expired,No
+12401,76,Male,Urgent,Cancer,15,0,3-4,Home,No
+12402,42,Male,Urgent,Stroke,26,4,None,Home,No
+12403,67,Male,Elective,Diabetes,14,4,3-4,Expired,Yes
+12404,41,Male,Emergency,Pneumonia,20,9,None,Home,Yes
+12405,36,Male,Emergency,Stroke,10,4,None,Home,No
+12406,88,Male,Emergency,Cancer,21,8,None,Home,No
+12407,30,Female,Urgent,Diabetes,12,5,3-4,Expired,No
+12408,34,Female,Emergency,Stroke,28,5,5+,Expired,Yes
+12409,54,Male,Emergency,Stroke,1,2,3-4,Expired,No
+12410,52,Female,Emergency,Stroke,21,4,1-2,Transferred,No
+12411,35,Female,Urgent,Stroke,17,9,1-2,Transferred,No
+12412,53,Male,Emergency,Pneumonia,9,6,5+,Expired,No
+12413,85,Male,Urgent,Cancer,23,2,5+,Home,No
+12414,59,Female,Emergency,Cancer,19,1,5+,Home,No
+12415,47,Male,Emergency,Diabetes,25,4,None,Expired,No
+12416,66,Male,Emergency,Heart Failure,18,2,5+,Home,No
+12417,58,Female,Urgent,Pneumonia,28,4,5+,Home,No
+12418,89,Male,Urgent,Diabetes,7,8,5+,Transferred,No
+12419,39,Female,Emergency,Diabetes,9,9,3-4,Home,No
+12420,20,Female,Elective,Stroke,22,0,1-2,Home,No
+12421,82,Female,Urgent,Heart Failure,26,3,1-2,Expired,No
+12422,86,Female,Urgent,Heart Failure,21,9,5+,Transferred,Yes
+12423,23,Female,Emergency,Pneumonia,12,4,1-2,Transferred,No
+12424,77,Male,Elective,Heart Failure,7,1,3-4,Home,No
+12425,44,Male,Emergency,Diabetes,14,1,1-2,Expired,No
+12426,66,Male,Urgent,Heart Failure,15,0,None,Transferred,No
+12427,57,Male,Urgent,Heart Failure,15,7,3-4,Transferred,No
+12428,34,Female,Emergency,Cancer,6,1,1-2,Home,Yes
+12429,82,Female,Emergency,Diabetes,21,2,1-2,Transferred,No
+12430,40,Male,Elective,Heart Failure,14,1,3-4,Expired,No
+12431,76,Female,Elective,Heart Failure,2,3,1-2,Expired,No
+12432,72,Male,Urgent,Stroke,8,0,1-2,Transferred,No
+12433,65,Male,Elective,Heart Failure,13,2,5+,Expired,No
+12434,33,Male,Elective,Heart Failure,23,4,None,Expired,No
+12435,36,Female,Urgent,Cancer,6,9,3-4,Home,No
+12436,58,Female,Urgent,Diabetes,5,0,5+,Transferred,No
+12437,28,Female,Urgent,Pneumonia,5,3,1-2,Transferred,No
+12438,25,Female,Urgent,Diabetes,25,5,3-4,Home,Yes
+12439,42,Male,Emergency,Stroke,1,3,3-4,Home,No
+12440,78,Female,Urgent,Diabetes,9,6,None,Home,No
+12441,65,Female,Urgent,Heart Failure,6,6,None,Home,Yes
+12442,57,Female,Urgent,Stroke,20,5,3-4,Expired,Yes
+12443,33,Male,Elective,Diabetes,26,8,None,Expired,No
+12444,81,Male,Urgent,Stroke,7,1,None,Home,No
+12445,54,Female,Emergency,Pneumonia,9,9,1-2,Transferred,No
+12446,38,Female,Emergency,Diabetes,5,7,None,Transferred,No
+12447,49,Female,Urgent,Heart Failure,14,7,None,Transferred,No
+12448,44,Female,Emergency,Stroke,5,9,5+,Home,No
+12449,59,Male,Elective,Cancer,8,3,1-2,Expired,Yes
+12450,33,Female,Urgent,Stroke,7,5,1-2,Expired,No
+12451,45,Female,Emergency,Cancer,13,5,3-4,Expired,No
+12452,41,Female,Emergency,Heart Failure,13,4,None,Expired,No
+12453,67,Male,Urgent,Pneumonia,8,0,5+,Transferred,No
+12454,70,Male,Emergency,Cancer,11,2,5+,Transferred,No
+12455,22,Female,Urgent,Pneumonia,28,6,1-2,Expired,No
+12456,61,Female,Emergency,Stroke,26,7,None,Home,No
+12457,38,Female,Elective,Heart Failure,18,1,5+,Expired,No
+12458,47,Female,Emergency,Cancer,25,2,3-4,Expired,No
+12459,64,Female,Emergency,Stroke,19,3,None,Home,No
+12460,82,Male,Urgent,Diabetes,6,4,None,Expired,No
+12461,38,Male,Emergency,Stroke,22,2,None,Transferred,Yes
+12462,66,Male,Urgent,Pneumonia,2,4,5+,Home,No
+12463,33,Female,Elective,Heart Failure,28,7,1-2,Home,No
+12464,57,Male,Urgent,Heart Failure,13,7,1-2,Expired,No
+12465,72,Male,Urgent,Stroke,23,1,3-4,Transferred,No
+12466,80,Male,Emergency,Diabetes,25,5,5+,Transferred,No
+12467,55,Female,Elective,Pneumonia,28,3,None,Transferred,No
+12468,59,Female,Urgent,Stroke,26,8,3-4,Expired,No
+12469,49,Male,Emergency,Stroke,11,9,3-4,Expired,No
+12470,28,Female,Emergency,Heart Failure,1,1,1-2,Transferred,No
+12471,83,Male,Urgent,Pneumonia,24,7,None,Expired,Yes
+12472,52,Male,Emergency,Diabetes,2,0,None,Transferred,No
+12473,71,Male,Urgent,Heart Failure,17,5,5+,Expired,No
+12474,33,Male,Urgent,Stroke,8,9,5+,Home,No
+12475,72,Female,Urgent,Heart Failure,2,0,5+,Home,No
+12476,78,Female,Elective,Heart Failure,6,1,3-4,Expired,No
+12477,60,Female,Urgent,Cancer,22,2,None,Expired,No
+12478,87,Female,Emergency,Heart Failure,5,8,1-2,Transferred,No
+12479,87,Male,Elective,Heart Failure,16,4,3-4,Home,No
+12480,27,Female,Emergency,Pneumonia,8,9,3-4,Transferred,No
+12481,21,Male,Elective,Heart Failure,19,9,1-2,Expired,No
+12482,60,Female,Elective,Diabetes,16,1,1-2,Transferred,Yes
+12483,74,Female,Elective,Stroke,13,9,5+,Transferred,Yes
+12484,35,Female,Elective,Pneumonia,26,4,1-2,Expired,No
+12485,81,Male,Emergency,Heart Failure,20,4,1-2,Home,Yes
+12486,67,Male,Urgent,Diabetes,7,0,1-2,Transferred,No
+12487,49,Male,Emergency,Stroke,16,2,1-2,Expired,No
+12488,31,Male,Urgent,Pneumonia,23,4,5+,Transferred,Yes
+12489,54,Female,Emergency,Diabetes,16,8,3-4,Expired,No
+12490,30,Male,Elective,Heart Failure,29,9,None,Expired,No
+12491,83,Male,Elective,Cancer,12,0,None,Expired,No
+12492,69,Female,Urgent,Cancer,14,7,3-4,Home,No
+12493,40,Female,Urgent,Pneumonia,24,0,None,Home,No
+12494,88,Male,Emergency,Diabetes,18,8,None,Expired,No
+12495,67,Female,Urgent,Stroke,27,5,3-4,Home,No
+12496,39,Male,Emergency,Diabetes,28,0,None,Transferred,No
+12497,86,Female,Urgent,Cancer,18,7,None,Home,No
+12498,63,Male,Urgent,Pneumonia,16,4,3-4,Home,No
+12499,52,Male,Urgent,Heart Failure,20,6,None,Transferred,No
+12500,80,Male,Elective,Diabetes,16,6,1-2,Transferred,No
+12501,28,Male,Elective,Cancer,13,6,3-4,Transferred,Yes
+12502,87,Male,Emergency,Stroke,26,5,5+,Expired,Yes
+12503,54,Female,Urgent,Pneumonia,29,7,None,Transferred,Yes
+12504,84,Male,Emergency,Heart Failure,9,8,5+,Transferred,No
+12505,27,Male,Urgent,Diabetes,26,1,None,Transferred,No
+12506,64,Male,Elective,Stroke,28,6,1-2,Expired,Yes
+12507,66,Male,Elective,Heart Failure,9,1,3-4,Home,No
+12508,59,Male,Urgent,Cancer,13,5,5+,Expired,No
+12509,73,Female,Urgent,Cancer,29,1,3-4,Home,No
+12510,65,Female,Elective,Stroke,4,9,5+,Transferred,No
+12511,66,Male,Elective,Cancer,9,5,None,Expired,No
+12512,34,Female,Emergency,Pneumonia,15,1,1-2,Expired,No
+12513,38,Male,Elective,Stroke,14,0,5+,Home,No
+12514,45,Female,Urgent,Cancer,19,6,5+,Expired,No
+12515,71,Female,Emergency,Diabetes,12,2,1-2,Expired,No
+12516,41,Male,Urgent,Cancer,21,3,1-2,Home,No
+12517,40,Female,Emergency,Pneumonia,26,5,1-2,Expired,No
+12518,70,Female,Urgent,Heart Failure,25,4,1-2,Expired,No
+12519,57,Male,Elective,Heart Failure,6,3,1-2,Transferred,No
+12520,39,Male,Urgent,Cancer,3,8,3-4,Transferred,No
+12521,48,Female,Emergency,Heart Failure,26,5,None,Transferred,No
+12522,70,Female,Urgent,Cancer,25,5,None,Transferred,No
+12523,23,Female,Emergency,Pneumonia,22,1,5+,Transferred,No
+12524,74,Male,Urgent,Heart Failure,20,5,1-2,Expired,No
+12525,47,Female,Elective,Diabetes,16,6,3-4,Expired,No
+12526,23,Female,Elective,Cancer,20,7,3-4,Transferred,No
+12527,41,Female,Urgent,Heart Failure,24,7,5+,Home,Yes
+12528,64,Male,Urgent,Pneumonia,23,8,1-2,Transferred,No
+12529,86,Male,Urgent,Pneumonia,17,9,None,Expired,No
+12530,85,Male,Emergency,Diabetes,16,2,1-2,Home,No
+12531,53,Male,Urgent,Pneumonia,6,9,3-4,Transferred,No
+12532,74,Female,Urgent,Pneumonia,8,6,1-2,Home,No
+12533,20,Male,Emergency,Heart Failure,19,6,None,Transferred,No
+12534,57,Female,Elective,Cancer,25,0,None,Expired,No
+12535,25,Female,Urgent,Stroke,26,7,5+,Transferred,No
+12536,44,Female,Urgent,Pneumonia,2,3,3-4,Home,No
+12537,36,Female,Elective,Pneumonia,14,4,1-2,Expired,Yes
+12538,80,Male,Elective,Stroke,22,5,1-2,Transferred,No
+12539,31,Male,Emergency,Pneumonia,12,2,5+,Transferred,No
+12540,25,Male,Urgent,Heart Failure,17,4,5+,Transferred,No
+12541,46,Male,Urgent,Heart Failure,28,9,5+,Transferred,No
+12542,27,Male,Emergency,Stroke,27,4,3-4,Expired,Yes
+12543,84,Female,Elective,Pneumonia,15,0,1-2,Expired,No
+12544,76,Male,Emergency,Pneumonia,18,2,5+,Transferred,No
+12545,59,Male,Elective,Cancer,16,2,3-4,Expired,No
+12546,33,Male,Emergency,Pneumonia,13,0,1-2,Home,No
+12547,54,Male,Elective,Heart Failure,21,6,None,Expired,No
+12548,67,Female,Emergency,Diabetes,17,0,5+,Home,No
+12549,75,Female,Elective,Diabetes,8,6,3-4,Home,Yes
+12550,68,Female,Elective,Diabetes,1,3,1-2,Expired,No
+12551,32,Female,Elective,Diabetes,29,8,1-2,Transferred,No
+12552,80,Female,Elective,Pneumonia,25,6,5+,Expired,No
+12553,68,Male,Elective,Pneumonia,26,4,5+,Home,Yes
+12554,65,Female,Urgent,Cancer,27,6,1-2,Home,No
+12555,81,Female,Elective,Pneumonia,3,8,3-4,Expired,No
+12556,27,Female,Urgent,Diabetes,16,9,None,Home,No
+12557,62,Male,Elective,Stroke,28,5,1-2,Expired,No
+12558,39,Male,Urgent,Stroke,2,0,3-4,Expired,No
+12559,58,Female,Urgent,Heart Failure,15,5,5+,Transferred,No
+12560,68,Male,Emergency,Heart Failure,1,0,1-2,Home,Yes
+12561,83,Male,Elective,Pneumonia,9,3,5+,Expired,No
+12562,81,Female,Emergency,Stroke,16,7,None,Home,No
+12563,73,Male,Emergency,Diabetes,4,4,5+,Expired,No
+12564,28,Male,Elective,Diabetes,12,4,None,Expired,No
+12565,56,Male,Emergency,Diabetes,1,9,5+,Transferred,No
+12566,68,Female,Elective,Pneumonia,1,7,5+,Expired,No
+12567,60,Female,Emergency,Pneumonia,7,7,None,Transferred,No
+12568,36,Female,Elective,Cancer,18,0,5+,Home,No
+12569,40,Male,Elective,Diabetes,23,4,3-4,Transferred,No
+12570,70,Female,Elective,Diabetes,28,4,5+,Transferred,Yes
+12571,78,Male,Urgent,Pneumonia,23,7,1-2,Home,No
+12572,58,Male,Emergency,Pneumonia,15,0,5+,Transferred,No
+12573,74,Male,Urgent,Cancer,26,6,3-4,Transferred,No
+12574,60,Female,Emergency,Cancer,25,6,1-2,Expired,No
+12575,58,Female,Emergency,Heart Failure,13,8,3-4,Transferred,Yes
+12576,32,Female,Emergency,Stroke,16,1,1-2,Expired,No
+12577,83,Female,Urgent,Diabetes,7,2,5+,Transferred,No
+12578,30,Male,Emergency,Diabetes,16,3,3-4,Home,Yes
+12579,38,Female,Urgent,Cancer,13,0,5+,Home,No
+12580,30,Male,Elective,Cancer,14,6,1-2,Transferred,No
+12581,65,Female,Emergency,Heart Failure,17,9,3-4,Expired,Yes
+12582,64,Female,Emergency,Stroke,12,2,None,Transferred,No
+12583,20,Female,Elective,Heart Failure,29,2,3-4,Expired,Yes
+12584,59,Male,Elective,Stroke,24,2,5+,Transferred,No
+12585,38,Male,Emergency,Diabetes,24,7,None,Home,No
+12586,80,Male,Elective,Heart Failure,20,8,None,Home,No
+12587,31,Male,Urgent,Cancer,13,9,1-2,Expired,No
+12588,80,Male,Urgent,Heart Failure,24,1,None,Transferred,No
+12589,52,Female,Emergency,Heart Failure,20,9,None,Expired,No
+12590,64,Male,Urgent,Diabetes,15,9,1-2,Home,No
+12591,88,Male,Urgent,Cancer,24,0,3-4,Expired,No
+12592,27,Male,Emergency,Cancer,21,8,5+,Transferred,No
+12593,44,Male,Elective,Pneumonia,4,5,3-4,Expired,No
+12594,65,Female,Emergency,Pneumonia,22,8,None,Transferred,Yes
+12595,49,Male,Urgent,Pneumonia,2,5,5+,Transferred,Yes
+12596,66,Female,Emergency,Diabetes,28,1,3-4,Home,No
+12597,68,Female,Emergency,Heart Failure,18,0,5+,Transferred,No
+12598,66,Female,Urgent,Cancer,2,7,None,Transferred,No
+12599,37,Male,Urgent,Cancer,25,2,3-4,Transferred,Yes
+12600,85,Female,Emergency,Heart Failure,15,0,5+,Expired,No
+12601,87,Male,Urgent,Cancer,26,7,5+,Home,No
+12602,52,Male,Urgent,Heart Failure,19,0,3-4,Expired,No
+12603,55,Male,Urgent,Diabetes,15,7,3-4,Expired,No
+12604,38,Male,Urgent,Diabetes,26,0,None,Home,No
+12605,47,Male,Urgent,Diabetes,20,8,1-2,Expired,No
+12606,59,Female,Urgent,Heart Failure,10,8,5+,Expired,No
+12607,34,Female,Elective,Heart Failure,28,8,3-4,Transferred,Yes
+12608,60,Male,Emergency,Stroke,24,2,3-4,Expired,No
+12609,58,Female,Urgent,Cancer,20,3,3-4,Home,No
+12610,21,Male,Emergency,Cancer,11,4,5+,Expired,Yes
+12611,82,Female,Elective,Stroke,26,5,None,Transferred,No
+12612,48,Female,Urgent,Stroke,10,8,1-2,Expired,Yes
+12613,85,Female,Emergency,Diabetes,29,3,5+,Home,No
+12614,70,Female,Urgent,Stroke,23,5,None,Transferred,No
+12615,29,Female,Urgent,Heart Failure,5,0,5+,Expired,No
+12616,33,Male,Urgent,Pneumonia,9,1,5+,Home,Yes
+12617,70,Male,Urgent,Heart Failure,20,7,3-4,Home,Yes
+12618,58,Female,Urgent,Stroke,19,3,None,Expired,No
+12619,47,Male,Urgent,Cancer,13,9,3-4,Expired,No
+12620,22,Female,Urgent,Heart Failure,18,6,3-4,Transferred,No
+12621,89,Male,Elective,Cancer,17,3,None,Expired,Yes
+12622,46,Female,Elective,Heart Failure,27,8,3-4,Transferred,No
+12623,21,Female,Urgent,Cancer,6,8,3-4,Expired,No
+12624,57,Female,Urgent,Heart Failure,10,3,1-2,Home,No
+12625,22,Male,Elective,Cancer,2,7,None,Home,No
+12626,35,Male,Elective,Pneumonia,24,5,None,Home,No
+12627,59,Female,Elective,Diabetes,6,0,3-4,Home,No
+12628,21,Female,Urgent,Heart Failure,28,6,3-4,Transferred,No
+12629,60,Male,Emergency,Pneumonia,28,0,None,Home,Yes
+12630,31,Male,Emergency,Diabetes,21,2,None,Transferred,No
+12631,54,Male,Emergency,Heart Failure,13,7,5+,Transferred,No
+12632,84,Male,Emergency,Pneumonia,18,8,None,Transferred,No
+12633,74,Male,Urgent,Pneumonia,7,2,5+,Expired,No
+12634,64,Female,Emergency,Pneumonia,2,0,3-4,Transferred,No
+12635,81,Male,Elective,Stroke,29,0,1-2,Expired,No
+12636,68,Female,Elective,Cancer,14,6,1-2,Transferred,No
+12637,44,Female,Emergency,Diabetes,5,4,5+,Expired,No
+12638,42,Male,Elective,Cancer,18,0,3-4,Expired,No
+12639,43,Male,Urgent,Cancer,11,5,3-4,Home,No
+12640,57,Female,Emergency,Cancer,10,5,3-4,Transferred,Yes
+12641,47,Male,Emergency,Pneumonia,11,3,None,Expired,No
+12642,40,Female,Urgent,Cancer,27,6,3-4,Home,No
+12643,73,Male,Elective,Stroke,2,6,None,Transferred,No
+12644,37,Male,Urgent,Heart Failure,15,8,5+,Home,Yes
+12645,55,Male,Urgent,Pneumonia,7,0,1-2,Expired,Yes
+12646,64,Female,Elective,Diabetes,9,4,5+,Home,No
+12647,72,Male,Urgent,Heart Failure,5,9,3-4,Home,No
+12648,49,Female,Elective,Heart Failure,7,2,3-4,Transferred,No
+12649,79,Male,Elective,Heart Failure,20,6,5+,Expired,No
+12650,51,Female,Urgent,Cancer,2,3,None,Transferred,Yes
+12651,86,Male,Elective,Cancer,3,3,None,Transferred,No
+12652,86,Female,Urgent,Pneumonia,2,0,None,Home,No
+12653,47,Female,Elective,Cancer,21,0,1-2,Expired,No
+12654,63,Female,Emergency,Cancer,22,9,1-2,Transferred,No
+12655,60,Female,Elective,Cancer,23,1,3-4,Expired,No
+12656,82,Female,Elective,Pneumonia,19,1,5+,Transferred,No
+12657,42,Female,Urgent,Pneumonia,4,0,5+,Home,No
+12658,67,Male,Elective,Stroke,24,7,3-4,Transferred,No
+12659,51,Female,Emergency,Stroke,20,5,None,Transferred,No
+12660,76,Female,Emergency,Stroke,7,5,1-2,Transferred,No
+12661,52,Female,Elective,Stroke,28,9,5+,Expired,No
+12662,43,Male,Elective,Heart Failure,22,9,3-4,Home,Yes
+12663,58,Male,Emergency,Heart Failure,7,8,None,Expired,No
+12664,53,Male,Urgent,Stroke,17,4,None,Transferred,Yes
+12665,75,Female,Emergency,Stroke,19,3,1-2,Home,Yes
+12666,47,Male,Emergency,Diabetes,22,5,1-2,Expired,No
+12667,56,Male,Elective,Heart Failure,16,7,3-4,Transferred,No
+12668,26,Female,Elective,Diabetes,3,0,3-4,Home,No
+12669,87,Female,Emergency,Diabetes,15,6,None,Home,No
+12670,56,Male,Urgent,Cancer,14,7,None,Transferred,Yes
+12671,75,Female,Emergency,Pneumonia,15,8,5+,Home,No
+12672,84,Female,Emergency,Heart Failure,14,7,None,Home,No
+12673,84,Female,Urgent,Stroke,7,6,3-4,Expired,No
+12674,66,Female,Emergency,Stroke,25,2,1-2,Home,No
+12675,39,Male,Emergency,Pneumonia,3,1,3-4,Expired,No
+12676,38,Female,Elective,Heart Failure,17,2,5+,Expired,No
+12677,48,Male,Urgent,Stroke,10,3,5+,Expired,No
+12678,79,Male,Elective,Stroke,15,3,1-2,Expired,No
+12679,37,Male,Elective,Cancer,29,5,3-4,Home,Yes
+12680,54,Male,Urgent,Diabetes,6,6,5+,Home,Yes
+12681,62,Female,Urgent,Stroke,28,3,3-4,Expired,No
+12682,30,Female,Emergency,Heart Failure,17,9,5+,Home,No
+12683,68,Female,Elective,Pneumonia,17,5,1-2,Expired,Yes
+12684,57,Male,Urgent,Cancer,14,8,5+,Expired,No
+12685,83,Male,Elective,Heart Failure,24,5,3-4,Expired,No
+12686,88,Male,Elective,Cancer,25,2,3-4,Transferred,No
+12687,27,Female,Urgent,Diabetes,18,0,5+,Home,No
+12688,53,Male,Emergency,Stroke,25,9,None,Home,No
+12689,67,Female,Elective,Heart Failure,5,9,1-2,Expired,No
+12690,75,Female,Urgent,Pneumonia,29,4,1-2,Home,Yes
+12691,84,Female,Emergency,Diabetes,8,9,5+,Expired,No
+12692,50,Female,Elective,Diabetes,7,9,5+,Home,No
+12693,23,Male,Urgent,Cancer,23,2,None,Expired,No
+12694,69,Female,Elective,Diabetes,4,7,1-2,Expired,No
+12695,88,Male,Urgent,Heart Failure,18,9,None,Transferred,No
+12696,49,Female,Urgent,Cancer,5,0,1-2,Expired,No
+12697,78,Male,Elective,Diabetes,16,1,5+,Transferred,No
+12698,86,Male,Elective,Pneumonia,14,2,1-2,Home,No
+12699,64,Female,Urgent,Heart Failure,27,2,1-2,Home,No
+12700,23,Female,Emergency,Pneumonia,27,7,1-2,Transferred,No
+12701,45,Female,Elective,Pneumonia,19,4,None,Home,No
+12702,46,Male,Urgent,Cancer,14,7,None,Transferred,No
+12703,65,Female,Urgent,Stroke,9,5,1-2,Home,Yes
+12704,83,Female,Emergency,Cancer,6,1,3-4,Transferred,Yes
+12705,70,Male,Emergency,Heart Failure,17,3,None,Transferred,No
+12706,69,Female,Emergency,Heart Failure,19,8,5+,Expired,No
+12707,25,Male,Elective,Cancer,12,3,5+,Home,Yes
+12708,78,Female,Urgent,Stroke,4,4,1-2,Expired,No
+12709,34,Male,Urgent,Cancer,16,4,5+,Transferred,No
+12710,49,Male,Urgent,Heart Failure,25,9,None,Expired,No
+12711,61,Female,Emergency,Stroke,11,7,3-4,Transferred,Yes
+12712,56,Male,Urgent,Heart Failure,22,5,3-4,Home,No
+12713,61,Female,Elective,Stroke,4,9,3-4,Home,No
+12714,54,Female,Emergency,Stroke,17,6,5+,Home,No
+12715,25,Male,Emergency,Cancer,8,5,1-2,Transferred,Yes
+12716,87,Female,Emergency,Cancer,14,4,5+,Expired,No
+12717,37,Male,Emergency,Cancer,27,4,1-2,Home,No
+12718,48,Male,Elective,Stroke,2,2,3-4,Transferred,No
+12719,78,Male,Urgent,Stroke,11,6,None,Expired,Yes
+12720,66,Male,Elective,Heart Failure,11,9,5+,Transferred,No
+12721,36,Male,Urgent,Pneumonia,24,4,None,Transferred,Yes
+12722,41,Male,Elective,Cancer,22,6,3-4,Home,Yes
+12723,87,Male,Emergency,Heart Failure,24,1,1-2,Transferred,No
+12724,88,Male,Emergency,Heart Failure,6,8,None,Transferred,No
+12725,56,Female,Elective,Diabetes,21,7,5+,Expired,No
+12726,68,Female,Elective,Cancer,21,4,None,Home,No
+12727,32,Male,Urgent,Heart Failure,14,1,None,Transferred,No
+12728,53,Female,Elective,Diabetes,10,5,5+,Transferred,Yes
+12729,72,Female,Elective,Cancer,26,7,1-2,Expired,No
+12730,70,Female,Urgent,Stroke,27,6,5+,Transferred,No
+12731,22,Female,Urgent,Diabetes,8,7,3-4,Transferred,No
+12732,61,Female,Urgent,Stroke,7,3,1-2,Transferred,Yes
+12733,51,Female,Elective,Pneumonia,8,2,None,Transferred,No
+12734,70,Male,Urgent,Pneumonia,28,6,5+,Transferred,Yes
+12735,65,Female,Emergency,Pneumonia,8,1,3-4,Expired,No
+12736,40,Female,Emergency,Pneumonia,23,4,5+,Transferred,Yes
+12737,63,Female,Emergency,Heart Failure,2,6,1-2,Transferred,Yes
+12738,30,Female,Elective,Pneumonia,27,0,3-4,Transferred,No
+12739,87,Male,Emergency,Heart Failure,16,3,None,Transferred,No
+12740,20,Male,Elective,Heart Failure,9,1,1-2,Home,No
+12741,82,Male,Elective,Cancer,13,5,3-4,Home,No
+12742,43,Male,Emergency,Heart Failure,23,0,1-2,Home,Yes
+12743,32,Female,Urgent,Heart Failure,12,6,None,Home,No
+12744,30,Male,Elective,Pneumonia,27,2,3-4,Expired,No
+12745,70,Male,Emergency,Heart Failure,22,0,5+,Home,Yes
+12746,36,Male,Elective,Stroke,25,7,5+,Expired,No
+12747,43,Male,Urgent,Pneumonia,29,6,None,Home,Yes
+12748,38,Female,Urgent,Diabetes,17,1,3-4,Expired,No
+12749,56,Male,Emergency,Pneumonia,27,6,None,Home,Yes
+12750,27,Female,Elective,Heart Failure,2,2,None,Transferred,Yes
+12751,47,Male,Elective,Stroke,13,8,1-2,Home,Yes
+12752,24,Female,Elective,Pneumonia,1,7,5+,Home,No
+12753,36,Female,Elective,Stroke,26,4,None,Home,No
+12754,55,Male,Emergency,Diabetes,28,6,1-2,Transferred,No
+12755,38,Male,Urgent,Diabetes,19,2,None,Expired,Yes
+12756,83,Male,Emergency,Cancer,11,0,None,Expired,Yes
+12757,30,Male,Elective,Cancer,5,0,None,Transferred,Yes
+12758,73,Female,Elective,Pneumonia,1,1,5+,Home,No
+12759,64,Female,Urgent,Cancer,20,7,3-4,Home,No
+12760,66,Male,Elective,Stroke,13,0,5+,Home,No
+12761,31,Male,Emergency,Cancer,8,4,1-2,Expired,No
+12762,40,Female,Emergency,Stroke,6,8,3-4,Expired,No
+12763,30,Male,Urgent,Cancer,29,8,1-2,Transferred,Yes
+12764,24,Female,Emergency,Cancer,17,1,None,Transferred,No
+12765,75,Male,Emergency,Cancer,12,6,3-4,Expired,No
+12766,39,Female,Emergency,Heart Failure,1,0,1-2,Home,No
+12767,60,Female,Emergency,Heart Failure,3,2,None,Home,No
+12768,65,Female,Elective,Cancer,14,5,1-2,Home,No
+12769,31,Female,Emergency,Stroke,26,8,1-2,Home,No
+12770,89,Female,Urgent,Pneumonia,8,9,5+,Transferred,Yes
+12771,36,Male,Urgent,Diabetes,11,1,None,Transferred,No
+12772,38,Female,Emergency,Heart Failure,27,6,5+,Expired,No
+12773,45,Male,Urgent,Cancer,14,3,3-4,Transferred,Yes
+12774,67,Female,Emergency,Diabetes,8,1,None,Home,No
+12775,71,Female,Urgent,Heart Failure,29,2,5+,Expired,No
+12776,89,Male,Urgent,Pneumonia,3,5,5+,Transferred,No
+12777,74,Male,Emergency,Stroke,7,9,3-4,Transferred,Yes
+12778,52,Male,Emergency,Cancer,28,8,1-2,Transferred,No
+12779,81,Male,Elective,Pneumonia,19,7,1-2,Transferred,No
+12780,42,Female,Emergency,Heart Failure,4,9,1-2,Transferred,No
+12781,34,Male,Emergency,Cancer,25,8,3-4,Home,No
+12782,46,Female,Elective,Diabetes,16,3,5+,Home,Yes
+12783,83,Male,Emergency,Stroke,13,3,None,Home,No
+12784,70,Male,Emergency,Heart Failure,20,8,3-4,Transferred,No
+12785,72,Female,Elective,Stroke,19,7,1-2,Expired,No
+12786,70,Female,Emergency,Cancer,5,1,1-2,Home,No
+12787,66,Male,Emergency,Pneumonia,23,7,None,Home,No
+12788,23,Female,Elective,Stroke,5,0,3-4,Transferred,No
+12789,26,Female,Elective,Diabetes,20,8,1-2,Expired,No
+12790,54,Female,Urgent,Heart Failure,24,8,3-4,Home,No
+12791,67,Female,Emergency,Diabetes,4,7,5+,Home,Yes
+12792,64,Female,Urgent,Stroke,2,4,3-4,Expired,Yes
+12793,38,Female,Urgent,Pneumonia,26,4,5+,Transferred,No
+12794,82,Female,Elective,Pneumonia,13,2,None,Expired,No
+12795,57,Female,Emergency,Diabetes,16,4,5+,Transferred,Yes
+12796,86,Male,Emergency,Cancer,22,3,5+,Home,Yes
+12797,78,Female,Elective,Cancer,2,0,None,Expired,No
+12798,88,Male,Urgent,Pneumonia,19,8,1-2,Expired,Yes
+12799,32,Female,Elective,Diabetes,17,9,None,Home,No
+12800,66,Female,Emergency,Diabetes,5,3,3-4,Home,No
+12801,80,Female,Elective,Diabetes,25,2,None,Transferred,No
+12802,50,Female,Emergency,Stroke,18,5,3-4,Home,Yes
+12803,41,Male,Urgent,Cancer,28,0,1-2,Home,No
+12804,62,Male,Emergency,Cancer,23,4,3-4,Expired,No
+12805,86,Female,Urgent,Stroke,21,6,None,Transferred,No
+12806,73,Male,Urgent,Heart Failure,18,1,None,Home,No
+12807,29,Female,Emergency,Stroke,8,9,1-2,Expired,No
+12808,61,Female,Emergency,Diabetes,27,8,None,Home,No
+12809,83,Male,Urgent,Stroke,15,5,1-2,Home,Yes
+12810,40,Male,Elective,Diabetes,13,1,1-2,Home,No
+12811,85,Female,Emergency,Pneumonia,13,7,None,Home,No
+12812,60,Female,Urgent,Diabetes,16,7,5+,Transferred,No
+12813,43,Male,Urgent,Cancer,22,0,3-4,Expired,No
+12814,54,Female,Elective,Stroke,20,0,5+,Expired,Yes
+12815,75,Male,Emergency,Diabetes,13,0,1-2,Home,No
+12816,49,Female,Urgent,Heart Failure,20,3,3-4,Expired,No
+12817,76,Female,Elective,Pneumonia,2,3,5+,Home,No
+12818,66,Male,Urgent,Heart Failure,3,7,None,Expired,No
+12819,54,Male,Emergency,Heart Failure,15,0,5+,Transferred,No
+12820,38,Male,Elective,Heart Failure,23,9,3-4,Transferred,No
+12821,27,Female,Urgent,Pneumonia,19,2,3-4,Expired,Yes
+12822,45,Female,Elective,Pneumonia,13,0,3-4,Home,Yes
+12823,49,Female,Emergency,Pneumonia,5,8,3-4,Home,No
+12824,26,Female,Elective,Pneumonia,26,9,5+,Home,No
+12825,86,Male,Emergency,Heart Failure,22,8,None,Home,Yes
+12826,84,Female,Urgent,Cancer,6,6,None,Transferred,No
+12827,55,Female,Emergency,Cancer,14,7,3-4,Home,No
+12828,44,Female,Urgent,Pneumonia,4,0,None,Home,No
+12829,56,Male,Urgent,Stroke,22,4,5+,Home,Yes
+12830,20,Female,Emergency,Diabetes,19,1,None,Home,No
+12831,34,Female,Urgent,Stroke,23,0,1-2,Transferred,No
+12832,56,Male,Elective,Stroke,7,2,None,Expired,No
+12833,32,Female,Urgent,Stroke,4,6,3-4,Expired,No
+12834,27,Female,Emergency,Cancer,2,0,None,Home,No
+12835,24,Male,Elective,Diabetes,27,1,None,Home,No
+12836,79,Female,Elective,Stroke,7,1,None,Expired,No
+12837,20,Female,Urgent,Pneumonia,3,3,None,Transferred,No
+12838,55,Female,Urgent,Cancer,15,2,1-2,Transferred,No
+12839,54,Male,Emergency,Pneumonia,1,2,5+,Transferred,Yes
+12840,85,Female,Elective,Pneumonia,2,9,3-4,Transferred,No
+12841,82,Female,Emergency,Stroke,10,4,3-4,Transferred,Yes
+12842,42,Male,Urgent,Pneumonia,16,2,None,Transferred,No
+12843,28,Male,Elective,Diabetes,25,6,5+,Transferred,No
+12844,53,Female,Emergency,Pneumonia,28,4,None,Transferred,Yes
+12845,65,Female,Emergency,Stroke,15,3,1-2,Transferred,No
+12846,23,Female,Emergency,Pneumonia,24,2,5+,Home,No
+12847,49,Female,Emergency,Cancer,15,3,5+,Transferred,No
+12848,22,Male,Emergency,Cancer,14,1,5+,Home,No
+12849,33,Female,Elective,Cancer,22,0,5+,Expired,No
+12850,79,Male,Emergency,Heart Failure,14,2,None,Home,No
+12851,64,Male,Elective,Cancer,6,1,1-2,Expired,No
+12852,53,Female,Emergency,Cancer,14,0,5+,Home,No
+12853,64,Female,Urgent,Heart Failure,17,0,3-4,Expired,No
+12854,80,Male,Urgent,Cancer,18,1,3-4,Home,No
+12855,35,Male,Emergency,Stroke,20,8,1-2,Home,No
+12856,85,Female,Urgent,Cancer,19,4,3-4,Expired,No
+12857,59,Male,Elective,Cancer,17,8,None,Transferred,Yes
+12858,36,Female,Emergency,Heart Failure,16,7,None,Transferred,Yes
+12859,53,Female,Elective,Stroke,8,5,1-2,Transferred,No
+12860,35,Male,Emergency,Pneumonia,7,0,5+,Transferred,No
+12861,79,Male,Urgent,Diabetes,20,9,3-4,Transferred,No
+12862,85,Female,Elective,Stroke,28,4,3-4,Home,No
+12863,85,Male,Urgent,Pneumonia,12,0,1-2,Transferred,No
+12864,32,Female,Urgent,Stroke,9,6,1-2,Home,No
+12865,75,Female,Emergency,Pneumonia,27,9,3-4,Expired,Yes
+12866,50,Female,Elective,Pneumonia,14,7,5+,Transferred,No
+12867,53,Male,Urgent,Stroke,20,7,1-2,Transferred,No
+12868,58,Female,Emergency,Heart Failure,1,6,None,Transferred,No
+12869,86,Female,Emergency,Stroke,10,1,3-4,Transferred,No
+12870,27,Female,Emergency,Stroke,17,4,1-2,Home,Yes
+12871,74,Female,Urgent,Pneumonia,17,3,1-2,Home,No
+12872,46,Female,Emergency,Diabetes,17,4,1-2,Home,Yes
+12873,72,Female,Elective,Pneumonia,4,9,3-4,Expired,No
+12874,58,Female,Elective,Cancer,17,8,None,Home,No
+12875,84,Female,Urgent,Stroke,18,3,None,Transferred,No
+12876,36,Female,Elective,Stroke,20,7,3-4,Expired,No
+12877,49,Female,Emergency,Heart Failure,23,7,1-2,Expired,No
+12878,72,Female,Urgent,Pneumonia,2,1,3-4,Transferred,Yes
+12879,32,Male,Emergency,Heart Failure,8,5,3-4,Transferred,No
+12880,40,Female,Urgent,Stroke,13,4,1-2,Transferred,No
+12881,38,Female,Urgent,Pneumonia,23,1,3-4,Transferred,Yes
+12882,72,Female,Emergency,Pneumonia,25,9,5+,Home,No
+12883,38,Male,Elective,Cancer,22,3,None,Expired,No
+12884,76,Female,Elective,Cancer,20,6,5+,Transferred,Yes
+12885,44,Male,Urgent,Diabetes,22,0,5+,Home,No
+12886,50,Female,Emergency,Cancer,15,8,5+,Transferred,No
+12887,74,Female,Emergency,Pneumonia,20,9,3-4,Home,No
+12888,42,Male,Urgent,Cancer,23,0,1-2,Transferred,No
+12889,51,Female,Elective,Diabetes,9,4,3-4,Transferred,No
+12890,81,Male,Emergency,Stroke,3,6,None,Transferred,No
+12891,29,Male,Elective,Cancer,3,7,3-4,Home,No
+12892,73,Female,Elective,Pneumonia,2,1,3-4,Transferred,No
+12893,71,Female,Urgent,Stroke,1,3,3-4,Home,No
+12894,39,Female,Urgent,Pneumonia,14,1,3-4,Home,Yes
+12895,51,Female,Elective,Stroke,17,3,5+,Expired,No
+12896,33,Male,Emergency,Pneumonia,13,5,1-2,Home,Yes
+12897,69,Male,Emergency,Cancer,19,5,None,Home,No
+12898,47,Female,Urgent,Cancer,23,1,None,Home,No
+12899,72,Male,Elective,Diabetes,15,3,None,Home,Yes
+12900,43,Male,Emergency,Stroke,27,3,3-4,Home,No
+12901,41,Female,Emergency,Diabetes,25,0,None,Expired,No
+12902,49,Male,Urgent,Heart Failure,14,1,5+,Transferred,Yes
+12903,82,Male,Elective,Cancer,2,2,1-2,Expired,No
+12904,23,Female,Emergency,Stroke,7,4,3-4,Expired,No
+12905,78,Male,Urgent,Diabetes,17,7,3-4,Transferred,Yes
+12906,27,Female,Emergency,Diabetes,18,5,5+,Home,No
+12907,31,Male,Emergency,Heart Failure,6,2,None,Transferred,No
+12908,50,Female,Emergency,Diabetes,27,5,3-4,Home,No
+12909,53,Male,Urgent,Pneumonia,21,6,3-4,Transferred,Yes
+12910,68,Male,Elective,Cancer,8,5,5+,Expired,No
+12911,76,Female,Urgent,Diabetes,28,9,5+,Home,Yes
+12912,45,Female,Elective,Diabetes,27,5,None,Expired,No
+12913,37,Female,Emergency,Heart Failure,2,0,1-2,Home,No
+12914,57,Female,Elective,Pneumonia,1,2,1-2,Transferred,No
+12915,69,Male,Emergency,Diabetes,16,6,None,Transferred,No
+12916,27,Male,Emergency,Cancer,7,3,1-2,Transferred,No
+12917,60,Male,Urgent,Cancer,22,3,5+,Transferred,No
+12918,25,Female,Emergency,Diabetes,24,6,5+,Transferred,No
+12919,88,Male,Urgent,Pneumonia,11,8,5+,Expired,No
+12920,63,Male,Elective,Cancer,15,1,1-2,Expired,Yes
+12921,83,Female,Elective,Cancer,13,8,1-2,Home,No
+12922,48,Female,Emergency,Pneumonia,24,2,3-4,Expired,No
+12923,47,Male,Urgent,Pneumonia,2,5,3-4,Home,No
+12924,30,Female,Emergency,Diabetes,14,3,3-4,Home,No
+12925,84,Male,Urgent,Stroke,24,0,1-2,Expired,Yes
+12926,38,Male,Urgent,Heart Failure,6,8,3-4,Expired,No
+12927,28,Female,Urgent,Stroke,9,5,5+,Home,No
+12928,46,Male,Elective,Stroke,28,7,1-2,Expired,No
+12929,53,Female,Urgent,Cancer,7,1,None,Expired,No
+12930,63,Female,Elective,Pneumonia,18,6,1-2,Expired,No
+12931,87,Male,Urgent,Cancer,24,5,3-4,Transferred,No
+12932,34,Male,Elective,Heart Failure,9,1,1-2,Transferred,No
+12933,70,Male,Elective,Diabetes,23,1,3-4,Home,No
+12934,32,Female,Elective,Heart Failure,4,3,3-4,Expired,No
+12935,68,Male,Emergency,Cancer,9,3,None,Home,No
+12936,89,Female,Urgent,Cancer,4,2,None,Expired,No
+12937,75,Female,Emergency,Cancer,12,7,5+,Transferred,No
+12938,70,Male,Urgent,Cancer,4,6,3-4,Expired,No
+12939,56,Female,Urgent,Stroke,25,1,1-2,Expired,No
+12940,36,Male,Emergency,Diabetes,24,2,None,Expired,No
+12941,77,Male,Elective,Stroke,20,9,None,Transferred,No
+12942,48,Male,Urgent,Cancer,14,8,3-4,Transferred,Yes
+12943,52,Male,Elective,Pneumonia,24,4,1-2,Transferred,No
+12944,79,Male,Emergency,Stroke,24,1,None,Home,Yes
+12945,74,Male,Elective,Cancer,7,2,None,Expired,Yes
+12946,29,Male,Urgent,Cancer,26,7,1-2,Transferred,No
+12947,66,Female,Urgent,Diabetes,13,3,None,Home,No
+12948,42,Male,Urgent,Heart Failure,22,1,1-2,Transferred,No
+12949,40,Female,Emergency,Stroke,8,1,3-4,Expired,No
+12950,32,Female,Urgent,Stroke,23,5,None,Home,No
+12951,52,Female,Emergency,Stroke,5,7,3-4,Transferred,No
+12952,43,Male,Elective,Cancer,12,6,1-2,Transferred,No
+12953,30,Female,Urgent,Diabetes,13,3,3-4,Home,No
+12954,36,Female,Urgent,Cancer,29,1,3-4,Home,No
+12955,87,Male,Urgent,Cancer,20,8,3-4,Home,No
+12956,66,Male,Elective,Pneumonia,14,3,5+,Home,Yes
+12957,44,Female,Urgent,Diabetes,28,8,1-2,Home,No
+12958,40,Male,Emergency,Stroke,18,4,1-2,Transferred,Yes
+12959,31,Male,Elective,Heart Failure,27,6,1-2,Home,No
+12960,56,Male,Elective,Stroke,24,4,1-2,Home,No
+12961,61,Male,Elective,Cancer,25,1,1-2,Expired,No
+12962,36,Female,Elective,Diabetes,20,5,None,Transferred,Yes
+12963,67,Male,Elective,Diabetes,4,6,None,Expired,No
+12964,47,Male,Emergency,Diabetes,21,5,None,Transferred,Yes
+12965,60,Male,Elective,Pneumonia,18,2,3-4,Transferred,No
+12966,66,Female,Urgent,Stroke,7,9,3-4,Transferred,No
+12967,37,Female,Elective,Pneumonia,15,7,1-2,Home,No
+12968,32,Male,Elective,Heart Failure,21,2,5+,Expired,No
+12969,32,Male,Elective,Cancer,6,4,1-2,Transferred,Yes
+12970,50,Female,Elective,Pneumonia,16,8,None,Transferred,No
+12971,21,Male,Elective,Pneumonia,20,4,1-2,Transferred,No
+12972,35,Male,Emergency,Cancer,24,6,3-4,Expired,No
+12973,28,Female,Emergency,Diabetes,8,6,1-2,Transferred,Yes
+12974,57,Male,Elective,Cancer,28,4,None,Expired,No
+12975,73,Male,Emergency,Stroke,21,1,1-2,Expired,No
+12976,75,Female,Urgent,Cancer,16,4,3-4,Home,Yes
+12977,64,Female,Elective,Diabetes,28,6,5+,Transferred,Yes
+12978,53,Male,Urgent,Cancer,22,6,None,Transferred,No
+12979,28,Female,Urgent,Pneumonia,16,3,1-2,Expired,Yes
+12980,27,Male,Elective,Heart Failure,3,0,3-4,Expired,No
+12981,26,Male,Urgent,Pneumonia,17,5,None,Home,No
+12982,55,Male,Urgent,Heart Failure,9,2,None,Transferred,No
+12983,37,Female,Urgent,Cancer,25,4,3-4,Expired,No
+12984,22,Female,Elective,Stroke,3,3,1-2,Transferred,No
+12985,47,Male,Elective,Cancer,20,1,1-2,Transferred,No
+12986,89,Male,Urgent,Diabetes,29,6,1-2,Transferred,No
+12987,63,Female,Elective,Cancer,7,4,None,Expired,No
+12988,40,Female,Elective,Heart Failure,18,6,5+,Transferred,No
+12989,47,Female,Urgent,Pneumonia,12,8,None,Expired,Yes
+12990,73,Male,Elective,Stroke,19,3,1-2,Home,No
+12991,73,Female,Emergency,Cancer,16,4,None,Home,No
+12992,84,Female,Elective,Cancer,22,8,5+,Expired,No
+12993,40,Male,Emergency,Pneumonia,27,9,None,Transferred,No
+12994,32,Male,Urgent,Stroke,24,3,3-4,Home,No
+12995,76,Male,Elective,Cancer,17,4,1-2,Home,No
+12996,68,Female,Urgent,Cancer,20,4,1-2,Expired,No
+12997,73,Male,Urgent,Heart Failure,15,7,1-2,Expired,No
+12998,29,Male,Urgent,Heart Failure,1,3,None,Expired,No
+12999,72,Male,Urgent,Diabetes,2,3,None,Expired,No
+13000,63,Male,Urgent,Pneumonia,8,6,None,Expired,No
